@@ -1,0 +1,132 @@
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+:root {
+  @media screen and (min-width: 10em) {
+    --text-big: 1rem;
+  }
+  @media screen and (min-width: 20em) {
+    --text-medium: 1rem;
+    --text-big: 1.25rem;
+  }
+
+  @media screen and (min-width: 30em) {
+    --text-small: 1rem;
+    --text-medium: 1.25rem;
+    --text-big: 1.5rem;
+  }
+  @media screen and (min-width: 40em) {
+    --text-small: 1.25rem;
+    --text-medium: 1.5rem;
+    --text-big: 1.75rem;
+  }
+  @media screen and (min-width: 50em) {
+    --text-small: 1.5rem;
+    --text-medium: 1.75rem;
+    --text-big: 2rem;
+  }
+  @media screen and (min-width: 60em) {
+    --text-small: 1.75rem;
+    --text-medium: 2rem;
+    --text-big: 2.5rem;
+  }
+}
+
+.text-small {
+  font-size: var(--text-small);
+}
+.text-medium {
+  font-size: var(--text-medium);
+}
+.text-big {
+  font-size: var(--text-big);
+}
+
+_________________________________________________________
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+@media (max-width: 80rem) {
+  h1 {
+    &.text-small {
+      font-size: 3.1vw;
+    }
+  }
+  h2{
+    &.text-small {
+      font-size: 2.5vw;
+    }
+  }
+  h3{
+    &.text-small{
+      font-size: 2.22vw;
+    }
+  }
+  h4{
+    &.text-small{
+      font-size: 1.87vw;
+    }
+  }
+}
+
+
+
+@media (max-width: 40rem) {
+  h1 {
+    &.text-small {
+      font-size: 1.25rem;
+    }
+  }
+}
+@media (max-width: 45rem) {
+  h2{
+    &.text-small {
+      font-size: 1.125rem;
+    }
+  }
+}
+@media (max-width: 46rem) {
+  h3{
+    &.text-small {
+      font-size: 1rem;
+    }
+  }
+}
+@media (max-width: 53rem) {
+  h4{
+    &.text-small {
+      font-size: 1rem;
+    }
+  }
+}

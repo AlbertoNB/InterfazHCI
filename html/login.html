@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
+    <link rel="stylesheet" href="../css2/cambios.1.css">
+    <link rel="stylesheet" href="../svg/bootstrap-icons.svg">
+    <link rel="stylesheet" href="../respaldo/text.css">
+    <title>Login</title>
+</head>
+
+<body class=" ">
+    <div class="container mx-auto row align-items-center justify-content-center vh-100">
+        <!--
+                quitar -card- para quitar bordes
+                rounded-3 = redondeado de bordes
+                border-2 = grosor del borde
+                border-success = color del borde
+                col-xl-7 = colocalo para hacer mar ancho el cuadro contenedor
+            -->
+        <div class="mx-3 bg-light shadow border rounded-lg border-2 border-success">
+            <div class="mx-4 my-4">
+                <div class="row py-2">
+                    <div class="col-6 d-flex justify-content-around">
+                        <svg class="bi" width="100px" height="100px" fill="currentColor">
+                            <use xlink:href="../svg/bootstrap-icons.svg#spca" />
+                        </svg>
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                        <!--con esto puede mober las letras pt-lg-2 pb-lg-2-->
+                        <h4 class="font-weight-bold text-success text-small">Sisitema de planificacción y control
+                            academico</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="">
+                            <div class="mb-3">
+                                <label class="form-label font-weight-bold">Usuario</label>
+                                <div class="form-inline position-relative">
+                                    <svg class="bi an-icon-input" width="20px" height="20px" fill="currentColor">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person" />
+                                    </svg>
+                                    <input type="text" class="form-control w-100" placeholder="usuario@gmail.com"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label font-weight-bold">Contraseña</label>
+                                <div class="form-inline position-relative">
+                                    <!--se puede omitir position-relative si se aumenta el left en an-icon-input(css)-->
+                                    <svg class="bi an-icon-input" width="20px" height="20px" fill="currentColor">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#lock-fill" />
+                                    </svg>
+                                    <!--se puede omitir position-relative si se aumenta el left en an-icon-input-r(css)-->
+                                    <button class="btn-input an-icon-input-r" type="submit">
+                                        <svg width="20px" height="20px">
+                                            <use xlink:href="../svg/bootstrap-icons.svg#eye" />
+                                        </svg>
+                                    </button>
+                                    <input type="password" class="form-control w-100" id="formGroupExampleInput2"
+                                        placeholder="************" required>
+                                </div>
+                            </div>
+
+                            <!--Checkbox-->
+                            <div class="custom-control custom-checkbox mb-3">
+                                <!--mb-3 separa los componentes-->
+                                <input type="checkbox" class="custom-control-input" value="" id="lomismo">
+                                <label class="custom-control-label font-weight-bold" for="lomismo">
+                                    Recordar usuario
+                                </label>
+                            </div>
+                            <!--Botones-->
+                            <div class="card-group ">
+                                <div class="card">
+                                    <button class="btn-sm btn-success btn-block" type="submit">
+                                        <svg class="bi" width="20px" height="20px" fill="currentColor">
+                                            <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
+                                        </svg>
+                                        Ingresar
+                                    </button>
+                                </div>
+                                <div class="card">
+                                    <button class="btn-sm btn-secondary btn-block" type="submit">
+                                        <!-- imagen vista como logo
+                                        <span class="an-icon an-icon-image"
+                                            style="background-image: url(../img/logo1.png);">
+                                        </span>-->
+                                        <svg class="bi" width="20px" height="20px" fill="currentColor">
+                                            <use xlink:href="../svg/bootstrap-icons.svg#spca2" />
+                                        </svg>
+                                        CCIUTM 2020
+                                    </button>
+                                </div>
+                            </div>
+                            <!--Botones alternativos 1
+                            <table class="w-100">
+                                <tr>
+                                    <td class="w-50">
+                                        <button class="btn-sm btn-success btn-block" type="submit">
+                                            <svg class="bi" width="20px" height="20px" fill="currentColor">
+                                                <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
+                                            </svg>
+                                            Ingresar</button>
+                                    </td>
+                                    <td class="w-50">
+                                        <button class="btn-sm btn-secondary btn-block" type="submit">
+                                            <span class="an-icon an-icon-image"
+                                                style="background-image: url(../img/logo1.png);">
+                                            </span>
+                                            CCIUTM 2020</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            -->
+                            <!-- botones alternativos 2
+                                <div class="row">
+                                <div class="col-6">
+                                    <button class=" btn-sm btn-success btn-block" type="button">
+                                        <svg class="bi" width="20px" height="20px" fill="currentColor">
+                                            <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
+                                        </svg>
+                                        Ingresar</button>
+                                </div>
+                                <div class="col-6">
+                                    <button class="btn-sm btn-secondary btn-block" type="button">
+                                        <span class="an-icon an-icon-image"
+                                            style="background-image: url(../img/logo1.png);">
+                                        </span>
+                                        CCIUTM 2020</button>
+                                </div>
+                            </div>
+                            -->
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-box py-4 text-center">
+                            <div class="">
+                                <a href="#" class="text-decoration-none">
+                                    ¿Olvidó su nombre de usuario o contraseña?</a>
+                            </div>
+                        </form>
+                        <div class="text-center">
+                            <p class=""><strong>c 2020 Universidad Técnica de Manabí</strong><br>
+                                Vicerrectorado académico <br>
+                                Centro de evaliación <br>
+                                <b>Soporte:</b> spca@utm.edu.ec
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

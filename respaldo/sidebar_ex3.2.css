@@ -1,0 +1,194 @@
+.sidebar-left,
+.sidebar-right {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  min-width: 275px;
+  max-width: 275px;
+  z-index: 1040; /*1040 para posicionarse sobre el navbar*/
+  background: #1d1919;
+  color: rgb(255, 255, 255);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  /*------scrollbar para mozilla------*/
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin; /* "auto" or "thin" */
+  /*-webkit-overflow-scrolling: touch;*/
+  /*scrollbar-color: blue orange;*/
+}
+.sidebar-left {
+  left: 0;
+}
+.sidebar-right {
+  right: 0;
+}
+/*---------------------scrollbar para GoogleCrom------------------*/
+.sidebar-left::-webkit-scrollbar,
+.sidebar-right::-webkit-scrollbar {
+  width: 10px;
+}
+.sidebar-left::-webkit-scrollbar-track,
+.sidebar-right::-webkit-scrollbar-track {
+  background: transparent; /* color de tracking area */
+}
+.sidebar-left::-webkit-scrollbar-thumb,
+.sidebar-right::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4); /* color del scroll thumb */
+  border-radius: 10px; /* bordes redondos del scroll thumb */
+  /*border: 3px solid orange;*/ /* creates padding around scroll thumb */
+}
+.sidebar-left::-webkit-scrollbar-thumb:hover,
+.sidebar-right::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-left.active-sid {
+  margin-left: -275px;
+}
+.sidebar-right.active-sid {
+  margin-right: -275px;
+}
+.content-left,
+.content-right {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.content-left {
+  margin-left: 285px;
+}
+.content-right {
+  margin-right: 285px;
+}
+.content-left.active-con {
+  margin-left: 0;
+}
+.content-right.active-con {
+  margin-right: 0;
+}
+
+.bt-sidebar-left,
+.bt-sidebar-right {
+  position: fixed;
+  top: 50%;
+  z-index: 1040; /*1040 para posicionarse sobre el navbar*/
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 3.5rem;
+  background: rgb(240, 240, 240);
+  border: none;
+  padding: 0;
+  color: grey;
+}
+.bt-sidebar-left {
+  margin-left: 275px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.bt-sidebar-right {
+  right: 275px; /*por que solo en .sidebar-right no funciona el margin-right: */
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+/*----------------------------------------------------*/
+.bt-sidebar-left:hover,
+.bt-sidebar-right:hover {
+  background: rgb(211, 211, 211);
+  color: rgb(85, 85, 85);
+}
+
+.bt-sidebar-left::before {
+  content: "\2770";
+}
+.bt-sidebar-right::before {
+  content: "\2771";
+}
+
+.bt-sidebar-left.active-bt {
+  margin-left: 0;
+}
+.bt-sidebar-right.active-bt {
+  right: 0;
+}
+.bt-sidebar-left.active-bt::before {
+  content: "\2771";
+}
+.bt-sidebar-right.active-bt::before {
+  content: "\2770";
+}
+
+@media (max-width: 728px) {
+  .sidebar-left {
+    margin-left: -275px;
+  }
+  .sidebar-right {
+    margin-right: -275px;
+  }
+  .sidebar-left.active-sid {
+    margin-left: 0;
+  }
+  .sidebar-right.active-sid {
+    margin-right: 0;
+  }
+  .content-left {
+    margin-left: 0;
+  }
+  .content-right {
+    margin-right: 0;
+  }
+  /*.content.active-con {
+    margin-left: 275px;
+  }*/
+  .bt-sidebar-left {
+    margin-left: 0;
+  }
+  .bt-sidebar-right {
+    right: 0;
+  }
+  .bt-sidebar-left::before {
+    content: "\2771";
+  }
+  .bt-sidebar-right::before {
+    content: "\2770";
+  }
+  .bt-sidebar-left.active-bt {
+    margin-left: 275px;
+  }
+  .bt-sidebar-right.active-bt {
+    right: 275px;
+  }
+  .bt-sidebar-left.active-bt::before {
+    content: "\2770";
+  }
+  .bt-sidebar-right.active-bt::before {
+    content: "\2771";
+  }
+}
+@media (max-width: 520px) {
+  .bt-sidebar-left.active-bt,
+  .bt-sidebar-right.active-bt {
+    top: 65px;
+    font-size: 2rem;
+    border-radius: 12px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: transparent;
+  }
+  .bt-sidebar-left.active-bt {
+    margin-left: 235px;
+  }
+  .bt-sidebar-right.active-bt {
+    right: 10px;
+  }
+
+  .bt-sidebar-left.active-bt::before {
+    content: " \2718";
+  }
+  .bt-sidebar-right.active-bt::before {
+    content: " \2718";
+  }
+}

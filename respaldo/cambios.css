@@ -1,0 +1,178 @@
+
+.space_body {
+  padding-top: 70px;
+}
+
+
+/*para combertir las imagenes en iconos*/
+.an-icon {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  padding: 0;
+  background-color: transparent;
+  display: inline-block;/* ojo podria serbir para los otros iconos*/
+  fill: currentcolor;
+  
+}
+
+.an-icon-image {
+  width: 20px;
+  height: 20px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+/*para integrar los iconos en el input*/
+.an-icon-input {
+  color: #b1b1b1;
+  position: absolute;
+  /*left: 57px;*/
+  padding-top: 6px;/*trabajolo como texto, talvez funcione mejor*/
+}
+
+.an-icon-input:not(.an-icon-input-flip) ~ .form-control {
+  padding-left: 29px !important;
+}
+/*arreglar esta parte para que el item se muestre en la parte derecha del input*/
+.an-icon-input-flip {
+  color: #b1b1b1;
+  position: absolute; 
+  padding-top: 6px;
+}
+.an-icon-input-flip ~ .form-control {
+  padding-right: 29px !important;
+}
+
+.an-icon-input{
+  left: 10px;
+  position: absolute
+}
+
+.an-icon-input ~ .form-control {
+  padding-left: 36px ;/*!important*/
+}
+
+.an-icon-input-r{
+  right: 10px;
+  position: absolute
+}
+
+
+
+
+
+
+/*-----------------------------*/
+/* separacion de botopnes para empezar
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) / 2);
+  padding-left: calc(var(--bs-gutter-x) / 2);
+  margin-top: var(--bs-gutter-y);
+}
+
+.g-1,
+.gx-1 {
+  --bs-gutter-x: 0.25rem;
+}
+.g-1,
+.gy-1 {
+  --bs-gutter-y: 0.25rem;
+}
+*/
+
+/*grosor de lineas*/
+.border-0 {
+  border-width: 0 !important;
+}
+.border-1 {
+  border-width: 1px !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.border-3 {
+  border-width: 3px !important;
+}
+.border-4 {
+  border-width: 4px !important;
+}
+.border-5 {
+  border-width: 5px !important;
+}
+
+/*Color de links*/
+.link-primary {
+  color: #0d6efd;
+}
+.link-primary:focus,
+.link-primary:hover {
+  color: #0a58ca;
+}
+.link-secondary {
+  color: #6c757d;
+}
+.link-secondary:focus,
+.link-secondary:hover {
+  color: #42484d;
+}
+.link-success {
+  color: #198754;
+}
+.link-success:focus,
+.link-success:hover {
+  color: #105334;
+}
+.link-info {
+  color: #0dcaf0;
+}
+.link-info:focus,
+.link-info:hover {
+  color: #3dd5f3;
+}
+.link-warning {
+  color: #ffc107;
+}
+.link-warning:focus,
+.link-warning:hover {
+  color: #ffcd39;
+}
+.link-danger {
+  color: #dc3545;
+}
+.link-danger:focus,
+.link-danger:hover {
+  color: #b02a37;
+}
+.link-light {
+  color: #f8f9fa;
+}
+.link-light:focus,
+.link-light:hover {
+  color: #f9fafb;
+}
+.link-dark {
+  color: #212529;
+}
+.link-dark:focus,
+.link-dark:hover {
+  color: #1a1e21;
+}

@@ -1,0 +1,13 @@
+.space_body {
+  margin-top: 72px;
+}
+@media (min-width: 520px) {
+  .sidebar-left {
+    z-index: 1030;
+    top: 72px;
+  }
+  .sidebar-right {
+    z-index: 1030;
+    top: 72px;
+  }
+}

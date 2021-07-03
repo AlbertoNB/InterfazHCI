@@ -1,0 +1,25 @@
+#Listado de archivos y carpetas ignoradas
+
+#///////////////////////////////////////
+#              Archivos
+#///////////////////////////////////////
+notas.txt
+
+
+#///////////////////////////////////////
+#              Carpetas
+#///////////////////////////////////////
+bootstrap-4.6.0/
+img/
+diseño/
+.vs/
+.vscode/
+video/
+svg/*.cdr
+css/*.css
+!bootstrap.css
+!bootstrap.min.css
+css/*.map
+
+css2/evo-calendar.css
+evo-calendar.midnight-blue.css

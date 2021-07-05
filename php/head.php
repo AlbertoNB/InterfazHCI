@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../scss/utm_bootstrap.css"><!--../css/bootstrap.min.css-->
-    <link rel="stylesheet" href="../css2/cambios.1.css">
+   <!--<link rel="stylesheet" href="../css2/cambios.1.css">--> 
     <link rel="stylesheet" href="../css2/detalles.css">
     <title>index</title>
 </head>
@@ -57,6 +57,20 @@
             </div>
 
             <div class="">
+                <a class="me-2 text-decoration-none">
+                    <button class="switch">
+                        <span>
+                            <svg class="mb-1" width="13px" height="13px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#sun-fill" />
+                            </svg>
+                        </span>
+                        <span>
+                            <svg class="mb-1" width="13px" height="13px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#moon-fill" />
+                            </svg>
+                        </span>
+                    </button>
+                </a>
                 <a class="link-success text-decoration-none me-2" href="">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#chat" />

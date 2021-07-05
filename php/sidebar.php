@@ -1,4 +1,4 @@
-<nav class="sidebar-right bg-secondary text-white">
+<div class="sidebar-right bg-secondary text-white">
     <div class="p-2">
         <div class="container">
             <div class="row">
@@ -37,5 +37,5 @@
         </div>
     </div>
 
-</nav>
+</div>
 <button class="bt-sidebar-right sidebarCollapse"></button>

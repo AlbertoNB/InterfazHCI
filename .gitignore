@@ -9,7 +9,8 @@ notas.txt
 #///////////////////////////////////////
 #              Carpetas
 #///////////////////////////////////////
-bootstrap-4.6.0/
+bootstrap-4.6.0/*/*
+!bootstrap-4.6.0/scss/_variables.scss
 img/
 diseño/
 .vs/

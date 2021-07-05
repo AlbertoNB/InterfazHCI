@@ -1,0 +1,27 @@
+/*---------iconos dentro del input--------*/
+/*izquierda*/
+.an-icon-input {
+  left: 10px;
+  position: absolute;
+  & ~ .form-control {
+    padding-left: 36px; 
+  }
+}
+/*derecha*/
+.an-icon-input-r {
+  right: 10px;
+  position: absolute;
+}
+/*---------boton icono dentro del input---------*/
+.btn-input {
+  color: $gray-700;
+  background: none;
+  border: none;
+  padding: 0;
+  &:hover {
+    color: $black;
+  }
+  &:focus {
+    color: $green;
+  }
+}

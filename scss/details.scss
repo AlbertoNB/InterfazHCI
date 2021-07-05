@@ -1,0 +1,84 @@
+/*-------------border thickness-----------*/
+.border-0 {
+  border-width: 0 !important;
+}
+.border-1 {
+  border-width: 1px !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.border-3 {
+  border-width: 3px !important;
+}
+.border-4 {
+  border-width: 4px !important;
+}
+.border-5 {
+  border-width: 5px !important;
+}
+/*--------------link color--------------*/
+
+.link-primary {
+  color: #237bff;
+  &:focus,
+  :hover {
+    color: $primary;
+  }
+}
+
+.link-secondary {
+  color: $gray-600;
+  &:focus,
+  :hover {
+    color: $gray-700;
+  }
+}
+
+.link-success {
+  color: #198754;
+  &:focus,
+  :hover {
+    color: $success;
+  }
+}
+
+.link-info {
+  color: #0dcaf0;
+  &:focus,
+  :hover {
+    color: $info;
+  }
+}
+
+.link-warning {
+  color: #ffcd35;
+  &:focus,
+  :hover {
+    color: $warning;
+  }
+}
+
+.link-danger {
+  color: #df4e5c;
+  &:focus,
+  :hover {
+    color: $danger;
+  }
+}
+
+.link-light {
+  color: $gray-300;
+  &:focus,
+  :hover {
+    color: $white;
+  }
+}
+
+.link-dark {
+  color: $gray-900;
+  &:focus,
+  :hover {
+    color: $black;
+  }
+}

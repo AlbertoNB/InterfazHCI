@@ -10842,6 +10842,8 @@ a.text-dark:hover, a.text-dark:focus {
 /*////////////////////////////////
         dark mode interface
 ///////////////////////////////*/
+/*#ffc107*/
+/*#28a745*/
 .switch {
   background: #000;
   border-radius: 1000px;
@@ -10892,47 +10894,168 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  -webkit-transition: 0.3s ease all;
-  transition: 0.3s ease all;
+  /*transition: 0.3s ease all;*/
 }
 
 body.dark {
   background-color: #495057;
 }
 
-nav {
-  -webkit-transition: 0.3s ease all;
-  transition: 0.3s ease all;
-}
-
-body.dark nav {
-  background-color: #212529 !important;
-  -webkit-box-shadow: 0 0.25rem 0.5rem rgba(255, 255, 255, 0.075) !important;
-          box-shadow: 0 0.25rem 0.5rem rgba(255, 255, 255, 0.075) !important;
-}
-
-body.dark footer {
-  background-color: #212529 !important;
-}
-
-body.dark .mode-dark1 {
-  background-color: #6c757d !important;
-}
-
-body.dark .mode-dark2 {
-  background-color: #495057 !important;
-}
-
-body.dark .mode-dark3 {
+body.dark .sidebar-left, body.dark
+.sidebar-right {
   background-color: #343a40 !important;
 }
 
+body.dark nav {
+  background-color: #343a40 !important;
+  /*--------------------------------*/
+  /*&.navbar-light {*/
+  /*}*/
+  /*---------------------------------*/
+}
+
+body.dark nav.navbar-brand {
+  color: #fff;
+}
+
+body.dark nav.navbar-brand:hover,
+body.dark nav.navbar-brand :focus {
+  color: #fff;
+}
+
+body.dark nav .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body.dark nav .navbar-nav .nav-link:hover,
+body.dark nav .navbar-nav .nav-link :focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body.dark nav .navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+body.dark nav.navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark nav.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+body.dark nav.navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body.dark nav.navbar-text a {
+  color: #fff;
+}
+
+body.dark nav.navbar-text a:hover,
+body.dark nav.navbar-text a :focus {
+  color: #fff;
+}
+
+body.dark nav .navbar-dark .navbar-nav .show > .nav-link,
+body.dark nav .navbar-dark .navbar-nav .active > .nav-link,
+body.dark nav .navbar-dark .navbar-nav .nav-link.show,
+body.dark nav .navbar-dark .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+body.dark footer {
+  background-color: #343a40 !important;
+}
+
+body.dark .mode-dark1 {
+  background-color: #6c757d9f !important;
+  color: #e9ecef;
+}
+
+body.dark .mode-dark1 p,
+body.dark .mode-dark1 strong,
+body.dark .mode-dark1 span {
+  color: #dee2e6;
+}
+
+body.dark .mode-dark2 {
+  background-color: #4950579f !important;
+  color: #dee2e6;
+}
+
+body.dark .mode-dark2 p,
+body.dark .mode-dark2 strong,
+body.dark .mode-dark2 span {
+  color: #ced4da;
+}
+
+body.dark .mode-dark3 {
+  background-color: #343a409f !important;
+  color: #ced4da;
+}
+
+body.dark .mode-dark3 p,
+body.dark .mode-dark3 strong,
+body.dark .mode-dark3 span {
+  color: #adb5bd;
+}
+
 body.dark .mode-dark4 {
-  background-color: #212529 !important;
+  background-color: #2125299f !important;
+  color: #adb5bd;
+}
+
+body.dark .mode-dark4 p,
+body.dark .mode-dark4 strong,
+body.dark .mode-dark4 span {
+  color: #6c757d;
 }
 
 body.dark .mode-dark5 {
-  background-color: #000 !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+body.dark .mode-dark5, body.dark footer {
+  color: #adb5bd;
+}
+
+body.dark .mode-dark5 p,
+body.dark .mode-dark5 strong,
+body.dark .mode-dark5 span, body.dark footer p,
+body.dark footer strong,
+body.dark footer span {
+  color: #6c757d;
+}
+
+body.dark .mode-dark1 a, body.dark
+.mode-dark2 a, body.dark
+.mode-dark3 a, body.dark
+.mode-dark4 a, body.dark
+.mode-dark5 a, body.dark
+footer a {
+  color: #ced4da;
+}
+
+body.dark .mode-dark1 a:hover,
+body.dark .mode-dark1 a :focus, body.dark
+.mode-dark2 a:hover,
+body.dark
+.mode-dark2 a :focus, body.dark
+.mode-dark3 a:hover,
+body.dark
+.mode-dark3 a :focus, body.dark
+.mode-dark4 a:hover,
+body.dark
+.mode-dark4 a :focus, body.dark
+.mode-dark5 a:hover,
+body.dark
+.mode-dark5 a :focus, body.dark
+footer a:hover,
+body.dark
+footer a :focus {
+  color: #e9ecef;
 }
 
 /*////////////////////////////////

@@ -1,4 +1,4 @@
-$white:    #fff !default;
+$white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -8,91 +8,221 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black: #000 !default;
+
+$gray-600-t: #6c757d9f !default;
+$gray-700-t: #4950579f !default;
+$gray-800-t: #343a409f !default;
+$gray-900-t: #2125299f !default;
+$black-t: rgba(0, 0, 0, 0.5) !default;
+
+
+
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #f8ca25 !default; /*#ffc107*/
+$green: #006400 !default; /*#28a745*/
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
 
 .switch {
-    background: $black;
-    border-radius: 1000px;
-    border: none;
-    position: relative;
-    cursor: pointer;
-    /*display: flex;*/
-    outline: none;
+  background: $black;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  /*display: flex;*/
+  outline: none;
+  &::after {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background: $white; /*#fff*/
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: 0.3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  &.active {
+    background: $orange;
+    color: $black;
     &::after {
-      content: "";
-      display: block;
-      width: 26px;
-      height: 26px;
-      position: absolute;
-      background: $white;/*#fff*/
-      top: 0;
-      left: 0;
-      right: unset;
-      border-radius: 100px;
-      transition: 0.3s ease all;
-      box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+      right: 0;
+      left: unset;
     }
-    &.active {
-      background: $orange;
-      color: $black;
-      &::after {
-        right: 0;
-        left: unset;
-      }
-    }
-    span {
-      width: 20px;
-      height: 20px;/*30*/
-      /*line-break: 40px;*/
-      display: block;
-      background: none;
+  }
+  span {
+    width: 20px;
+    height: 20px; /*30*/
+    /*line-break: 40px;*/
+    display: block;
+    background: none;
+    color: $white;
+    display: inline-block;
+  }
+}
+body {
+  /*transition: 0.3s ease all;*/
+  &.dark {
+    background-color: $gray-700;
+  }
+}
+
+.sidebar-left,
+.sidebar-right {
+  body.dark & {
+    background-color: $gray-800 !important;
+  }
+}
+
+nav {
+  body.dark & {
+    background-color: $gray-800 !important;
+    /*--------------------------------*/
+    /*&.navbar-light {*/
+    &.navbar-brand {
       color: $white;
-      display: inline-block;
+      &:hover,
+      :focus {
+        color: $white;
+      }
+    }
+    & .navbar-nav {
+      & .nav-link {
+        color: rgba(255, 255, 255, 0.5);
+        &:hover,
+        :focus {
+          color: rgba(255, 255, 255, 0.75);
+        }
+        &.disabled {
+          color: rgba(255, 255, 255, 0.25);
+        }
+      }
+    }
+    &.navbar-toggler {
+      color: rgba(255, 255, 255, 0.5);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    &.navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    &.navbar-text {
+      color: rgba(255, 255, 255, 0.5);
+      & a {
+        color: $white;
+        &:hover,
+        :focus {
+          color: $white;
+        }
+      }
+    }
+    /*}*/
+    .navbar-dark .navbar-nav .show > .nav-link,
+    .navbar-dark .navbar-nav .active > .nav-link,
+    .navbar-dark .navbar-nav .nav-link.show,
+    .navbar-dark .navbar-nav .nav-link.active {
+      color: $white;
+    }
+    /*---------------------------------*/
+  }
+}
+
+footer {
+  body.dark & {
+    background-color: $gray-800 !important;
+  }
+}
+
+.mode-dark1 {
+  body.dark & {
+    background-color: $gray-600-t !important;
+    color: $gray-200;
+    & p,
+    strong,
+    span {
+      color: $gray-300;
     }
   }
-  body {
-    transition: 0.3s ease all;
-    &.dark {
-      background-color: $gray-700;
+}
+.mode-dark2 {
+  body.dark & {
+    background-color: $gray-700-t !important;
+    color: $gray-300;
+    & p,
+    strong,
+    span {
+      color: $gray-400;
     }
   }
-  
-  nav {
-    transition: 0.3s ease all;
-    body.dark & {
-      background-color: $gray-900 !important;
-      box-shadow: 0 0.25rem 0.5rem  rgba(255, 255, 255, 0.075) !important;
+}
+.mode-dark3 {
+  body.dark & {
+    background-color: $gray-800-t !important;
+    color: $gray-400;
+    & p,
+    strong,
+    span {
+      color: $gray-500;
     }
   }
-  footer{
-      body.dark &{
-          background-color: $gray-900 !important;
-      }    
+}
+
+.mode-dark4 {
+  body.dark & {
+    background-color: $gray-900-t !important;
+    color: $gray-500;
+    & p,
+    strong,
+    span {
+      color: $gray-600;
+    }
   }
-  
-  .mode-dark1{
-      body.dark &{
-          background-color: $gray-600 !important;
-      }
+}
+.mode-dark5 {
+  body.dark & {
+    background-color: $black-t !important;
   }
-  .mode-dark2{
-      body.dark &{
-          background-color: $gray-700 !important;
-      }
+}
+.mode-dark5, footer {
+  body.dark & {
+    color: $gray-500;
+    & p,
+    strong,
+    span {
+      color: $gray-600;
+    }
   }
-  .mode-dark3{
-      body.dark &{
-          background-color: $gray-800 !important;
-      }
+}
+
+.mode-dark1,
+.mode-dark2,
+.mode-dark3,
+.mode-dark4,
+.mode-dark5,
+footer {
+  body.dark & a {
+    color: $gray-400;
+    &:hover,
+    :focus {
+      color: $gray-200;
+    }
   }
-  
-  .mode-dark4{
-      body.dark &{
-          background-color: $gray-900 !important;
-      }
-  }
-  .mode-dark5{
-      body.dark &{
-          background-color: $black !important;
-      }
-  }
+}

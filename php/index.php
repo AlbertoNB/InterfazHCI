@@ -41,10 +41,10 @@
             </a>
         </div>
 
-        <div class="mb-3 p-3 bg-white rounded shadow-sm">
+        <div class="mb-3 p-3 bg-white rounded shadow-sm mode-dark1">
             <h6 class="border-bottom pb-2 mb-0 font-weight-bold">Primer tema</h6>
             <div class="text-muted pt-2">
-                <p class="pb-3 mb-0 small border-bottom ">
+                <p class="pb-3 mb-0 small border-bottom">
                     Playing ping pong all night long, everything's all neon and hazy. Yeah, she's so in demand.
                     She's sweet as pie but if you break her heart. But down to earth. It's time to face the music
                     I'm no longer your muse. I guess that I forgot I had a choice.
@@ -65,7 +65,7 @@
             </small>
         </div>
 
-        <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <div class="my-3 p-3 bg-white rounded shadow-sm mode-dark1">
             <h6 class="border-bottom pb-2 mb-0 font-weight-bold">Otro tema</h6>
             <div class="media text-muted pt-3">
                 <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false">

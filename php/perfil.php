@@ -1,7 +1,7 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
     <div class="container-md my-3">
-        <div class="row bg-secondary mb-3 mx-0">
+        <div class="row bg-secondary mb-3 mx-0 mode-dark5">
             <div class="col-auto p-2">
                 <svg width="50px" height="50px">
                     <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mx-0">
+        <div class="row mx-0 mode-dark2">
             <div class="col-md-6">
                 <h5 class="text-secondary font-weight-bold">Detalle de usuario</h5>
                 <h6 class="my-0 font-weight-bold">Dirección de correo</h6>

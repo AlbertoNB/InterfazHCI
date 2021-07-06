@@ -1,7 +1,7 @@
 <div class="collapse show" id="ponente" data-parent="#regreso">
     <!--show por defecto permine la visualisacion inicial de este contenido-->
     <div class="card-deck mb-3">
-        <div class="card p-2">
+        <div class="card p-2 mode-dark3">
             <div class="row">
                 <div class="col-auto pl-2 pr-0">
                     <svg width="70px" height="70px">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="card bg-white p-2">
+        <div class="card bg-white p-2 mode-dark3">
             <h6 class="font-weight-bold">Pasos para postular</h6>
             <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fuga consectetur <br>
                 2. aliquid quia hic beatae explicabo voluptate dolor deleniti eius, maiores<br>

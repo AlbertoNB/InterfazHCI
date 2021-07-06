@@ -11,7 +11,7 @@
     <title>index</title>
 </head>
 
-<body class="d-flex flex-column h-100 bg-light">
+<body class="d-flex flex-column h-100 ">
     <?php include('sidebar.php') ?>
 
     <head>

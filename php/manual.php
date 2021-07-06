@@ -1,12 +1,12 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
-    <div class="container-md my-3">
+    <div class="container-md my-3 mode-dark2">
         <h4>Manual</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit exercitationem quibusdam optio
             explicabo officiis suscipit fugit! Voluptatem delectus deleniti ad consequuntur repellat amet quibusdam
             tempore inventore, nisi dolor aliquam.
         </p>
-        <div class="card mb-3">
+        <div class="card mb-3 mode-dark4">
             <div class="card-header">
                 Quote
             </div>

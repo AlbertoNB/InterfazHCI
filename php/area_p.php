@@ -1,6 +1,6 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
-    <div class="container-md my-3">
+    <div class="container-md my-3 mode-dark2">
         <h5 class="my-0"> Mis notas </h5>
         <textarea class="form-control mb-3"></textarea>
         <h5 class="my-0"> Noificaciones del SPCA </h5>

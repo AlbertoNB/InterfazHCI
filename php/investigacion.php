@@ -1,6 +1,6 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
-    <div class="container-md my-3">
+    <div class="container-md my-3 mode-dark2">
         <div class="row mb-3">
             <div class="col">
                 <!--col-8-->
@@ -19,11 +19,11 @@
                     </svg>
                 </button>
             </div>
-
         </div>
         <p class="mb-3">Esta opción únicamente se encontrará disponible para los investigadores dentro de un Proceso i+.
             Todas las actividades serán sometidas a un flujo de validación/aprobación que influirá directamente en el
-            avance total del proceso.</p>
+            avance total del proceso.
+        </p>
         <div class="row mb-3">
             <div class="col-md-6">
                 <div class="row">

@@ -1,5 +1,5 @@
 <div class="collapse" id="asistente" data-parent="#regreso">
-    <div class="bg-white p-2 mb-3">
+    <div class="bg-white p-2 mb-3 mode-dark3">
         <h6 class="text-center">FORMULARIO DE PREINSCRIPCIÓN COMO ASISTENTE <br> PUEDE REALIZAR ÚNICAMENTE SU
             PREINSCRIPCIÓN A UN SOLO CONGRESO.</h6>
     </div>

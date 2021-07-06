@@ -4,10 +4,10 @@
 @media (min-width: 520px) {
   .sidebar-left {
     z-index: 1030;
-    top: 72px;
+    top: 71px;/*72px*/
   }
   .sidebar-right {
     z-index: 1030;
-    top: 72px;
+    top: 71px;/*72px*/
   }
 }

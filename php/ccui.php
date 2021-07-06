@@ -16,11 +16,11 @@
                     Asistente
                 </button>
             </div>
-            <div class="bg-white p-2 mb-3">
+            <div class="bg-white p-2 mb-3 mode-dark1">
                 <div class="row">
                     <!-- d-flex align-items-center = centra verticalmente la imagen -->
                     <div class="col-auto pr-0 d-flex align-items-center">
-                        <svg width="90px" height="90px">
+                        <svg width="90px" height="90px"><!--width="90px" height="90px"-->
                             <use xlink:href="../svg/bootstrap-icons.svg#spca2" />
                         </svg>
                     </div>
@@ -31,7 +31,7 @@
                             -- AL -- DE --------</h6>
                     </div>
                     <div class="col-auto pl-0 d-flex align-items-center"> 
-                        <img src="../img/Logo_utm.png" height="90px" width="90px"/>
+                        <img src="../img/Logo_utm.png" height="90px" width="90px"/><!--width="90px" height="90px"-->
                     </div>
                 </div>
             </div>

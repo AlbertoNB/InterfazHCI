@@ -65,6 +65,10 @@
             </small>
         </div>
 
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3989.1527257020302!2d-80.4551499!3d-1.046579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902bf2aaa191509f%3A0xea77daf8eff9574!2sUNIVERSIDAD%20T%C3%89CNICA%20DE%20MANAB%C3%8D!5e0!3m2!1ses!2sec!4v1625647736152!5m2!1ses!2sec" width="100%" height="400" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
         <div class="my-3 p-3 bg-white rounded shadow-sm mode-dark1">
             <h6 class="border-bottom pb-2 mb-0 font-weight-bold">Otro tema</h6>
             <div class="media text-muted pt-3">

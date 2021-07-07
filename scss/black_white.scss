@@ -4,20 +4,17 @@ $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-600: #494949 !default;
+$gray-700: #393939 !default;
+$gray-800: #292929 !default;
+$gray-900: #1e1e1e !default;
 $black: #000 !default;
 
-$gray-600-t: #6c757d9f !default;
-$gray-700-t: #4950579f !default;
-$gray-800-t: #343a409f !default;
-$gray-900-t: #2125299f !default;
+$gray-600-t: #4949499f !default;
+$gray-700-t: #3939399f !default;
+$gray-800-t: #2929299f !default;
+$gray-900-t: #1e1e1e9f !default;
 $black-t: rgba(0, 0, 0, 0.5) !default;
-
-
-
 
 $blue: #007bff !default;
 $indigo: #6610f2 !default;
@@ -135,10 +132,10 @@ nav {
       }
     }
     /*}*/
-    .navbar-dark .navbar-nav .show > .nav-link,
-    .navbar-dark .navbar-nav .active > .nav-link,
-    .navbar-dark .navbar-nav .nav-link.show,
-    .navbar-dark .navbar-nav .nav-link.active {
+    & .navbar-nav .show > .nav-link,
+    .navbar-nav .active > .nav-link,
+    .navbar-nav .nav-link.show,
+    .navbar-nav .nav-link.active {
       color: $white;
     }
     /*---------------------------------*/
@@ -151,15 +148,27 @@ footer {
   }
 }
 
+.modal-content {
+  body.dark & {
+    background-color: $gray-600;
+  }
+}
+
+.modal-content,
 .mode-dark1 {
   body.dark & {
-    background-color: $gray-600-t !important;
     color: $gray-200;
     & p,
     strong,
     span {
       color: $gray-300;
     }
+  }
+}
+
+.mode-dark1 {
+  body.dark & {
+    background-color: $gray-600-t !important;
   }
 }
 .mode-dark2 {
@@ -176,12 +185,6 @@ footer {
 .mode-dark3 {
   body.dark & {
     background-color: $gray-800-t !important;
-    color: $gray-400;
-    & p,
-    strong,
-    span {
-      color: $gray-500;
-    }
   }
 }
 
@@ -199,15 +202,22 @@ footer {
 .mode-dark5 {
   body.dark & {
     background-color: $black-t !important;
-  }
-}
-.mode-dark5, footer {
-  body.dark & {
     color: $gray-500;
     & p,
     strong,
     span {
       color: $gray-600;
+    }
+  }
+}
+.mode-dark3,
+footer {
+  body.dark & {
+    color: $gray-400;
+    & p,
+    strong,
+    span {
+      color: $gray-500;
     }
   }
 }
@@ -217,12 +227,74 @@ footer {
 .mode-dark3,
 .mode-dark4,
 .mode-dark5,
-footer {
+.modal-content,
+.dropdown-menu,
+footer,
+nav {
   body.dark & a {
     color: $gray-400;
     &:hover,
     :focus {
       color: $gray-200;
+    }
+  }
+}
+
+a {
+  body.dark & .text-primary,
+  .text-secondary,
+  .text-success,
+  .text-danger,
+  .text-warning,
+  .text-info,
+  .text-light,
+  .text-dark,
+  .text-body,
+  .text-muted,
+  .text-white,
+  .text-black-50,
+  .text-white-50 {
+    color: rgba(255, 255, 255, 0.75);
+    &:hover,
+    :focus {
+      color: $gray-100;
+    }
+  }
+}
+
+.text-primary,
+.text-secondary,
+.text-success,
+.text-danger,
+.text-warning,
+.text-info,
+.text-light,
+.text-dark,
+.text-body,
+.text-muted,
+.text-white,
+.text-black-50,
+.text-white-50 {
+  body.dark & {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+}
+
+.dropdown-menu {
+  body.dark & {
+    color: $gray-100;
+    background-color: $gray-600;
+  }
+}
+
+.dropdown-item {
+  body.dark & {
+    &:hover,
+    :focus {
+      background-color: $gray-800-t;
+    }
+    &:active {
+      background-color: $gray-900-t;
     }
   }
 }

@@ -79,7 +79,7 @@ $dark: $gray-800 !default;
 body {
   /*transition: 0.3s ease all;*/
   &.dark {
-    background-color: $gray-700;
+    background-color: $gray-700 !important;
   }
 }
 
@@ -232,32 +232,10 @@ footer {
 footer,
 nav {
   body.dark & a {
-    color: $gray-400;
+    color: $gray-400 !important;
     &:hover,
     :focus {
-      color: $gray-200;
-    }
-  }
-}
-
-a {
-  body.dark & .text-primary,
-  .text-secondary,
-  .text-success,
-  .text-danger,
-  .text-warning,
-  .text-info,
-  .text-light,
-  .text-dark,
-  .text-body,
-  .text-muted,
-  .text-white,
-  .text-black-50,
-  .text-white-50 {
-    color: rgba(255, 255, 255, 0.75);
-    &:hover,
-    :focus {
-      color: $gray-100;
+      color: $gray-200 !important;
     }
   }
 }
@@ -277,6 +255,28 @@ a {
 .text-white-50 {
   body.dark & {
     color: rgba(255, 255, 255, 0.75) !important;
+  }
+}
+
+a {
+  body.dark & .text-primary,
+  .text-secondary,
+  .text-success,
+  .text-danger,
+  .text-warning,
+  .text-info,
+  .text-light,
+  .text-dark,
+  .text-body,
+  .text-muted,
+  .text-white,
+  .text-black-50,
+  .text-white-50 {
+    color: rgba(255, 255, 255, 0.75) !important;
+    &:hover,
+    :focus {
+      color: $gray-100 !important;
+    }
   }
 }
 

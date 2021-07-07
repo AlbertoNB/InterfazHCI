@@ -10902,7 +10902,7 @@ body {
 }
 
 body.dark {
-  background-color: #393939;
+  background-color: #393939 !important;
 }
 
 body.dark .sidebar-left, body.dark
@@ -11059,7 +11059,7 @@ body.dark .mode-dark1 a, body.dark
 .dropdown-menu a, body.dark
 footer a, body.dark
 nav a {
-  color: #ced4da;
+  color: #ced4da !important;
 }
 
 body.dark .mode-dark1 a:hover,
@@ -11088,7 +11088,23 @@ footer a :focus, body.dark
 nav a:hover,
 body.dark
 nav a :focus {
-  color: #e9ecef;
+  color: #e9ecef !important;
+}
+
+body.dark .text-primary, body.dark
+.text-secondary, body.dark
+.text-success, body.dark
+.text-danger, body.dark
+.text-warning, body.dark
+.text-info, body.dark
+.text-light, body.dark
+.text-dark, body.dark
+.text-body, body.dark
+.text-muted, body.dark
+.text-white, body.dark
+.text-black-50, body.dark
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 body.dark a .text-primary,
@@ -11104,7 +11120,7 @@ a .text-muted,
 a .text-white,
 a .text-black-50,
 a .text-white-50 {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 body.dark a .text-primary:hover,
@@ -11133,23 +11149,7 @@ a .text-black-50:hover,
 a .text-black-50 :focus,
 a .text-white-50:hover,
 a .text-white-50 :focus {
-  color: #f8f9fa;
-}
-
-body.dark .text-primary, body.dark
-.text-secondary, body.dark
-.text-success, body.dark
-.text-danger, body.dark
-.text-warning, body.dark
-.text-info, body.dark
-.text-light, body.dark
-.text-dark, body.dark
-.text-body, body.dark
-.text-muted, body.dark
-.text-white, body.dark
-.text-black-50, body.dark
-.text-white-50 {
-  color: rgba(255, 255, 255, 0.75) !important;
+  color: #f8f9fa !important;
 }
 
 body.dark .dropdown-menu {

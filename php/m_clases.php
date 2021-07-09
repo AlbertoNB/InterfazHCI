@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-auto">
-                    <button class="btn-sm" disabled>Asistió</button>
+                    <span class="badge badge-pill badge-primary">Asistió</span>
                     <button class="btn-sm" data-toggle="modal" data-target="#exampleModal">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />

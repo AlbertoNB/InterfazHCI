@@ -1,4 +1,4 @@
-<div class="sidebar-right bg-secondary text-white">
+<div class="sidebar-right bg-secondary text-white scroll-decor">
     <div class="p-2">
         <div class="container">
             <div class="row">

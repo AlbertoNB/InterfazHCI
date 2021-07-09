@@ -71,7 +71,7 @@
                         </span>
                     </button>
                 </a>
-                <a class="text-success text-decoration-none me-2" href="">
+                <a class="text-success text-decoration-none me-2" href="chat.php">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#chat" />
                     </svg>

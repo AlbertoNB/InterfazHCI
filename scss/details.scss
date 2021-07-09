@@ -135,3 +135,27 @@
     color: $black;
   }
 }
+
+/*---------scroll decor----------*/
+.scroll-decor {
+  /*mozilla*/
+  scrollbar-width: thin;
+  scrollbar-color: rgb(205, 205, 205) transparent;
+  /*the other browsers*/
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.25); /* color del scroll thumb */
+    border-radius: 10px;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.35);
+    }
+    &:active{
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

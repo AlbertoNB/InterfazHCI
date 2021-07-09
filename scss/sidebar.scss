@@ -18,24 +18,8 @@
   max-width: 275px;
   z-index: 1040;
   /*------scrollbar mozilla------*/
-  overflow: scroll;
-  overflow-x: hidden;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
-
-  &::-webkit-scrollbar {
-    width: 10px;
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.4); /* color del scroll thumb */
-    border-radius: 10px;
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.3);
-    }
-  }
+  overflow: auto;/*scroll*/
+  /*overflow-x: hidden;*/
 }
 .sidebar-left {
   left: 0;

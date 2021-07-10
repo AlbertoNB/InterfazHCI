@@ -3,27 +3,23 @@
     <div class="container-md my-3">
         <div class="row">
             <div class="col-auto mb-2">
-                <a class="btn btn-primary" href="#" role="button">
-                    <svg width="20px" height="20px">
-                        <use xlink:href="../svg/bootstrap-icons.svg#people" />
-                    </svg>
+                <a class="btn btn-primary" href="chat_grupal.php" role="button">
+                    <img width="20px" height="20px" src="../svg/conversation.svg">
                     Chat grupal
                 </a>
                 <a class="btn btn-primary" href="#" role="button">
-                    <svg width="20px" height="20px">
-                        <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-person" />
-                    </svg>
+                    <img width="20px" height="20px" src="../svg/synergy.svg">
                     Chat academico
                 </a>
             </div>
             <div class="col-md-6 mb-3">
                 <div class="form-inline position-relative">
-                    <button class="btn-input an-icon-input" type="submit">
+                    <button class="btn-input an-icon-input-r" type="submit">
                         <svg width="20px" height="20px">
                             <use xlink:href="../svg/bootstrap-icons.svg#search" />
                         </svg>
                     </button>
-                    <input type="text" class="form-control w-100" placeholder="Busquar estudiante"
+                    <input type="text" class="form-control w-100" placeholder="Buscar estudiante"
                         required>
                 </div>
             </div>

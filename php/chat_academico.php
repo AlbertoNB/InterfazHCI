@@ -1,71 +1,134 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
     <div class="container-md my-3">
-        <div class="d-flex align-items-center p-3 mb-3 bg-success rounded shadow-sm mode-dark4">
-            <h4 class="mb-0 text-white">Chateando XD</h4>
+        <div class="text-center p-2 mb-3 bg-primary rounded shadow-sm mode-dark5">
+            <h4 class="mb-0 text-white">Chat academico</h4>
         </div>
-        <div class="p-3 mb-3 rounded shadow-sm mode-dark3">
-            <div class="media">
-                <img src="..." class="mr-3" alt="...">
-                <div class="media-body">
-                    <h5 class="mt-0">Media heading</h5>
-                    <p>Standing on the frontline when the bombs start to fall. Heaven is jealous of our love, angels are
-                        crying from up above. Can't replace you with a million rings. Boy, when you're with me I'll give
-                        you a taste. There’s no going back. Before you met me I was alright but things were kinda heavy.
-                        Heavy is the head that wears the crown.</p>
-
-                    <div class="overflow-auto mb-3" style="height: 150px; scrollbar-width: thin;">
-                        <div class="media mt-3">
-                            <a class="mr-3" href="#">
-                                <img src="..." alt="...">
-                            </a>
-                            <div class="media-body">
-                                <h5 class="mt-0">Media heading</h5>
-                                <p>Greetings loved ones let's take a journey. Yes, we make angels cry, raining down on
-                                    earth
-                                    from up above. Give you something good to celebrate. I used to bite my tongue and
-                                    hold
-                                    my breath. I'm ma get your heart racing in my skin-tight jeans.</p>
-                            </div>
-                        </div>
-                        <div class="media mt-0">
-                            <a class="mr-3" href="#">
-                                <img src="..." alt="...">
-                            </a>
-                            <div class="media-body">
-                                <h5 class="mt-0">Media heading</h5>
-                                <p>Greetings loved ones let's take a journey. Yes, we make angels cry, raining down on
-                                    earth
-                                    from up above. Give you something good to celebrate. I used to bite my tongue and
-                                    hold
-                                    my breath. I'm ma get your heart racing in my skin-tight jeans.</p>
-                            </div>
+        <div class="row">
+            <div class="col-auto mb-2">
+                <a class="btn btn-success" href="chat_personal.php" role="button">
+                    <img width="20px" height="20px" src="../svg/chat.svg">
+                    Chat personal
+                </a>
+                <a class="btn btn-success" href="chat_grupal.php" role="button">
+                    <img width="20px" height="20px" src="../svg/conversation.svg">
+                    Chat grupal
+                </a>
+            </div>
+            <div class="col-lg mb-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-inline position-relative">
+                            <button class="btn-input an-icon-input-r" type="submit">
+                                <svg width="20px" height="20px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#search" />
+                                </svg>
+                            </button>
+                            <input type="text" class="form-control w-100" placeholder="Buscar foro academico" required>
                         </div>
                     </div>
-
-
-                </div>
-            </div>
-            <div class="media">
-                <img src="..." class="mr-3" alt="...">
-                <div class="media-body">
-                    <h5 class="mt-0">Media heading</h5>
-                    <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's
-                        beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me.
-                        Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
-                </div>
-            </div>
-            <div class="media">
-                <img src="..." class="mr-3" alt="...">
-                <div class="media-body">
-                    <h5 class="mt-0">Media heading</h5>
-                    <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's
-                        beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me.
-                        Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-info pt-1" data-toggle="modal" disabled data-target="#ventanaforomas" data-toggle="tooltip" data-placement="bottom" title="Solo para docentes">
+                            <img width="20px" height="20px" src="../svg/add-group.svg">
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div class="list-group mb-3">
+            <a href="chat_academico_n.php" class="list-group-item list-group-item-action py-1">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-0">Tema del foro #1</h5>
+                    <small>....</small>
+                </div>
+                <small>Desarrollo de Temario de Tesis: A .</small><small> Docente: -------------</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-1">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-0">Tema del foro #2</h5>
+                    <small>....</small>
+                </div>
+                <small>Desarrollo de Temario de Tesis: A .</small><small> Docente: -------------</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-1">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-0">Tema del foro #3</h5>
+                    <small>....</small>
+                </div>
+                <small>Desarrollo de Temario de Tesis: A .</small><small> Docente: -------------</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-1">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-0">Tema del foro #4</h5>
+                    <small>....</small>
+                </div>
+                <small>Desarrollo de Temario de Tesis: A .</small><small> Docente: -------------</small>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-1">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-0">Tema del foro #5</h5>
+                    <small>....</small>
+                </div>
+                <small>Desarrollo de Temario de Tesis: A .</small><small> Docente: -------------</small>
+            </a>
+        </div>
+    </div>
+    <div class="modal fade" id="ventanaforomas">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+            <div class="modal-content">
+                <div class="modal-header py-2 ">
+                    <h6 class="modal-title">
+                        Crear nuevo tema de foro
+                    </h6>
+                    <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pb-2">
+                    <form class="mb-2">
+                        <label>Materia relevante</label>
+                        <div class="row border-bottom">
+                            <div class="col pr-1">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1" placeholder="Buscar grupo">
+                                        <option>Escoga la materia</option>
+                                        <option>Materia #</option>
+                                        <option>Materia #</option>
+                                        <option>Materia #</option>
+                                        <option>Materia #</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-auto pl-1">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1" placeholder="Buscar grupo">
+                                        <option>Curso</option>
+                                        <option>A</option>
+                                        <option>B</option>
+                                        <option>C</option>
+                                        <option>D</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Nuevo tema de foro</label>
+                            <input type="email" class="form-control" placeholder="Ingrese tema de foro">
+                        </div>
+                        <div class="form-group">
+                            <label>Contexto del foro</label>
+                            <textarea class="form-control" placeholder="Ingrese contexto del foro" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer py-0">
+                    <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn-sm btn-primary">
+                        Crear foro</button>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 

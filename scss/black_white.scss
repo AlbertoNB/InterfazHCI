@@ -151,6 +151,9 @@ footer {
 .modal-content {
   body.dark & {
     background-color: $gray-600;
+    & .list-group{
+      color: $gray-800;
+    }
   }
 }
 

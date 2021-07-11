@@ -1,26 +1,6 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
     <div class="container-md my-3">
-        <div class="row mx-0 mb-3">
-            <div class="col p-0">
-                <a class="btn btn-success btn-sm pt-1" href="#" role="button">
-                    <svg width="23px" height="23px">
-                        <use xlink:href="../svg/bootstrap-icons.svg#person-plus" />
-                    </svg>
-                </a>
-
-            </div>
-            <div class="col-auto p-0">
-                <a class="btn btn-success btn-sm pt-1" href="chat_grupal.php" role="button">
-                    <svg width="23px" height="23px">
-                        <use xlink:href="../svg/bootstrap-icons.svg#reply" />
-                    </svg>
-                </a>
-            </div>
-        </div>
-
-
-
         <div class=" mx-0 row d-flex align-items-center p-2 bg-secondary text-light shadow-sm rounded-top mode-dark4">
             <div class="col-auto ml-2 pr-1">
                 <svg width="25px" height="25px">
@@ -31,6 +11,20 @@
                 <div class="d-flex justify-content-between w-100">
                     <h4 class="mb-0 text-small">Grupo #</h4>
                 </div>
+            </div>
+            <div class="col p-0">
+                <button class="btn btn-success btn-sm pt-0" href="chat_personal.php" role="button" data-toggle="modal" data-target="#usuariomas">
+                    <svg width="20px" height="20px">
+                        <use xlink:href="../svg/bootstrap-icons.svg#person-plus" />
+                    </svg>
+                </button>
+            </div>
+            <div class="col-auto p-0">
+                <a class="btn btn-success btn-sm pt-0" href="chat_grupal.php" role="button">
+                    <svg width="20px" height="20px">
+                        <use xlink:href="../svg/bootstrap-icons.svg#reply" />
+                    </svg>
+                </a>
             </div>
         </div>
         <!--height: 60vh
@@ -131,6 +125,142 @@
                     </button>
                 </div>
 
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="usuariomas">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+            <div class="modal-content">
+                <div class="modal-header py-2">
+                    <h6 class="modal-title">
+                        Añada estudiante(s)
+                    </h6>
+                    <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-inline position-relative mb-2">
+                        <button class="btn-input an-icon-input-r" type="submit">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#search" />
+                            </svg>
+                        </button>
+                        <input type="text" class="form-control w-100" placeholder="Buscar integrante" required>
+                    </div>
+                    <div class="list-group overflow-auto scroll-decor" style="height: calc(100vh - 18rem);">
+                        <div class="list-group-item py-1">
+                            <div class="row">
+                                <div class="col-auto d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input ">
+                                    <svg width="25px" height="25px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person-bounding-box" />
+                                    </svg>
+                                </div>
+                                <div class="col pl-0">
+                                    <div class="d-flex w-100 ">
+                                        <h5 class="mb-0">Estudiante #1</h5>
+                                        <small>....</small>
+                                    </div>
+                                    <small>Nivel: 4 </small><small> Compañero en: --, ----, ----</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item py-1">
+                            <div class="row">
+                                <div class="col-auto d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input ">
+                                    <svg width="25px" height="25px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person-bounding-box" />
+                                    </svg>
+                                </div>
+                                <div class="col pl-0">
+                                    <div class="d-flex w-100 ">
+                                        <h5 class="mb-0">Estudiante #1</h5>
+                                        <small>....</small>
+                                    </div>
+                                    <small>Nivel: 4 </small><small> Compañero en: --, ----, ----</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item py-1">
+                            <div class="row">
+                                <div class="col-auto d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input ">
+                                    <svg width="25px" height="25px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person-bounding-box" />
+                                    </svg>
+                                </div>
+                                <div class="col pl-0">
+                                    <div class="d-flex w-100 ">
+                                        <h5 class="mb-0">Estudiante #1</h5>
+                                        <small>....</small>
+                                    </div>
+                                    <small>Nivel: 4 </small><small> Compañero en: --, ----, ----</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item py-1">
+                            <div class="row">
+                                <div class="col-auto d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input ">
+                                    <svg width="25px" height="25px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person-bounding-box" />
+                                    </svg>
+                                </div>
+                                <div class="col pl-0">
+                                    <div class="d-flex w-100 ">
+                                        <h5 class="mb-0">Estudiante #1</h5>
+                                        <small>....</small>
+                                    </div>
+                                    <small>Nivel: 4 </small><small> Compañero en: --, ----, ----</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item py-1">
+                            <div class="row">
+                                <div class="col-auto d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input ">
+                                    <svg width="25px" height="25px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person-bounding-box" />
+                                    </svg>
+                                </div>
+                                <div class="col pl-0">
+                                    <div class="d-flex w-100 ">
+                                        <h5 class="mb-0">Estudiante #1</h5>
+                                        <small>....</small>
+                                    </div>
+                                    <small>Nivel: 4 </small><small> Compañero en: --, ----, ----</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item py-1">
+                            <div class="row">
+                                <div class="col-auto d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input ">
+                                    <svg width="25px" height="25px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person-bounding-box" />
+                                    </svg>
+                                </div>
+                                <div class="col pl-0">
+                                    <div class="d-flex w-100 ">
+                                        <h5 class="mb-0">Estudiante #1</h5>
+                                        <small>....</small>
+                                    </div>
+                                    <small>Nivel: 4 </small><small> Compañero en: --, ----, ----</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer py-0">
+                    <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn-sm btn-primary">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#check2-square" />
+                        </svg>
+                        Añadadir</button>
+                </div>
             </div>
         </div>
     </div>

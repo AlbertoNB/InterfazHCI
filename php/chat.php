@@ -19,7 +19,7 @@
                 </a>
             </div>
             <div class="col-md-6 px-md-1 ">
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="chat_academico.php" class="list-group-item list-group-item-action">
                     <img width="100px" height="100px" src="../svg/synergy.svg">
                     <p class="mb-1">Chat academico</p>
                 </a>

@@ -10980,6 +10980,10 @@ body.dark .modal-content {
   background-color: #494949;
 }
 
+body.dark .modal-content .list-group {
+  color: #292929;
+}
+
 body.dark .modal-content, body.dark
 .mode-dark1 {
   color: #e9ecef;

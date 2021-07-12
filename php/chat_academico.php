@@ -28,8 +28,8 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <button type="button" class="btn btn-info pt-1" data-toggle="modal" disabled data-target="#ventanaforomas" data-toggle="tooltip" data-placement="bottom" title="Solo para docentes">
-                            <img width="20px" height="20px" src="../svg/add-group.svg">
+                        <button type="button" class="btn btn-sm btn-info" data-toggle="modal" disabled data-target="#ventanaforomas" data-toggle="tooltip" data-placement="bottom" title="Solo para docentes">
+                            <img width="28px" height="28px" src="../svg/add-group.svg">
                         </button>
                     </div>
                 </div>

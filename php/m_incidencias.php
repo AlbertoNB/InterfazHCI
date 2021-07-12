@@ -18,54 +18,30 @@
         </div>
     </div>
     <ul class="list-group  ">
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-3">
-                    <small>Tipo</small>
-                </div>
-                <div class="col-2">
-                    <small>Fecha</small>
-                </div>
-                <div class="col">
-                    <small>Incidencias</small>
-                </div>
-                <div class="col-auto">
-                    <small>Estado</small>
-                </div>
-            </div>
-        </li>
-        <li class="list-group-item ">
+        <li class="list-group-item py-1 ">
             <div class="row d-flex align-items-center">
-                <div class="col-3 ">
-                    <p class="small my-0">Incumplimiento del syllabus</p>
+                <div class="col pr-1">
+                    <h6 class="mb-1 font-weight-bold">Incumplimiento del syllabus</h6>
+                    <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
+                    <small> <b>Fecha:</b>  20-06-01</small>
                 </div>
-                <div class="col-2">
-                    <p class="small my-0">20-06-01</p>
-                </div>
-                <div class="col">
-                    <p class="small my-0">adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
-                </div>
-                <div class="col-auto">
-                    <svg class="text-success" width="30px" height="30px" fill="currentColor">
+                <div class="col-auto px-1">
+                <svg class="text-success" width="30px" height="30px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#eye-fill" />
                     </svg>
                 </div>
             </div>
         </li>
-        <li class="list-group-item ">
+        <li class="list-group-item py-1 ">
             <div class="row d-flex align-items-center">
-                <div class="col-3 ">
-                    <p class="small my-0">Incumplimiento del syllabus</p>
+                <div class="col pr-1">
+                    <h6 class="mb-1 font-weight-bold">Incumplimiento del syllabus</h6>
+                    <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
+                    <small> <b>Fecha:</b>  20-06-01</small>
                 </div>
-                <div class="col-2">
-                    <p class="small my-0">20-06-01</p>
-                </div>
-                <div class="col">
-                    <p class="small my-0">adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
-                </div>
-                <div class="col-auto">
-                    <svg class="text-danger" width="30px" height="30px" fill="currentColor">
-                        <use xlink:href="../svg/bootstrap-icons.svg#eye-fill" />
+                <div class="col-auto px-1">
+                <svg class="text-danger" width="30px" height="30px" fill="currentColor">
+                        <use xlink:href="../svg/bootstrap-icons.svg#eye-slash-fill" />
                     </svg>
                 </div>
             </div>

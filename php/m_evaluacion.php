@@ -1,33 +1,20 @@
 <div class="collapse" id="evaluacion" data-parent="#elemento">
     <ul class="list-group  ">
-        <li class="list-group-item">
-            <div class="row">
-                <div class="col-1">
-                    <small class="font-weight-bold">#</small>
-                </div>
-                <div class="col-5">
-                    <small class="font-weight-bold">Unidad</small>
-                </div>
-                <div class="col-4">
-                    <small class="font-weight-bold">Estado</small>
-                </div>
-                <div class="col-2">
-                    <small class="font-weight-bold">Evaluar</small>
-                </div>
+        <li class="list-group-item py-1 pr-1">
+            <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <small class="pr-0 ">
+                    Unidad:
+                    <span class="badge badge-pill badge-primary">1</span>
+                </small>
             </div>
-        </li>
-        <li class="list-group-item ">
             <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0">1</p>
+                <div class="col-auto">
+                    <span>Estado: </span>
+                    <span class="badge badge-pill badge-info">En desarrollo</span>
                 </div>
-                <div class="col-5">
-                    <p class="small my-0">Concepto básico y teorías</p>
-                </div>
-                <div class="col-4">
-                    <button class="btn-sm">Desarrollando</button>
-                </div>
-                <div class="col-2">
+                <div class="col pr-1">
+                    <span>Evaluar: </span>
                     <button class="btn-sm" data-toggle="modal" data-target="#preguntas">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
@@ -36,38 +23,21 @@
                 </div>
             </div>
         </li>
-        <li class="list-group-item ">
-            <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0">2</p>
-                </div>
-                <div class="col-5">
-                    <p class="small my-0">Concepto básico y teorías</p>
-                </div>
-                <div class="col-4">
-                    <button class="btn-sm">Desarrollando</button>
-                </div>
-                <div class="col-2" data-toggle="modal" data-target="#preguntas">
-                    <button class="btn-sm">
-                        <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
-                        </svg>
-                    </button>
-                </div>
+        <li class="list-group-item py-1 pr-1">
+            <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <small class="pr-0 ">
+                    Unidad:
+                    <span class="badge badge-pill badge-primary">2</span>
+                </small>
             </div>
-        </li>
-        <li class="list-group-item ">
             <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0">3</p>
+                <div class="col-auto">
+                    <span>Estado: </span>
+                    <span class="badge badge-pill badge-info">En desarrollo</span>
                 </div>
-                <div class="col-5">
-                    <p class="small my-0">Concepto básico y teorías</p>
-                </div>
-                <div class="col-4">
-                    <button class="btn-sm">Desarrollando</button>
-                </div>
-                <div class="col-2">
+                <div class="col pr-1">
+                    <span>Evaluar: </span>
                     <button class="btn-sm" data-toggle="modal" data-target="#preguntas">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
@@ -76,18 +46,44 @@
                 </div>
             </div>
         </li>
-        <li class="list-group-item ">
+        <li class="list-group-item py-1 pr-1">
+            <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <small class="pr-0 ">
+                    Unidad:
+                    <span class="badge badge-pill badge-primary">3</span>
+                </small>
+            </div>
             <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0">4</p>
+                <div class="col-auto">
+                    <span>Estado: </span>
+                    <span class="badge badge-pill badge-info">En desarrollo</span>
                 </div>
-                <div class="col-5">
-                    <p class="small my-0">Concepto básico y teorías</p>
+                <div class="col pr-1">
+                    <span>Evaluar: </span>
+                    <button class="btn-sm" data-toggle="modal" data-target="#preguntas">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
+                        </svg>
+                    </button>
                 </div>
-                <div class="col-4">
-                    <button class="btn-sm">Desarrollando</button>
+            </div>
+        </li>
+        <li class="list-group-item py-1 pr-1">
+            <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <small class="pr-0 ">
+                    Unidad:
+                    <span class="badge badge-pill badge-primary">4</span>
+                </small>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-auto">
+                    <span>Estado: </span>
+                    <span class="badge badge-pill badge-info">En desarrollo</span>
                 </div>
-                <div class="col-2">
+                <div class="col pr-1">
+                    <span>Evaluar: </span>
                     <button class="btn-sm" data-toggle="modal" data-target="#preguntas">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
@@ -98,7 +94,6 @@
         </li>
     </ul>
 </div>
-
 <div class="modal fade" id="preguntas">
     <div class="modal-dialog modal-lg modal-dialog-scrollable ">
         <div class="modal-content">
@@ -369,7 +364,7 @@
                             <label class="form-check-label" for="inlineRadio15">Excelente</label>
                         </div>
                     </form>
-                </div>    
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>

@@ -22,7 +22,7 @@
         <div id="elemento">
             <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
                 <label class="btn btn-secondary active" data-toggle="collapse" data-target="#clases" aria-expanded="true" role="button">
-                    <input type="radio" name="options" id="option1">
+                    <input type="radio" name="options">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-easel" />
                     </svg>
@@ -30,7 +30,7 @@
                 </label>
 
                 <label class="btn btn-secondary" data-toggle="collapse" data-target="#evaluacion" aria-expanded="false" role="button">
-                    <input type="radio" name="options" id="option2">
+                    <input type="radio" name="options">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#card-checklist" />
                     </svg>
@@ -38,7 +38,7 @@
                 </label>
 
                 <label class="btn btn-secondary" data-toggle="collapse" data-target="#incidencias" aria-expanded="false" role="button">
-                    
+                <input type="radio" name="options">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#exclamation-triangle-fill" />
                     </svg>

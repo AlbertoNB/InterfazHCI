@@ -33,47 +33,33 @@
             </button>
         </div>
     </div>
-    <ul class="list-group  ">
-        <li class="list-group-item">
+    <ul class="list-group">
+        <li class="list-group-item py-1">
             <div class="row">
-                <div class="col-1">
-                    <small>Clase</small>
+                <div class="col pr-0">
+                    <h5 class="p-0">Clase #1</h5>
                 </div>
-                <div class="col-3 text-center">
-                    <small>Fecha</small>
+                <div class="col d-inline custom-control custom-checkbox px-1">
+                    <input type="checkbox" class="custom-control-input" value="" checked disabled>
+                    <label class="custom-control-label ">Clase impartida</label>
                 </div>
-                <div class="col-2 text-center">
-                    <small>Clase impartida</small>
-                </div>
-                <div class="col-6">
-                    <small>Mi asistencia</small>
-                </div>
-            </div>
-        </li>
-        <li class="list-group-item ">
-            <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0"># 1</p>
-                </div>
-                <div class="col-3 text-center">
-                    <p class="small my-0">20-06-01 / 20-06-07</p>
-                </div>
-                <div class="col-2 text-center">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" value="" id="lomismo" checked disabled>
-                        <label class="custom-control-label font-weight-bold" for="lomismo">
-                        </label>
-                    </div>
-                </div>
-                <div class="col-auto">
+
+                <div class="col-auto pl-1 pr-0">
                     <span class="badge badge-pill badge-primary">Asistió</span>
-                    <button class="btn-sm" data-toggle="modal" data-target="#exampleModal">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-auto d-flex align-items-center">
+                    <p class="my-0">Fecha: 20-06-01 / 20-06-07</p>
+                </div>
+                <div class="col-md d-flex align-items-center">
+
+                    <p class="my-0 mr-2">Detalle de asistencia: </p>
+                    <button class="btn-sm mr-3" data-toggle="modal" data-target="#exampleModal">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
                         </svg>
                     </button>
-                </div>
-                <div class="col-1">
                     <button class="btn-sm" data-toggle="modal" data-target="#v_imprimir">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />
@@ -82,30 +68,32 @@
                 </div>
             </div>
         </li>
-        <li class="list-group-item ">
-            <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0"># 1</p>
+        <li class="list-group-item py-1">
+            <div class="row">
+                <div class="col pr-0">
+                    <h5 class="p-0">Clase #2</h5>
                 </div>
-                <div class="col-3 text-center">
-                    <p class="small my-0">20-06-01 / 20-06-07</p>
+                <div class="col d-inline custom-control custom-checkbox px-1">
+                    <input type="checkbox" class="custom-control-input" value="" checked disabled>
+                    <label class="custom-control-label ">Clase impartida</label>
                 </div>
-                <div class="col-2 text-center">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" value="" id="lomismo2" checked disabled>
-                        <label class="custom-control-label font-weight-bold" for="lomismo2">
-                        </label>
-                    </div>
+
+                <div class="col-auto pl-1 pr-0">
+                    <span class="badge badge-pill badge-danger">Falto</span>
                 </div>
-                <div class="col-auto">
-                    <button class="btn-sm" disabled>Asistió</button>
-                    <button class="btn-sm" data-toggle="modal" data-target="#exampleModal">
+            </div>
+            <div class="row">
+                <div class="col-md-auto d-flex align-items-center">
+                    <p class="my-0">Fecha: 20-06-01 / 20-06-07</p>
+                </div>
+                <div class="col-md d-flex align-items-center">
+
+                    <p class="my-0 mr-2">Detalle de asistencia: </p>
+                    <button class="btn-sm mr-3" data-toggle="modal" data-target="#exampleModal">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
                         </svg>
                     </button>
-                </div>
-                <div class="col-1">
                     <button class="btn-sm" data-toggle="modal" data-target="#v_imprimir">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />
@@ -114,30 +102,32 @@
                 </div>
             </div>
         </li>
-        <li class="list-group-item ">
-            <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0"># 1</p>
+        <li class="list-group-item py-1">
+            <div class="row">
+                <div class="col pr-0">
+                    <h5 class="p-0">Clase #3</h5>
                 </div>
-                <div class="col-3 text-center">
-                    <p class="small my-0">20-06-01 / 20-06-07</p>
+                <div class="col d-inline custom-control custom-checkbox px-1">
+                    <input type="checkbox" class="custom-control-input" value="" checked disabled>
+                    <label class="custom-control-label ">Clase impartida</label>
                 </div>
-                <div class="col-2 text-center">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" value="" id="lomismo3" disabled>
-                        <label class="custom-control-label font-weight-bold" for="lomismo3">
-                        </label>
-                    </div>
+
+                <div class="col-auto pl-1 pr-0">
+                    <span class="badge badge-pill badge-primary">Asistió</span>
                 </div>
-                <div class="col-auto">
-                    <button class="btn-sm">Asistió</button>
-                    <button class="btn-sm" data-toggle="modal" data-target="#exampleModal">
+            </div>
+            <div class="row">
+                <div class="col-md-auto d-flex align-items-center">
+                    <p class="my-0">Fecha: 20-06-01 / 20-06-07</p>
+                </div>
+                <div class="col-md d-flex align-items-center">
+
+                    <p class="my-0 mr-2">Detalle de asistencia: </p>
+                    <button class="btn-sm mr-3" data-toggle="modal" data-target="#exampleModal">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
                         </svg>
                     </button>
-                </div>
-                <div class="col-1">
                     <button class="btn-sm" data-toggle="modal" data-target="#v_imprimir">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />
@@ -146,30 +136,32 @@
                 </div>
             </div>
         </li>
-        <li class="list-group-item ">
-            <div class="row d-flex align-items-center">
-                <div class="col-1">
-                    <p class="small my-0"># 1</p>
+        <li class="list-group-item py-1">
+            <div class="row">
+                <div class="col pr-0">
+                    <h5 class="p-0">Clase #4</h5>
                 </div>
-                <div class="col-3 text-center">
-                    <p class="small my-0">20-06-01 / 20-06-07</p>
+                <div class="col d-inline custom-control custom-checkbox px-1">
+                    <input type="checkbox" class="custom-control-input" value="" disabled>
+                    <label class="custom-control-label ">Clase impartida</label>
                 </div>
-                <div class="col-2 text-center">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" value="" id="lomismo4" disabled>
-                        <label class="custom-control-label font-weight-bold" for="lomismo4">
-                        </label>
-                    </div>
+
+                <div class="col-auto pl-1 pr-0">
+                    <span class="badge badge-pill badge-secondary">Pendiente</span>
                 </div>
-                <div class="col-auto">
-                    <button class="btn-sm">Asistió</button>
-                    <button class="btn-sm" data-toggle="modal" data-target="#exampleModal">
+            </div>
+            <div class="row">
+                <div class="col-md-auto d-flex align-items-center">
+                    <p class="my-0">Fecha: 20-06-01 / 20-06-07</p>
+                </div>
+                <div class="col-md d-flex align-items-center">
+
+                    <p class="my-0 mr-2">Detalle de asistencia: </p>
+                    <button class="btn-sm mr-3" data-toggle="modal" data-target="#exampleModal">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
                         </svg>
                     </button>
-                </div>
-                <div class="col-1">
                     <button class="btn-sm" data-toggle="modal" data-target="#v_imprimir">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />

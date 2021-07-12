@@ -28,9 +28,9 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <button type="button" class="btn btn-info pt-1" data-toggle="modal" data-target="#grupomas"
+                        <button type="button" class="btn btn-sm btn-info" data-toggle="modal" data-target="#grupomas"
                             data-toggle="tooltip" data-placement="bottom" title="Crear nuevo grupo">
-                            <img width="20px" height="20px" src="../svg/add-group.svg">
+                            <img width="28px" height="28px" src="../svg/add-group.svg">
                         </button>
                     </div>
                 </div>

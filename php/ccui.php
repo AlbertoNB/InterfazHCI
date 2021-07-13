@@ -17,9 +17,9 @@
                 </button>
             </div>
             <div class="bg-white p-2 mb-3 mode-dark1">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <!-- d-flex align-items-center = centra verticalmente la imagen -->
-                    <div class="col-auto pr-0 d-flex align-items-center">
+                    <div class="col-auto pr-0">
                         <svg width="90px" height="90px"><!--width="90px" height="90px"-->
                             <use xlink:href="../svg/bootstrap-icons.svg#spca2" />
                         </svg>
@@ -30,7 +30,7 @@
                         <h6 class="my-0 py-2 text-center">POR UNA UNIVERSIDAD INCLUSIVA Y SOSTENIBLE <br> DEL
                             -- AL -- DE --------</h6>
                     </div>
-                    <div class="col-auto pl-0 d-flex align-items-center"> 
+                    <div class="col-auto pl-0"> 
                         <img src="../img/Logo_utm.png" height="90px" width="90px"/><!--width="90px" height="90px"-->
                     </div>
                 </div>

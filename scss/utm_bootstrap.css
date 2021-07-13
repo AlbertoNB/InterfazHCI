@@ -11256,6 +11256,12 @@ body.dark .dropdown-item:active {
   }
 }
 
+@media (max-width: 37.5rem) {
+  h5.text-small {
+    font-size: 3.33vw;
+  }
+}
+
 @media (max-width: 30rem) {
   h1.text-small {
     font-size: 1.25rem;
@@ -11267,6 +11273,9 @@ body.dark .dropdown-item:active {
     font-size: 1rem;
   }
   h4.text-small {
+    font-size: 1rem;
+  }
+  h5.text-small {
     font-size: 1rem;
   }
 }

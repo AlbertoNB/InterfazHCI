@@ -21,7 +21,7 @@
         <li class="list-group-item py-1 ">
             <div class="row d-flex align-items-center">
                 <div class="col pr-1">
-                    <h6 class="mb-1 font-weight-bold">Incumplimiento del syllabus</h6>
+                    <h5 class="mb-1 font-weight-bold text-small">Incumplimiento del syllabus</h5>
                     <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
                     <small> <b>Fecha:</b>  20-06-01</small>
                 </div>
@@ -35,7 +35,7 @@
         <li class="list-group-item py-1 ">
             <div class="row d-flex align-items-center">
                 <div class="col pr-1">
-                    <h6 class="mb-1 font-weight-bold">Incumplimiento del syllabus</h6>
+                    <h5 class="mb-1 text-small font-weight-bold">Incumplimiento del syllabus</h5>
                     <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
                     <small> <b>Fecha:</b>  20-06-01</small>
                 </div>

@@ -2,7 +2,7 @@
     <ul class="list-group  ">
         <li class="list-group-item py-1 pr-1">
             <div class="d-flex w-100 justify-content-between">
-                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
                     <span class="badge badge-pill badge-primary">1</span>
@@ -25,7 +25,7 @@
         </li>
         <li class="list-group-item py-1 pr-1">
             <div class="d-flex w-100 justify-content-between">
-                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
                     <span class="badge badge-pill badge-primary">2</span>
@@ -48,7 +48,7 @@
         </li>
         <li class="list-group-item py-1 pr-1">
             <div class="d-flex w-100 justify-content-between">
-                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
                     <span class="badge badge-pill badge-primary">3</span>
@@ -71,7 +71,7 @@
         </li>
         <li class="list-group-item py-1 pr-1">
             <div class="d-flex w-100 justify-content-between">
-                <h4 class="mb-1 text-small">Concepto básico y teorías</h5>
+                <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
                     <span class="badge badge-pill badge-primary">4</span>

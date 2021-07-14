@@ -29,14 +29,10 @@
 @media (max-width: 37.5rem) {
   h5 {
     &.text-small {
-      font-size: 3.33vw;/*calc(100vw - 1rem)*/
+      font-size: 3.33vw; /*calc(100vw - 1rem)*/
     }
   }
 }
-
-
-
-
 
 @media (max-width: 30rem) {
   h1 {
@@ -59,9 +55,22 @@
       font-size: 1rem;
     }
   }
-  h5{
+  h5 {
     &.text-small {
       font-size: 1rem;
     }
   }
 }
+
+/*
+h1 {
+  body.reset & {
+    font-size: 2.5rem !important;
+  }
+}
+h2 {
+  body.reset & {
+    font-size: 2rem !important;
+  }
+}
+*/

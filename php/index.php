@@ -44,14 +44,14 @@
         <div class="mb-3 p-3 bg-white rounded shadow-sm mode-dark1">
             <h6 class="border-bottom pb-2 mb-0 font-weight-bold">Primer tema</h6>
             <div class="text-muted pt-2">
-                <p class="pb-3 mb-0 small border-bottom">
+                <p class="pb-3 mb-0 border-bottom mitexto">
                     Playing ping pong all night long, everything's all neon and hazy. Yeah, she's so in demand.
                     She's sweet as pie but if you break her heart. But down to earth. It's time to face the music
                     I'm no longer your muse. I guess that I forgot I had a choice.
                 </p>
             </div>
             <div class=" text-muted pt-3">
-                <p class=" mb-0 small ">
+                <p class=" mb-0 mitexto">
                     <strong class="d-block ">@username</strong>
                     Standing on the frontline when the bombs start to fall. Heaven is jealous of our love, angels
                     are crying from up above. Can't replace you with a million rings. Boy, when you're with me I'll

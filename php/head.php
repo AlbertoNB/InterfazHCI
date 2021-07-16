@@ -13,6 +13,7 @@
 
 <body class="d-flex flex-column h-100 bg-light">
     <?php include('sidebar.php') ?>
+    <?php include('bt_ability.php') ?>
     <head>
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
             <a class="navbar-brand" href="index.php">

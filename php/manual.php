@@ -35,12 +35,9 @@
                 </div>
             </div>
         </div>
-
         <p class="blockquote-footer mitexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere aspernatur alias, impedit facilis,
             est neque porro voluptas eligendi esse, perferendis nobis minus iure reprehenderit ipsa necessitatibus eos
             quam debitis.</p>
     </div>
-    <?php include('bt_ability.php') ?>
 </main>
-
 <?php include('footer.php') ?>

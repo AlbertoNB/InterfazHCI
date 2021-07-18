@@ -13,8 +13,6 @@ BigCursor.addEventListener('click', () => {
 // Obtener el modo actual.
 if (localStorage.getItem('cursor-mode') === 'true') {
     document.body.classList.add('big-cursor');
-    BigCursor.classList.add('active');
 } else {
     document.body.classList.remove('big-cursor');
-    BigCursor.classList.remove('active');
 }

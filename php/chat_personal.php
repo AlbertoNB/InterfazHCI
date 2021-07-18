@@ -5,17 +5,17 @@
             <h4 class="mb-0 text-white">Chat personal</h4>
         </div>
         <div class="row">
-            <div class="col-auto mb-2">
-                <a class="btn btn-success" href="chat_grupal.php" role="button">
+            <div class="col-auto">
+                <a class="btn mb-2 btn-success" href="chat_grupal.php" role="button">
                     <img width="20px" height="20px" src="../svg/conversation.svg">
                     Chat grupal
                 </a>
-                <a class="btn btn-success" href="chat_academico.php" role="button">
+                <a class="btn mb-2 btn-success" href="chat_academico.php" role="button">
                     <img width="20px" height="20px" src="../svg/synergy.svg">
                     Chat academico
                 </a>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-6 mb-2">
                 <div class="form-inline position-relative">
                     <button class="btn-input an-icon-input-r" type="submit">
                         <svg width="20px" height="20px">

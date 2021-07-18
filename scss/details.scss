@@ -197,3 +197,17 @@ button {
     cursor: url(../svg/cursor_pointer.svg), auto !important;
   }
 }
+
+/*------------Dyslexic font------------*/
+@font-face {
+  font-family: OpenDyslexic;
+  src: url("../font/OpenDyslexic-Regular.otf");
+}
+body {
+  &.open-dyslexic {
+    font-family: OpenDyslexic;
+  }
+}
+.dyslexic-font {
+  font-family: OpenDyslexic;
+}

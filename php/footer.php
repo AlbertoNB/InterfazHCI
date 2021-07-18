@@ -64,6 +64,7 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js2/cambios.js"></script>
     <script src="../js2/cursor.js"></script>
+    <script src="../js2/dyslexic-font.js"></script>  
     <script src="../respaldo/text_mm.js"></script>
 </body>
 

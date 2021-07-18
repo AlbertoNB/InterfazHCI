@@ -1,6 +1,9 @@
 <div class="fixed-bottom" style="width: 12rem;">
     <div class="collapse mx-2" id="ability">
         <div class="card card-body p-2">
+            <button type="button d-inline" class="bt-dyslexic-font dyslexic-font btn btn-secondary btn-sm mb-1">
+                Dislexia
+            </button>
             <button type="button d-inline" class="bt-big-cursor btn btn-secondary btn-sm mb-1">
                 <svg class="px-0" width="12.5px" height="12.5px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#cursor-fill" />
@@ -39,8 +42,7 @@
             </button>
         </div>
     </div>
-    <button class="btn btn-sm btn-warning m-2" type="button" data-toggle="collapse" data-target="#ability"
-        aria-expanded="false">
+    <button class="btn btn-sm btn-warning m-2" type="button" data-toggle="collapse" data-target="#ability" aria-expanded="false">
         <svg class="bi" width="30px" height="30px" fill="currentColor">
             <use xlink:href="../svg/bootstrap-icons.svg#info-square" />
         </svg>

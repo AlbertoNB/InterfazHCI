@@ -63,8 +63,7 @@
                                 </form>
                             </div>
                         </div>
-
-                        <div class="overflow-auto mb-0" style="height: 250px; scrollbar-width: thin;">
+                        <div class="overflow-auto mb-0 scroll-decor" style="height: 250px; scrollbar-width: thin;">
                             <div class="media mt-3">
                                 <a class="mr-3" href="#">
                                     <img src="..." alt="...">
@@ -264,6 +263,7 @@
             </div>
         </div>
     </div>
+    <!--Ventana de respuestas a foro-->
     <div class="modal fade" id="ventanaforo-t">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">

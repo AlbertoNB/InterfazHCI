@@ -11408,6 +11408,26 @@ body.dark .dropdown-item:active {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*---------big cursor----------*/
+body.big-cursor {
+  cursor: url(../svg/cursor_d.svg), auto !important;
+}
+
+body.big-cursor label, body.big-cursor
+select, body.big-cursor
+input[type="date"], body.big-cursor
+input[type="radio"], body.big-cursor
+input[type="checkbox"] {
+  cursor: url(../svg/cursor_d.svg), auto !important;
+}
+
+body.big-cursor a, body.big-cursor
+li, body.big-cursor
+.btn, body.big-cursor
+button {
+  cursor: url(../svg/cursor_pointer.svg), auto !important;
+}
+
 /*////////////////////////////////
             SIDEBAR
 ///////////////////////////////*/

@@ -1,6 +1,15 @@
-<div class="fixed-bottom">
+<div class="fixed-bottom" style="width: 12rem;">
     <div class="collapse mx-2" id="ability">
-        <div class="card card-body p-2" style="width: 12rem;">
+        <div class="card card-body p-2">
+            <button type="button d-inline" class="bt-big-cursor btn btn-secondary btn-sm mb-1">
+                <svg class="px-0" width="12.5px" height="12.5px" fill="currentColor">
+                    <use xlink:href="../svg/bootstrap-icons.svg#cursor-fill" />
+                </svg>
+                <svg class="px-0" width="25px" height="25px" fill="currentColor">
+                    <use xlink:href="../svg/bootstrap-icons.svg#cursor-fill" />
+                </svg>
+                Puntero
+            </button>
             <button type="button d-inline" class="aumentar btn btn-secondary btn-sm mb-1">
                 <svg class="px-0" width="25px" height="25px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#fonts" />

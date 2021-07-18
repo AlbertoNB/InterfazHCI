@@ -56,7 +56,7 @@
       font-size: 1rem;
     }
   }
-  h5{
+  h5 {
     &.text-small {
       font-size: 1rem;
     }
@@ -166,8 +166,34 @@
     &:hover {
       background-color: rgba(0, 0, 0, 0.35);
     }
-    &:active{
+    &:active {
       background-color: rgba(0, 0, 0, 0.5);
     }
+  }
+}
+
+/*---------big cursor----------*/
+body {
+  &.big-cursor {
+    cursor: url(../svg/cursor_d.svg), auto !important;
+  }
+}
+
+label,
+select,
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"] {
+  body.big-cursor & {
+    cursor: url(../svg/cursor_d.svg), auto !important;
+  }
+}
+
+a,
+li,
+.btn,
+button {
+  body.big-cursor & {
+    cursor: url(../svg/cursor_pointer.svg), auto !important;
   }
 }

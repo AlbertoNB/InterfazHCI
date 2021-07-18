@@ -62,6 +62,14 @@
   }
 }
 
+.puntero {
+  cursor: url(../svg/cursor.svg), auto;
+}
+button, a {
+  cursor: url(../svg/cursor-pointer.svg), auto;
+}
+
+
 /*
 h1 {
   body.reset & {

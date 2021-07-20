@@ -11442,6 +11442,12 @@ body.open-dyslexic {
   font-family: OpenDyslexic;
 }
 
+/*-------------Aplicando gray scale-------------*/
+body.grayscale {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 /*////////////////////////////////
             SIDEBAR
 ///////////////////////////////*/

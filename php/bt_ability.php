@@ -1,6 +1,10 @@
 <div class="fixed-bottom" style="width: 12rem;">
     <div class="collapse mx-2" id="ability">
         <div class="card card-body p-2">
+            <button type="button d-inline" class="bt-grayscale btn btn-secondary btn-sm mb-1">
+                <span class="badge badge-light">Blanco</span>
+                <span class="badge badge-dark">Negro</span>
+            </button>
             <button type="button d-inline" class="bt-dyslexic-font dyslexic-font btn btn-secondary btn-sm mb-1">
                 Dislexia
             </button>

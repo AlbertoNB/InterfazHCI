@@ -211,3 +211,10 @@ body {
 .dyslexic-font {
   font-family: OpenDyslexic;
 }
+
+/*-------------Aplicando gray scale-------------*/
+body {
+   &.grayscale {
+    filter: grayscale(100%);
+  }
+}

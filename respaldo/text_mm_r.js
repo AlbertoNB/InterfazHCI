@@ -1,21 +1,30 @@
 
+// Defino un tamaño de letra inicial de 16px
+function tamañoLetra() {
+  size = $(".mitexto" ).css("font-size");
+  size = parseInt(size, 10);
+}
+
+// Obtengo el tamaño de letra inicial de 16px 
+tamañoLetra();
+
 // Función para disminuir el tamaño del texto (fuente) 
-$(".disminuir").on("click", function () {
-  $("h1, h2, h3, h4, h5, h6, p").css("font-size", "-=2");
+$(".disminuir").on("click", function() {
+  if ((size - 2) >= 13) {
+    $(".mitexto").css("font-size", "-=2");
+  }
 });
 
 // Función para aumentar el tamaño del texto (fuente) 
-$(".aumentar").on("click", function () {
-  $("h1, h2, h3, h4, h5, h6, p").css("font-size", "+=2");
+$(".aumentar").on("click", function() { 
+  if ((size + 2) <= 47) {
+    $(".mitexto").css("font-size", "+=2");
+  }
 });
 
 // Función para restablecer el tamaño del texto (fuente) al tamaño inicial 
-$(".restablecer").on("click", function () {
-  $("h1").css("font-size", "2.5rem");
-  $("h2").css("font-size", "2rem");
-  $("h3").css("font-size", "1.75rem");
-  $("h4").css("font-size", "1.5rem");
-  $("h5").css("font-size", "1.25rem");
-  $("h6").css("font-size", "1rem");
-  $("p").css("font-size", "16px");
-});
+$(".restablecer").on("click", function() {
+  $(".mitexto").css("font-size", "initial");
+  size = $(".mitexto" ).css("font-size");
+  size = parseInt(size, 10);
+}); 

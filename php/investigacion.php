@@ -20,7 +20,7 @@
                 </button>
             </div>
         </div>
-        <p class="mb-3 mitexto">Esta opción únicamente se encontrará disponible para los investigadores dentro de un Proceso i+.
+        <p class="mb-3 la-sm">Esta opción únicamente se encontrará disponible para los investigadores dentro de un Proceso i+.
             Todas las actividades serán sometidas a un flujo de validación/aprobación que influirá directamente en el
             avance total del proceso.
         </p>

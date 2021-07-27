@@ -2,7 +2,7 @@
 <main class="space_body content-right">
     <div class="container-md my-3 mode-dark2">
         <h4>Manual</h4>
-        <p class="mitexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit exercitationem quibusdam optio
+        <p class="la-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit exercitationem quibusdam optio
             explicabo officiis suscipit fugit! Voluptatem delectus deleniti ad consequuntur repellat amet quibusdam
             tempore inventore, nisi dolor aliquam.
         </p>
@@ -18,7 +18,7 @@
                 </blockquote>
             </div>
         </div>
-        <p class="mitexto"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem vitae sed molestias. Esse cupiditate corporis,
+        <p class="la-sm"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem vitae sed molestias. Esse cupiditate corporis,
             temporibus deleniti voluptatem earum natus laudantium, ut exercitationem at rem nisi illo velit minus
             perferendis!
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto praesentium omnis fugit commodi
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <p class="blockquote-footer mitexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere aspernatur alias, impedit facilis,
+        <p class="blockquote-footer la-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere aspernatur alias, impedit facilis,
             est neque porro voluptas eligendi esse, perferendis nobis minus iure reprehenderit ipsa necessitatibus eos
             quam debitis.</p>
     </div>

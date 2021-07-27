@@ -59,10 +59,7 @@
                     heavy. Heavy is the head that wears the crown.
                 </p>
             </div>
-
-            <small class="d-block text-right mt-3">
-                <a href="#">All updates</a>
-            </small>
+            <a href="#" class="d-block text-right mt-3 small">All updates</a>
         </div>
 
         <div>

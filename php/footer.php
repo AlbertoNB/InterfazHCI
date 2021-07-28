@@ -62,10 +62,6 @@
 <script src="../js/jquery-3.5.1.slim.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js2/cambios.js"></script>
-<script src="../js2/cursor.js"></script>
-<script src="../js2/dyslexic-font.js"></script>
-<script src="../js2/gray.js"></script>
-<script src="../js2/text_mm.js"></script>
 </body>
 
 </html>

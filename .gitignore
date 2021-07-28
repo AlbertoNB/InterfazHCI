@@ -11,7 +11,13 @@ notas.txt
 #///////////////////////////////////////
 bootstrap-4.6.0/*/*
 !bootstrap-4.6.0/scss/_variables.scss
-img/
+img/*
+
+!img/1.jpg
+!img/2.jpg
+!img/3.jpg
+!img/4.jpg
+
 diseño/
 .vs/
 .vscode/

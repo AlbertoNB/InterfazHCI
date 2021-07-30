@@ -2,7 +2,7 @@
 
 <main class="space_body content-right">
     <div class="container-md my-3">
-        <div class="d-flex align-items-center p-3 mb-3 bg-success rounded shadow-sm mode-dark5">
+        <div class="d-flex align-items-center p-3 mb-3 bg-primary rounded shadow-sm mode-dark5">
             <h4 class="mb-0 text-white">Desarrollo de temario de tesis</h4>
         </div>
         <div class="row mb-3">

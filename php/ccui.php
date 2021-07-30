@@ -3,13 +3,13 @@
     <div class="container-md my-3">
         <div id="regreso">
             <div class="mb-3" >
-                <button class="btn-sm btn-success" data-toggle="collapse" data-target="#ponente" aria-expanded="true">
+                <button class="btn-sm btn-primary" data-toggle="collapse" data-target="#ponente" aria-expanded="true">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#file-person" />
                     </svg>
                     Ponente
                 </button>
-                <button class="btn-sm btn-success" data-toggle="collapse" data-target="#asistente" aria-expanded="true">
+                <button class="btn-sm btn-primary" data-toggle="collapse" data-target="#asistente" aria-expanded="true">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-plus-fill" />
                     </svg>

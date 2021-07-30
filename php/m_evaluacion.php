@@ -5,7 +5,7 @@
                 <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
-                    <span class="badge badge-pill badge-primary">1</span>
+                    <span class="badge badge-pill badge-success">1</span>
                 </small>
             </div>
             <div class="row d-flex align-items-center">
@@ -28,7 +28,7 @@
                 <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
-                    <span class="badge badge-pill badge-primary">2</span>
+                    <span class="badge badge-pill badge-success">2</span>
                 </small>
             </div>
             <div class="row d-flex align-items-center">
@@ -51,7 +51,7 @@
                 <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
-                    <span class="badge badge-pill badge-primary">3</span>
+                    <span class="badge badge-pill badge-success">3</span>
                 </small>
             </div>
             <div class="row d-flex align-items-center">
@@ -74,7 +74,7 @@
                 <h5 class="mb-1 font-weight-bold text-small">Concepto básico y teorías</h5>
                 <small class="pr-0 ">
                     Unidad:
-                    <span class="badge badge-pill badge-primary">4</span>
+                    <span class="badge badge-pill badge-success">4</span>
                 </small>
             </div>
             <div class="row d-flex align-items-center">
@@ -368,7 +368,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn-sm btn-primary">
+                <button type="button" class="btn-sm btn-success">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#save2" />
                     </svg>

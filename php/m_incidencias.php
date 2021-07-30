@@ -10,7 +10,7 @@
             </h5>
         </div>
         <div class="col-auto">
-            <a class="navbar-brand mx-0 text-success" role="button" data-toggle="modal" data-target="#targetIncid">
+            <a class="navbar-brand mx-0 text-primary" role="button" data-toggle="modal" data-target="#targetIncid">
                 <svg class="bi" width="35px" height="35px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#plus-circle-fill" />
                 </svg>
@@ -26,7 +26,7 @@
                     <small> <b>Fecha:</b>  20-06-01</small>
                 </div>
                 <div class="col-auto px-1">
-                <svg class="text-success" width="30px" height="30px" fill="currentColor">
+                <svg class="text-primary" width="30px" height="30px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#eye-fill" />
                     </svg>
                 </div>

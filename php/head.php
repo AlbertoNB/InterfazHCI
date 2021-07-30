@@ -71,17 +71,17 @@
                         </span>
                     </button>
                 </a>
-                <a class="text-success text-decoration-none me-2" href="chat.php">
+                <a class="text-primary text-decoration-none me-2" href="chat.php">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#chat" />
                     </svg>
                 </a>
-                <a class="text-success  text-decoration-none me-2" href="">
+                <a class="text-primary  text-decoration-none me-2" href="">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#bell" />
                     </svg>
                 </a>
-                <a class="text-success text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <svg class="bi" width="40px" height="40px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                     </svg>

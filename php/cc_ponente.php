@@ -15,7 +15,7 @@
                         explicabo voluptate dolor deleniti eius, maiores, voluptates sint corrupti, excepturi voluptatum
                         quibusdam sunt pariatur neque.
                     </p>
-                    <button class="btn-sm btn-success">
+                    <button class="btn-sm btn-primary">
                         <!--Centrar el boton!-->
                         <svg width="20px" height="20px">
                             <use xlink:href="../svg/bootstrap-icons.svg#download" />
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="col-auto pl-0">
-                    <button class="btn-sm btn-success btn-center">
+                    <button class="btn-sm btn-primary btn-center">
                         <svg width="20px" height="20px">
                             <use xlink:href="../svg/bootstrap-icons.svg#plus-circle-fill" />
                         </svg>

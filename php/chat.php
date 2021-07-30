@@ -1,7 +1,7 @@
 <?php include('head.php') ?>
 <main class="space_body content-right">
     <div class="container-md my-3">
-        <div class="d-flex align-items-center p-3 bg-success rounded shadow-sm mode-dark4">
+        <div class="d-flex align-items-center p-3 bg-primary rounded shadow-sm mode-dark4">
             <h4 class="mb-0 text-white">Chateando XD</h4>
         </div>
 

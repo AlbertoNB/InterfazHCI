@@ -26,7 +26,7 @@
             <small>100.0%</small>
         </div>
         <div class="col">
-            <button type="button" class="btn btn-outline-primary">
+            <button type="button" class="btn btn-outline-success">
                 <svg width="25px" height="25px">
                     <use xlink:href="../svg/bootstrap-icons.svg#exclamation-circle-fill" />
                 </svg>
@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="col-auto pl-1 pr-0">
-                    <span class="badge badge-pill badge-primary">Asistió</span>
+                    <span class="badge badge-pill badge-success">Asistió</span>
                 </div>
             </div>
             <div class="row">
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="col-auto pl-1 pr-0">
-                    <span class="badge badge-pill badge-primary">Asistió</span>
+                    <span class="badge badge-pill badge-success">Asistió</span>
                 </div>
             </div>
             <div class="row">
@@ -194,7 +194,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn-sm btn-primary">
+                <button type="button" class="btn-sm btn-success">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#save2" />
                     </svg>
@@ -230,7 +230,7 @@
                     </div>
                 </form>
                 <div class="text-center mt-2">
-                    <button type="button" class="btn-sm btn-primary">
+                    <button type="button" class="btn-sm btn-success">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post-fill" />
                         </svg>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
+    <link rel="stylesheet" href="../svg/bootstrap-icons.svg">
+    <title>Login</title>
+</head>
+
+<body class="">
+    <div class="container mx-auto row align-items-center justify-content-center vh-100">
+        <div class="card my-2 border-primary bg-light border-2">
+            <div class="card-body ">
+                <div class="row mb-3">
+                    <div class="col-auto d-flex align-items-center">
+                        <svg width="75px" height="75px" fill="currentColor">
+                            <use xlink:href="../svg/bootstrap-icons.svg#sppv" />
+                        </svg>
+                        <table class="d-inline my-0" style="line-height: 40%;">
+                            <tr>
+                                <td>
+                                    <h2 class="font-weight-bold text-warning my-0" style="line-height: 90%;">SPPV</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="font-weight-bold text-primary" style="font-size: 9px;">Sistema de
+                                        práctica <br> preprofecional, <br>
+                                        pasantía y vinculación</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <h5 class="font-weight-bold text-primary">Sistema de práctica preprofecional, pasantía y
+                            vinculación</h5>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="font-weight-bold text-center mb-3 bg-primary text-warning rounded-top py-1">Guia para pasantías y vinculación</h6>
+                        <div>
+                            <button class="btn btn-block mb-1 btn-warning dropdown-toggle" type="button"
+                                id="sppv1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Información
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="sppv1">
+                                <a class="dropdown-item" href="#">Reglamento de prácticas y pasantias</a>
+                                <a class="dropdown-item" href="#">Reglamento de DGVS y centro vinculación</a>
+                                <a class="dropdown-item" href="#">Reglamento de regimen academico</a>
+                                <a class="dropdown-item" href="#">Reglamento de loes</a>
+                                <a class="dropdown-item" href="#">Flujo de proceso</a>
+                                <a class="dropdown-item" href="#">Solicitud de PPP presencial</a>
+                                <a class="dropdown-item" href="#">Carta de compromiso</a>
+                                <a class="dropdown-item" href="#">Evaluación del supervisor</a>
+                                <a class="dropdown-item" href="#">Criterio de exposición</a>
+                                <a class="dropdown-item" href="#">Vinculación On-Line</a>
+                                <a class="dropdown-item" href="#">Pasantía On-Line</a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-block mb-1 btn-warning dropdown-toggle" type="button"
+                                id="dropdown-sppv2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PIV
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-sppv2">
+                                <a class="dropdown-item" href="#">PIV 2017-2018</a>
+                                <a class="dropdown-item" href="#">PIV 2019-2021</a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-block mb-1 btn-warning dropdown-toggle" type="button"
+                                id="dropdown-sppv3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Manuales
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-sppv3">
+                                <a class="dropdown-item" href="#">Manual planificar informe</a>
+                                <a class="dropdown-item" href="#">Manual enviar informe</a>
+                                <a class="dropdown-item" href="#">Manual atender informe</a>
+                                <a class="dropdown-item" href="#">Manual de pasantias</a>
+                                <a class="dropdown-item" href="#">Manual de vinculación</a>
+                            </div>
+                        </div>
+                        <button class="btn btn-info btn-block mb-3">
+                            Verificar
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="font-weight-bold text-center bg-primary text-warning py-1 rounded-top">Ingrese con sus credenciales del SGA</h6>
+                        <form class="needs-validation">
+                            <div class="mb-3">
+                                <label class="form-label font-weight-bold">Usuario</label>
+                                <div class="form-inline position-relative">
+                                    <svg class="bi an-icon-input" width="20px" height="20px" fill="currentColor">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#person" />
+                                    </svg>
+                                    <input type="text" class="form-control w-100" placeholder="usuario@utm.edu.ec"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label font-weight-bold">Contraseña</label>
+                                <div class="form-inline position-relative">
+                                    <!--se puede omitir position-relative si se aumenta el left en an-icon-input(css)-->
+                                    <svg class="bi an-icon-input" width="20px" height="20px" fill="currentColor">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#lock-fill" />
+                                    </svg>
+                                    <!--se puede omitir position-relative si se aumenta el left en an-icon-input-r(css)-->
+                                    <button class="btn-input an-icon-input-r" type="submit">
+                                        <svg width="20px" height="20px">
+                                            <use xlink:href="../svg/bootstrap-icons.svg#eye" />
+                                        </svg>
+                                    </button>
+                                    <input type="password" class="form-control w-100" id="formGroupExampleInput2"
+                                        placeholder="************" required>
+                                </div>
+                            </div>
+
+                            <!--Checkbox-->
+                            <div class="custom-control custom-checkbox mb-3">
+                                <!--mb-3 separa los componentes-->
+                                <input type="checkbox" class="custom-control-input" value="" id="lomismo">
+                                <label class="custom-control-label font-weight-bold" for="lomismo">
+                                    Recordar usuario
+                                </label>
+                            </div>
+                            <!--Botones-->
+                            <button class="btn-sm btn-warning btn-block mb-3" type="submit">
+                                <svg class="bi" width="20px" height="20px" fill="currentColor">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
+                                </svg>
+                                Ingresar
+                            </button>
+
+                            <div class="text-center">
+                                <a href="#" class="text-decoration-none text-success">
+                                    ¿Olvidó su nombre de usuario o contraseña?</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js2/cambios.js"></script>
+</body>
+
+</html>

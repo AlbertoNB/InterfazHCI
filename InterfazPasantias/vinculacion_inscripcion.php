@@ -1,4 +1,4 @@
-<div class="collapse show" id="inscripcion" data-parent="#vinculacion">
+<div class="collapse" id="inscripcion" data-parent="#vinculacion">
     <div class="bg-secondary p-2 mb-2">
         <h5 class="text-white d-flex align-items-center m-0">
             <svg class="mr-1" width="20px" height="20px">

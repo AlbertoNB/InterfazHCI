@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../scss/utm_bootstrap.css">
-    <!--../css/bootstrap.min.css-->
-    <!--<link rel="stylesheet" href="../css2/cambios.1.css">-->
     <link rel="stylesheet" href="../css2/detalles.css">
     <title>index</title>
 </head>
 
 <body class="d-flex flex-column h-100 bg-light">
     <?php include('sidebar.php') ?>
+    <?php include('bt_ability.php') ?>
 
     <head>
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
@@ -23,31 +22,34 @@
                 </svg>
             </button>
             <a class="navbar-brand mr-0" href="index.php">
-                <div class="col-auto d-flex align-items-center">
+                <div class="col-auto d-flex align-items-center pr-1">
                     <svg width="50px" height="50px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#sppv" />
                     </svg>
-                    <table class="d-inline my-0" style="line-height: 4%;">
-                        <tr>
-                            <td>
-                                <h4 class="font-weight-bold my-0" style="line-height: 80%; color: #f8ca25;">SPPV</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><span class="font-weight-bold text-primary" style="font-size: 7px;">Sistema de
-                                    práctica <br> preprofecional, <br>
-                                    pasantía y vinculación</span>
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="collapse navbar-collapse">
+                        <table class="d-inline my-0" style="line-height: 7%;">
+                            <tr>
+                                <td>
+                                    <h4 class="font-weight-bold my-0" style="line-height: 80%; color: #f8ca25;">SPPV</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="font-weight-bold text-primary" style="font-size: 7px;">Sistema de
+                                        práctica <br> preprofecional, <br>
+                                        pasantía y vinculación</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler bg-warning px-1" type="button" data-toggle="collapse" data-target="#navbarPracticas" aria-controls="navbarPracticas" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="20px" height="20px" fill="currentColor">
+                    <use xlink:href="../svg/bootstrap-icons.svg#list" />
+                </svg>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarPracticas">
                 <div class="navbar-nav my-1">
                     <a class="nav-link" href="index.php">
                         <svg width="15px" height="15px">
@@ -96,38 +98,37 @@
                         <use xlink:href="../svg/bootstrap-icons.svg#bell" />
                     </svg>
                 </a>
-                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <svg class="bi" width="40px" height="40px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                     </svg>
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="area_p.php">
+                    <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#speedometer2" />
                         </svg>
-                        Area personal
+                        Pasantias
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="perfil.php">
+                    <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#person-fill" />
                         </svg>
-                        Perfil
+                        -----
                     </a>
-                    <a class="dropdown-item" href="manual.php">
+                    <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#journal-medical" />
                         </svg>
-                        Manula de usuario
+                        Manual de usuario
                     </a>
                     <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#calendar-week" />
                         </svg>
-                        Calendario
+                        ----------
                     </a>
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#ventana_rol">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
@@ -136,7 +137,7 @@
                         Rol
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../html/login.html">
+                    <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-right" />
                         </svg>
@@ -170,8 +171,6 @@
                                 <option>Docente</option>
                             </select>
                         </div>
-
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>

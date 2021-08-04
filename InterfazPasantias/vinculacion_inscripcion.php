@@ -1,6 +1,6 @@
 <div class="collapse" id="inscripcion" data-parent="#vinculacion">
     <div class="bg-secondary p-2 mb-2">
-        <h5 class="text-white d-flex align-items-center m-0">
+        <h5 class="text-white d-flex align-items-center text-small m-0">
             <svg class="mr-1" width="20px" height="20px">
                 <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
             </svg>
@@ -240,7 +240,7 @@
 </div>
 <!--Tarjeta de inscripción-->
 <div class="modal fade" id="target-inscripcion">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
         <div class="modal-content">
             <div class="modal-header py-2 bg-primary">
                 <h6 class="modal-title text-white">Inscripción</h6>

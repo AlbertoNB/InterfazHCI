@@ -105,7 +105,7 @@
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#journal-medical" />
                         </svg>
-                        Manula de usuario
+                        Manual de usuario
                     </a>
                     <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">

@@ -8,7 +8,7 @@
         </select>
     </div>
     <div id="vinculacion">
-        <div class="collapse " id="" data-parent="#vinculacion"><!--show-->
+        <div class="collapse show" id="" data-parent="#vinculacion">
             <h4 class="font-weight-bold text-center">Aviso</h4>
             <div class="alert alert-info rounded-0" role="alert">
                 Recuerde que todas sus acciones en el sistema son registradas con fines de auditorías..

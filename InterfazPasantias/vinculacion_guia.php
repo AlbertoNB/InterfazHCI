@@ -1,6 +1,6 @@
-<div class="collapse show" id="guia" data-parent="#vinculacion">
+<div class="collapse" id="guia" data-parent="#vinculacion">
     <div class="bg-secondary p-2 mb-2">
-        <h5 class="text-white d-flex align-items-center m-0">
+        <h5 class="text-white d-flex align-items-center text-small m-0">
             Convenio, carta de compromiso o documento equivalente
         </h5>
     </div>

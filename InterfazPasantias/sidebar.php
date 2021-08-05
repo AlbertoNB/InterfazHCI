@@ -63,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-info btn-block mb-3">
+        <button class="btn btn-info btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video" aria-expanded="false">
             Videos
         </button>
     </div>

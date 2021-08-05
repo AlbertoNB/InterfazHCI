@@ -17,5 +17,6 @@
         <?php include('vinculacion_inscripcion.php') ?>
         <?php include('vinculacion_gestor.php') ?>
         <?php include('vinculacion_guia.php') ?>
+        <?php include('vinculacion_ayuda_video.php') ?>
     </div>
 </div>

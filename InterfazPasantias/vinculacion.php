@@ -1,4 +1,4 @@
-<div class="collapse show" id="nav-vinculacion" data-parent="#pasantiaVinculacionCont">
+<div class="collapse" id="nav-vinculacion" data-parent="#pasantiaVinculacionCont"><!--show-->
     <div class="m-2">
         <div class="p-2 mb-2 bg-primary shadow-sm mode-dark5">
             <h4 class="font-weight-bold text-warning text-center">Sistema de proyectos de vinculación

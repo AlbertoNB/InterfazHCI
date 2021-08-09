@@ -1,21 +1,22 @@
-<div class="collapse show" id="guia-p" data-parent="#pasantia">
-<div class="bg-secondary p-2 mb-2">
+<div class="collapse" id="guia-p" data-parent="#pasantia">
+    <div class="bg-secondary p-2 mb-2">
         <h5 class="text-white d-flex align-items-center text-small m-0">
             Indicaciones, Formatos y Contenidos
         </h5>
     </div>
-    <div class="accordion" id="etapas-ifc"><!--etapas-ifc  <- sacarlo para que se vea mejor -->
+    <div class="accordion" id="etapas-ifc">
+        <!--etapas-ifc  <- sacarlo para que se vea mejor -->
         <div class="card">
             <div class="card-header bg-warning p-1" id="espacio1">
-                <button class="btn btn-link btn-block font-weight-bold text-left" type="button" data-toggle="collapse"
-                    data-target="#indicaciones" aria-expanded="true" aria-controls="indicaciones">
+                <button class="btn btn-link btn-block font-weight-bold text-left" type="button" data-toggle="collapse" data-target="#indicaciones" aria-expanded="true" aria-controls="indicaciones">
                     <svg class="mr-1" width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-check-fill" />
                     </svg>
                     Indicaciones generales
                 </button>
             </div>
-            <div id="indicaciones" class="collapse" aria-labelledby="espacio1" data-parent="#etapas-ifc"> <!--show-->
+            <div id="indicaciones" class="collapse" aria-labelledby="espacio1" data-parent="#etapas-ifc">
+                <!--show-->
                 <div class="card-body py-2">
                     <ul>
                         <li>Esta es una guia y no sustituye las disposiciones de cada Carrera acerca del contenido del informe final. </li>
@@ -28,8 +29,7 @@
         </div>
         <div class="card">
             <div class="card-header bg-warning p-1" id="espacio2">
-                <button class="btn btn-link btn-block font-weight-bold text-left collapsed" type="button"
-                    data-toggle="collapse" data-target="#formato" aria-expanded="false" aria-controls="formato">
+                <button class="btn btn-link btn-block font-weight-bold text-left collapsed" type="button" data-toggle="collapse" data-target="#formato" aria-expanded="false" aria-controls="formato">
                     <svg class="mr-1" width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-check-fill" />
                     </svg>
@@ -52,8 +52,7 @@
         </div>
         <div class="card">
             <div class="card-header bg-warning p-1" id="espacio3">
-                <button class="btn btn-link btn-block font-weight-bold text-left collapsed" type="button"
-                    data-toggle="collapse" data-target="#contenido" aria-expanded="false" aria-controls="contenido">
+                <button class="btn btn-link btn-block font-weight-bold text-left collapsed" type="button" data-toggle="collapse" data-target="#contenido" aria-expanded="false" aria-controls="contenido">
                     <svg class="mr-1" width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-check-fill" />
                     </svg>

@@ -5,14 +5,12 @@
         <div class="accordion mb-2" id="accordionExample">
             <div class="card">
                 <div class="card-header bg-warning py-1" id="headingOne">
-                    <button class="btn py-0 btn-link btn-block text-left dropdown-toggle" type="button" data-toggle="collapse"
-                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn py-0 btn-link btn-block text-left dropdown-toggle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Información
                     </button>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                    data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="list-group">
                         <a class="list-group-item list-group-item-action py-1" href="#">Reglamento de prácticas y
                             pasantias</a>
@@ -33,8 +31,7 @@
             </div>
             <div class="card">
                 <div class="card-header bg-warning py-1" id="headingTwo">
-                    <button class="btn py-0 btn-link btn-block text-left dropdown-toggle collapsed" type="button" data-toggle="collapse"
-                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn py-0 btn-link btn-block text-left dropdown-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         PIV
                     </button>
                 </div>
@@ -47,8 +44,7 @@
             </div>
             <div class="card">
                 <div class="card-header bg-warning py-1" id="headingThree">
-                    <button class="btn py-0 btn-link btn-block text-left dropdown-toggle collapsed" type="button" data-toggle="collapse"
-                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn py-0 btn-link btn-block text-left dropdown-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Manuales
                     </button>
                 </div>
@@ -63,10 +59,18 @@
                 </div>
             </div>
         </div>
-        <button class="btn btn-info btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video" aria-expanded="false">
-            Videos
-        </button>
+        <div id="pasantiaVinculacionSid">
+            <div class="collapse show" id="nav-vinculacion" data-parent="#pasantiaVinculacionSid">
+                <button class="btn btn-info btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video" aria-expanded="true">
+                    Videos
+                </button>
+            </div>
+            <div class="collapse" id="nav-pasantia" data-parent="#pasantiaVinculacionSid">
+                <button class="btn btn-info btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video-p" aria-expanded="false">
+                    Videos
+                </button>
+            </div>
+        </div>
     </div>
-
 </div>
 <button class="bt-sidebar-left sidebarCollapse"></button>

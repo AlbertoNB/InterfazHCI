@@ -60,7 +60,7 @@
                     </button>
                 </div>
             </div>
-            <p>
+            <p class="mode-dark2">
                 <b>Duración: </b>2019-01-28 a 2019-03-15 <br>
                 <b>Horas: </b>240<br>
                 <b>Tutor: </b>Mero Ramírez Kevin Michael<br>

@@ -69,16 +69,13 @@
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                                 </svg>
-                                Gestor de proyecto
+                                Gestor
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia" aria-expanded="false">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
                                 </svg>
-                                Guía de informes
-                            </a>
-                            <a class="nav-link" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false">
-                                Pasantias!
+                                Guías
                             </a>
                         </div>
                         <div class="collapse navbar-nav" id="nav-pasantia" data-parent="#pasantiaVinculacionNav">
@@ -100,21 +97,25 @@
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                                 </svg>
-                                Gestor de Pasantía
+                                Gestor
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia-p" aria-expanded="false">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
                                 </svg>
-                                Guía de informes
+                                Guías
                             </a>
-                            <a class="nav-link" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true">
-                                Vinculación!
-                            </a>
+
                         </div>
                     </div>
+                    <a class="btn btn-primary m-1" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false">
+                        Pasantias!
+                    </a>
+                    <a class="btn btn-warning text-dark m-1" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true">
+                        Vinculación!
+                    </a>
+
                 </div>
-                
             </div>
 
             <div class="">
@@ -144,36 +145,30 @@
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#ventana_rol">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
-                            <use xlink:href="../svg/bootstrap-icons.svg#speedometer2" />
+                            <use xlink:href="../svg/bootstrap-icons.svg#person-badge" />
                         </svg>
-                        Pasantias
+                        Rol
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-pasantia" > <!--aria-expanded="false"-->
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
-                            <use xlink:href="../svg/bootstrap-icons.svg#person-fill" />
+                            <use xlink:href="../svg/bootstrap-icons.svg#briefcase" />
                         </svg>
-                        -----
+                        Pasantias!
+                    </a>
+                    <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-vinculacion" ><!--aria-expanded="true"-->
+                        <svg class="bi" width="20px" height="20px" fill="currentColor">
+                            <use xlink:href="../svg/bootstrap-icons.svg#people" />
+                        </svg>
+                        Vinculación!
                     </a>
                     <a class="dropdown-item" href="#">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#journal-medical" />
                         </svg>
                         Manual de usuario
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        <svg class="bi" width="20px" height="20px" fill="currentColor">
-                            <use xlink:href="../svg/bootstrap-icons.svg#calendar-week" />
-                        </svg>
-                        ----------
-                    </a>
-                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#ventana_rol">
-                        <svg class="bi" width="20px" height="20px" fill="currentColor">
-                            <use xlink:href="../svg/bootstrap-icons.svg#journals" />
-                        </svg>
-                        Rol
                     </a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">

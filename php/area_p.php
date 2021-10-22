@@ -6,9 +6,21 @@
                 <h5 class="my-0"> Mis notas </h5>
             </div>
             <div class="col-auto">
-            <button type="button" class="bt-escr btn btn-primary btn-sm">play</button>
-            <button type="button" class="bt-nescr btn btn-primary btn-sm">stop</button>
-            <button type="button" class="bt-escu btn btn-primary btn-sm">escucha</button>
+                <button type="button" class="bt-escr btn btn-primary btn-sm">
+                    <svg class="px-0" width="20px" height="20px" fill="currentColor">
+                        <use xlink:href="../svg/bootstrap-icons.svg#mic-fill" />
+                    </svg>
+                </button>
+                <button type="button" class="bt-nescr btn btn-primary btn-sm">
+                    <svg class="px-0" width="20px" height="20px" fill="currentColor">
+                        <use xlink:href="../svg/bootstrap-icons.svg#mic-mute-fill" />
+                    </svg>
+                </button>
+                <button type="button" class="bt-escu btn btn-primary btn-sm">
+                    <svg class="px-0" width="20px" height="20px" fill="currentColor">
+                        <use xlink:href="../svg/bootstrap-icons.svg#volume-up" />
+                    </svg>
+                </button>
             </div>
         </div>
         <textarea class="txt-escr form-control mb-3" rows="5"></textarea>

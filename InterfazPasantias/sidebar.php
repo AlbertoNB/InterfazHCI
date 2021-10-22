@@ -1,4 +1,4 @@
-<div class="sidebar-left bg-secondary text-white scroll-decor">
+<div class="sidebar-right bg-secondary text-white scroll-decor">
     <div class="p-2">
         <h6 class="font-weight-bold text-center bg-primary text-warning rounded-top my-2 py-1">Guia para pasantías y
             vinculación</h6>
@@ -73,4 +73,4 @@
         </div>
     </div>
 </div>
-<button class="bt-sidebar-left sidebarCollapse"></button>
+<button class="bt-sidebar-right sidebarCollapse"></button>

@@ -20,11 +20,11 @@ recognition.onerror = (event) => {
     console.log(event.error);
 }
 
-btnEscribir.addEventListener('click', () => {
+btnEscribir.addEventListener('click', () => { /*keydown mientras tengs precionado el boton*/
     recognition.start();
 });
 
-btnNoEscribir.addEventListener('click', () => {
+btnNoEscribir.addEventListener('click', () => { /*keyup al dejar de precionar el boton*/
     recognition.abort();
 });
 

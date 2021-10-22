@@ -218,13 +218,13 @@
             </div>
         </div>
     </head>
-    <main class="space_body content-left">
+    <main class="space_body content-right">
         <div id="pasantiaVinculacionCont">
             <?php include('vinculacion.php') ?>
             <?php include('pasantia.php') ?>
         </div>
     </main>
-    <footer class="mt-auto bg-dark pt-3 content-left">
+    <footer class="mt-auto bg-dark pt-3 content-right">
         <div class="container">
             <div class="row text-center">
                 <div class="col-sm">

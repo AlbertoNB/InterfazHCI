@@ -23,10 +23,11 @@ diseño/
 .vscode/
 video/
 svg/*.cdr
-css/
+#antes era css/
+css/*
 !css/bootstrap.css
 !css/bootstrap.min.css
-
-
-css2/evo-calendar.css
-evo-calendar.midnight-blue.css
+#Carpeta evo-calendar
+evo-calendar/css/*.css
+!evo-calendar/css/evo-calendar.css
+!evo-calendar/css/evo-calendar.min.css

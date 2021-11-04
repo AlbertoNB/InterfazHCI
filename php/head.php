@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../scss/utm_bootstrap.css"><!--../css/bootstrap.min.css-->
    <!--<link rel="stylesheet" href="../css2/cambios.1.css">--> 
     <link rel="stylesheet" href="../css2/detalles.css">
+    <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
     <title>index</title>
 </head>
 
@@ -107,7 +108,7 @@
                         </svg>
                         Manual de usuario
                     </a>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="calendario.php">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#calendar-week" />
                         </svg>

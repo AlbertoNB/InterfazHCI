@@ -11,7 +11,7 @@
                 <h6 class="mt-2 my-0 mx-3">Meza Hormaza Jaime Alcides</h6>
             </div>
             <div class="col-auto">
-                <button class="btn-sm ">
+                <button class="btn-sm" title="Plan de clase en PDF">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#download" />
                     </svg>
@@ -29,7 +29,7 @@
                     Clases
                 </label>
 
-                <label class="btn btn-secondary" data-toggle="collapse" data-target="#evaluacion" aria-expanded="false" role="button">
+                <label class="btn btn-secondary" data-toggle="collapse" data-target="#evaluacion" aria-expanded="false" role="button" title="Evaluar al docente">
                     <input type="radio" name="options">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#card-checklist" />
@@ -37,7 +37,7 @@
                     Evaluación
                 </label>
 
-                <label class="btn btn-secondary" data-toggle="collapse" data-target="#incidencias" aria-expanded="false" role="button">
+                <label class="btn btn-secondary" data-toggle="collapse" data-target="#incidencias" aria-expanded="false" role="button" title="Inconvenientes en clases ">
                 <input type="radio" name="options">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#exclamation-triangle-fill" />

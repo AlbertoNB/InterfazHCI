@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="list-group">
-            <a class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action disabled">
                 <div class="row d-flex align-items-center">
                     <div class="col-auto">
                         <p class="my-0">1</p>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </a>
-            <a class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action disabled">
                 <div class="row d-flex align-items-center">
                     <div class="col-auto">
                         <p class="my-0">2</p>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </a>
-            <a class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action disabled">
                 <div class="row d-flex align-items-center">
                     <div class="col-auto">
                         <p class="my-0">4</p>

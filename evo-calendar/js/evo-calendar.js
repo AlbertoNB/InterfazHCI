@@ -241,7 +241,7 @@
         var _ = this;
         
         if (!$(_.$elements.calendarEl).hasClass('calendar-initialized')) {
-            $(_.$elements.calendarEl).addClass('evo-calendar calendar-initialized');
+            $(_.$elements.calendarEl).addClass('evo-calendar calendar-initialized rounded-lg');/* cambio: aumento ->rounded-lg*/
             if (_.windowW <= _.$breakpoints.tablet) { // tablet/mobile
                 _.toggleSidebar(false);
                 _.toggleEventList(false);
@@ -580,7 +580,7 @@
                         '</div>';
 
             // events
-            markup += '<div class="calendar-events">'+
+            markup += '<div class="calendar-events mode-dark3">'+
                             '<div class="event-header"><p></p></div>'+
                             '<div class="event-list"></div>'+
                         '</div>';

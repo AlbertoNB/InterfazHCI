@@ -25,14 +25,14 @@
         </div>
         <textarea class="txt-escr form-control mb-3" rows="5"></textarea>
 
-        <h5 class="my-0"> Noificaciones del SPCA </h5>
+        <h5 class="my-0"> Notificaciones del SPCA </h5>
         <ul class="list-group mb-3 ">
             <li class="list-group-item"> </li>
             <li class="list-group-item"> </li>
             <li class="list-group-item"> </li>
             <li class="list-group-item"> </li>
         </ul>
-        <h5 class="my-0"> Noificaciones del SPCA </h5>
+        <h5 class="my-0"> Notificaciones del SPCA </h5>
         <ul class="list-group  ">
             <li class="list-group-item"> </li>
             <li class="list-group-item"> </li>

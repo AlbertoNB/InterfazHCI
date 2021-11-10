@@ -1,7 +1,7 @@
 <div class="sidebar-right bg-secondary text-white scroll-decor">
     <div class="p-2">
-        <h6 class="font-weight-bold text-center bg-primary text-warning rounded-top my-2 py-1">Guia para pasantías y
-            vinculación</h6>
+        <h6 class="font-weight-bold text-center bg-primary text-warning rounded-top my-2 py-1">Reglamentos y procesos PDF</h6> <!--Guia para pasantías y
+            vinculación-->
         <div class="accordion mb-2" id="accordionExample">
             <div class="card">
                 <div class="card-header bg-warning py-1" id="headingOne">

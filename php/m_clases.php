@@ -60,7 +60,7 @@
                             <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
                         </svg>
                     </button>
-                    <button class="btn-sm" data-toggle="modal" data-target="#v_imprimir">
+                    <button class="btn-sm" data-toggle="modal" data-target="#v_imprimir" title="Generar reporte de asistencia">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />
                         </svg>

@@ -8,12 +8,12 @@
             </div>
             <div class="col-auto">
                 <!--deberia mover los botones a la derecha!-->
-                <button class="btn-sm btn-warning">
+                <button class="btn-sm btn-warning" title="Opciones de impresión">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />
                     </svg>
                 </button>
-                <button class="btn-sm btn-warning" data-toggle="modal" data-target="#lista-procesos">
+                <button class="btn-sm btn-warning" data-toggle="modal" data-target="#lista-procesos" title="Búsqueda de procesos ">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#search" />
                     </svg>

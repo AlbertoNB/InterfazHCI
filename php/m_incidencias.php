@@ -10,7 +10,7 @@
             </h5>
         </div>
         <div class="col-auto">
-            <a class="navbar-brand mx-0 text-primary" role="button" data-toggle="modal" data-target="#targetIncid">
+            <a class="navbar-brand mx-0 text-primary" role="button" data-toggle="modal" data-target="#targetIncid" title="Agregar incidencia ">
                 <svg class="bi" width="35px" height="35px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#plus-circle-fill" />
                 </svg>
@@ -19,7 +19,7 @@
     </div>
     <ul class="list-group  ">
         <li class="list-group-item py-1 ">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center" title="Incidencia en proceso">
                 <div class="col pr-1">
                     <h5 class="mb-1 font-weight-bold text-small">Incumplimiento del syllabus</h5>
                     <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
@@ -33,7 +33,7 @@
             </div>
         </li>
         <li class="list-group-item py-1 ">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center" title="incidencia pendiente ">
                 <div class="col pr-1">
                     <h5 class="mb-1 text-small font-weight-bold">Incumplimiento del syllabus</h5>
                     <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>

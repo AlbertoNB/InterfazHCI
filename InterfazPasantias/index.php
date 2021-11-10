@@ -51,6 +51,12 @@
 
             <div class="navbar-collapse collapse" id="navbarPracticas">
                 <div class="navbar-nav my-1">
+                    <a class="btn btn-primary m-1" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false">
+                        Pasantias!
+                    </a>
+                    <a class="btn btn-warning text-dark m-1" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true">
+                        Vinculación!
+                    </a>
                     <div id="pasantiaVinculacionNav">
                         <div class="collapse show navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav">
                             <a class="nav-link btn text-left" href="index.php">
@@ -108,13 +114,6 @@
 
                         </div>
                     </div>
-                    <a class="btn btn-primary m-1" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false">
-                        Pasantias!
-                    </a>
-                    <a class="btn btn-warning text-dark m-1" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true">
-                        Vinculación!
-                    </a>
-
                 </div>
             </div>
 
@@ -152,13 +151,15 @@
                         Rol
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-pasantia" > <!--aria-expanded="false"-->
+                    <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-pasantia">
+                        <!--aria-expanded="false"-->
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#briefcase" />
                         </svg>
                         Pasantias!
                     </a>
-                    <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-vinculacion" ><!--aria-expanded="true"-->
+                    <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-vinculacion">
+                        <!--aria-expanded="true"-->
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#people" />
                         </svg>

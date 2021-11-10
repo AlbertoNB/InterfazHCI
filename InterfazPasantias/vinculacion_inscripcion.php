@@ -10,7 +10,7 @@
     <div class="form-group mb-2">
         <label class="font-weight-bold ml-3" for="buscarProyecto">Busque el proyecto</label>
         <div class="input-group">
-            <input type="text" class="form-control" id="buscarProyecto" placeholder="Tutulo de proyecto a buscar"
+            <input type="text" class="form-control" id="buscarProyecto" placeholder="Titulo de proyecto a buscar"
                 aria-label="" aria-describedby="busPro">
             <div class="input-group-append">
                 <button class="btn btn-warning" type="button" id="busPro">

@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../scss/utm_bootstrap.css"><!--../css/bootstrap.min.css-->
-   <!--<link rel="stylesheet" href="../css2/cambios.1.css">--> 
+    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
+    <!--../css/bootstrap.min.css-->
+    <!--<link rel="stylesheet" href="../css2/cambios.1.css">-->
     <link rel="stylesheet" href="../css2/detalles.css">
     <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
     <title>index</title>
 </head>
 
-<body class="d-flex flex-column h-100 bg-light">
+<body class="d-flex flex-column h-100 bg-light text-la-sm">
     <?php include('sidebar.php') ?>
     <?php include('bt_ability.php') ?>
+
     <head>
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index.php" title="Inicio">
                 <svg class="bi" width="45px" height="45px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#spca" />
                 </svg>
@@ -59,7 +61,7 @@
 
             <div class="">
                 <a class="me-2 text-decoration-none">
-                    <button class="switch">
+                    <button class="switch" title="Modo oscuro">
                         <span>
                             <svg class="mb-1" width="13px" height="13px">
                                 <use xlink:href="../svg/bootstrap-icons.svg#sun-fill" />
@@ -72,17 +74,17 @@
                         </span>
                     </button>
                 </a>
-                <a class="text-primary text-decoration-none me-2" href="chat.php">
+                <a class="text-primary text-decoration-none me-2" href="chat.php" title="Chateando">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#chat" />
                     </svg>
                 </a>
-                <a class="text-primary  text-decoration-none me-2" href="">
+                <a class="text-primary  text-decoration-none me-2" href="" title="Notificaciones">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#bell" />
                     </svg>
                 </a>
-                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="text-primary text-decoration-none dropdown-toggle" href="#" title="Área Personal" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <svg class="bi" width="40px" height="40px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                     </svg>

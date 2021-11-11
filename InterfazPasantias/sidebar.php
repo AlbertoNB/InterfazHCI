@@ -1,6 +1,6 @@
 <div class="sidebar-right bg-secondary text-white scroll-decor">
     <div class="p-2">
-        <h6 class="font-weight-bold text-center bg-primary text-warning rounded-top my-2 py-1">Reglamentos y procesos PDF</h6> <!--Guia para pasantías y
+        <h6 class="font-weight-bold text-center bg-primary text-warning rounded-top my-2 py-1">Reglamentos y procesos: PDF</h6> <!--Guia para pasantías y
             vinculación-->
         <div class="accordion mb-2" id="accordionExample">
             <div class="card">
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div id="pasantiaVinculacionSid">
-            <div class="collapse show" id="nav-vinculacion" data-parent="#pasantiaVinculacionSid">
+            <div class="collapse" id="nav-vinculacion" data-parent="#pasantiaVinculacionSid"><!--show-->
                 <button class="btn btn-info btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video" aria-expanded="true">
                     Videos
                 </button>

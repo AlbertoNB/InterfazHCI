@@ -16,11 +16,11 @@
 
     <head>
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
-            <button type="button" class="btn btn-primary sidebarCollapse btn-sm">
+           <!-- <button type="button" class="btn btn-primary sidebarCollapse btn-sm">
                 <svg width="20px" height="20px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#list" />
                 </svg>
-            </button>
+            </button>-->
             <a class="navbar-brand mr-0" href="index.php">
                 <div class="col-auto d-flex align-items-center pr-1">
                     <svg width="50px" height="50px" fill="currentColor">
@@ -51,33 +51,33 @@
 
             <div class="navbar-collapse collapse" id="navbarPracticas">
                 <div class="navbar-nav my-1">
-                    <a class="btn btn-primary m-1" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false">
+                    <a class="btn btn-primary m-1" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
                         Pasantias!
                     </a>
-                    <a class="btn btn-warning text-dark m-1" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true">
+                    <a class="btn btn-warning text-dark m-1" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
                         Vinculación!
                     </a>
                     <div id="pasantiaVinculacionNav">
-                        <div class="collapse show navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav">
+                        <div class="collapse navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav"><!--show -->
                             <a class="nav-link btn text-left" href="index.php">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
                                 </svg>
                                 Inicio
                             </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#inscripcion" aria-expanded="true">
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#inscripcion" aria-expanded="true" title="Inscribirse en vinculación ">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
                                 </svg>
                                 Inscripciones
                             </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor" aria-expanded="false">
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor" aria-expanded="false" title="Gestor de proyectos">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                                 </svg>
                                 Gestor
                             </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia" aria-expanded="false">
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia" aria-expanded="false" title="Guías de informes (Vinculación)">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
                                 </svg>
@@ -85,33 +85,32 @@
                             </a>
                         </div>
                         <div class="collapse navbar-nav" id="nav-pasantia" data-parent="#pasantiaVinculacionNav">
-                            <a class="nav-link btn text-left" href="">
+                            <a class="nav-link btn text-left" href="index.php">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
                                 </svg>
                                 Inicio
                             </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="modal" data-target="#target-solicitar-p">
+                            <a class="nav-link btn text-left" href="" data-toggle="modal" data-target="#target-solicitar-p" title="Solicitar pasantía">
                                 <!--data-toggle="collapse" data-target="#solicitar-p" aria-expanded="true"-->
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
                                 </svg>
                                 Solicitar
                             </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor-p" aria-expanded="true">
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor-p" aria-expanded="true" title="Gestor de pasantía">
                                 <!--aria-expanded="false"-->
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                                 </svg>
                                 Gestor
                             </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia-p" aria-expanded="false">
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia-p" aria-expanded="false" title="Guías de informes (Pasantia)">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
                                 </svg>
                                 Guías
                             </a>
-
                         </div>
                     </div>
                 </div>
@@ -119,7 +118,7 @@
 
             <div class="">
                 <a class="me-2 text-decoration-none">
-                    <button class="switch">
+                    <button class="switch" title="Modo oscuro">
                         <span>
                             <svg class="mb-1" width="13px" height="13px">
                                 <use xlink:href="../svg/bootstrap-icons.svg#sun-fill" />
@@ -132,12 +131,12 @@
                         </span>
                     </button>
                 </a>
-                <a class="text-primary  text-decoration-none me-2" href="">
+                <a class="text-primary  text-decoration-none me-2" href="" title="Notificaciones">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#bell" />
                     </svg>
                 </a>
-                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Área personal">
                     <svg class="bi" width="40px" height="40px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                     </svg>
@@ -221,6 +220,7 @@
     </head>
     <main class="space_body content-right">
         <div id="pasantiaVinculacionCont">
+            <?php include('home.php') ?>
             <?php include('vinculacion.php') ?>
             <?php include('pasantia.php') ?>
         </div>
@@ -232,7 +232,7 @@
                     <h5 class="text-white">Mantente en Contacto</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a class="link-secondary text-decoration-none" href="">
+                            <a class="link-secondary text-decoration-none" href="http://utm.edu.ec ">
                                 <svg class="bi" width="1rem" height="1rem" fill="currentColor">
                                     <use xlink:href="../svg/bootstrap-icons.svg#globe2" />
                                 </svg>
@@ -245,39 +245,37 @@
                             </svg>
                             (+593) 984 692 220
                         </p>
-                        <li>
-                            <a class="link-secondary text-decoration-none" href="">
-                                <svg class="bi" width="1rem" height="1rem" fill="currentColor">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#envelope" />
-                                </svg>
-                                spca@utm.edu.ec
-                            </a>
-                        </li>
+                        <p class="text-secondary mb-0">
+                            <svg class="bi" width="1rem" height="1rem" fill="currentColor">
+                                <use xlink:href="../svg/bootstrap-icons.svg#envelope" />
+                            </svg>
+                            spca@utm.edu.ec
+                        </p>
                     </ul>
                 </div>
 
                 <div class="col-sm mb-2">
-                    <a class="link-secondary text-decoration-none me-2" href="">
+                    <a class="link-secondary text-decoration-none me-2" href="https://www.facebook.com/utmmanabi" title="facebook">
                         <svg class="bi" width="2rem" height="2rem" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#facebook" />
                         </svg>
                     </a>
-                    <a class="link-secondary text-decoration-none me-2" href="">
+                    <a class="link-secondary text-decoration-none me-2" href="https://www.youtube.com/user/UTMManabi" title="youtube">
                         <svg class="bi" width="2rem" height="2rem" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#youtube" />
                         </svg>
                     </a>
-                    <a class="link-secondary text-decoration-none me-2" href="">
+                    <a class="link-secondary text-decoration-none me-2" href="https://twitter.com/UTMManabi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="twitter">
                         <svg class="bi" width="2rem" height="2rem" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#twitter" />
                         </svg>
                     </a>
-                    <a class="link-secondary text-decoration-none me-2" href="">
+                    <a class="link-secondary text-decoration-none me-2" href="https://www.instagram.com/utmmanabii/?hl=es" title="instagram">
                         <svg class="bi" width="2rem" height="2rem" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#instagram" />
                         </svg>
                     </a>
-                    <a class="link-secondary text-decoration-none me-2" href="">
+                    <a class="link-secondary text-decoration-none me-2" href="https://chat.whatsapp.com/Jo4ZtrWQSNK6pXVjsxkrZk" title="whatsapp">
                         <svg class="bi" width="2rem" height="2rem" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#whatsapp" />
                         </svg>

@@ -48,7 +48,7 @@
                         <use xlink:href="../svg/bootstrap-icons.svg#instagram" />
                     </svg>
                 </a>
-                <a class="link-secondary text-decoration-none me-2" href="https://utm.edu.ec/contactanos" title="whatsapp">
+                <a class="link-secondary text-decoration-none me-2" href="https://chat.whatsapp.com/Jo4ZtrWQSNK6pXVjsxkrZk" title="whatsapp">
                     <svg class="bi" width="2rem" height="2rem" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#whatsapp" />
                     </svg>

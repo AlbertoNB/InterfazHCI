@@ -20,14 +20,14 @@
         <div class="">
             <h5 class="my-0 text-white-50 bg-dark"> Mis notas </h5>
             <textarea class="form-control mb-3"></textarea>
-            <h5 class="my-0 text-white-50 bg-dark"> Noificaciones del SPCA </h5>
+            <h5 class="my-0 text-white-50 bg-dark"> Notificaciones del SPCA </h5>
             <ul class="list-group mb-3 ">
                 <li class="list-group-item"> </li>
                 <li class="list-group-item"> </li>
                 <li class="list-group-item"> </li>
                 <li class="list-group-item"> </li>
             </ul>
-            <h5 class="my-0 text-white-50 bg-dark"> Noificaciones del SPCA </h5>
+            <h5 class="my-0 text-white-50 bg-dark"> Notificaciones del SPCA </h5>
             <ul class="list-group  ">
                 <li class="list-group-item"> </li>
                 <li class="list-group-item"> </li>

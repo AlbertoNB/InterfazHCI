@@ -34,19 +34,19 @@
                         data-target="#target-detalles">Más detalles</button>
                 </div>
                 <div class="col-auto px-1">
-                    <button type="button" class="mb-1 btn btn-warning btn-sm">
+                    <button type="button" class="mb-1 btn btn-warning btn-sm" title="">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                         </svg>
                     </button> <br>
                     <button type="button" class=" mb-1 btn btn-warning btn-sm" data-toggle="modal"
-                        data-target="#target-atencion">
+                        data-target="#target-atencion" title="Atención brindada">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#info-circle" />
                         </svg>
                     </button> <br>
                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
-                    data-target="#target-inscripcion">
+                    data-target="#target-inscripcion" title="Inscribirse">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#check" />
                         </svg>

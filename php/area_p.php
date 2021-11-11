@@ -6,17 +6,17 @@
                 <h5 class="my-0"> Mis notas </h5>
             </div>
             <div class="col-auto">
-                <button type="button" class="bt-escr btn btn-primary btn-sm">
+                <button type="button" class="bt-escr btn btn-primary btn-sm" title="De voz a texto">
                     <svg class="px-0" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#mic-fill" />
                     </svg>
                 </button>
-                <button type="button" class="bt-nescr btn btn-primary btn-sm">
+                <button type="button" class="bt-nescr btn btn-primary btn-sm" title="Aapagar micrófono">
                     <svg class="px-0" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#mic-mute-fill" />
                     </svg>
                 </button>
-                <button type="button" class="bt-escu btn btn-primary btn-sm">
+                <button type="button" class="bt-escu btn btn-primary btn-sm" title="Auto lectura de mis notas">
                     <svg class="px-0" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#volume-up" />
                     </svg>

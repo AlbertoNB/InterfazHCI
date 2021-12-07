@@ -51,12 +51,12 @@
 
             <div class="navbar-collapse collapse" id="navbarPracticas">
                 <div class="navbar-nav my-1">
-                    <a class="btn btn-primary m-1" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
+                    <button class="btn btn-primary m-1" style="width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
                         Pasantias!
-                    </a>
-                    <a class="btn btn-warning text-dark m-1" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
+                    </button>
+                    <button class="btn btn-warning text-dark m-1" style="width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
                         Vinculación!
-                    </a>
+                    </button>
                     <div id="pasantiaVinculacionNav">
                         <div class="collapse navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav"><!--show -->
                             <a class="nav-link btn text-left" href="index.php">

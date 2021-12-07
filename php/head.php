@@ -9,6 +9,7 @@
     <!--../css/bootstrap.min.css-->
     <!--<link rel="stylesheet" href="../css2/cambios.1.css">-->
     <link rel="stylesheet" href="../css2/detalles.css">
+    <link rel="stylesheet" href="../respaldo/estilo2.css">
     <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
     <title>index</title>
 </head>
@@ -16,6 +17,7 @@
 <body class="d-flex flex-column h-100 bg-light text-la-sm">
     <?php include('sidebar.php') ?>
     <?php include('bt_ability.php') ?>
+    <?php include('sidebar_nav.php') ?>
 
     <head>
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
@@ -34,26 +36,26 @@
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
                         </svg>
-                        Inicio
+                        <b>Inicio</b>
                     </a>
                     <!--<span class="sr-only">(current)</span>-->
                     <a class="nav-link" href="plan.php">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                         </svg>
-                        Plan de clases
+                        <b>Plan de clases</b>
                     </a>
                     <a class="nav-link" href="investigacion.php">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#search" />
                         </svg>
-                        Investigación
+                        <b>Investigación</b>
                     </a>
                     <a class="nav-link" href="ccui.php">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#people-fill" />
                         </svg>
-                        CCUI
+                        <b>CCUI</b>
                     </a>
                     <!--tabindex="-1" aria-disabled="true"-->
                 </div>

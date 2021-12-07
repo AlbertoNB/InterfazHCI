@@ -8,7 +8,7 @@
                     </svg>
                 </div>
                 <div class="col px-1">
-                    <h5 class="font-weight-bold">Alberto Alejandro Naula Bone</h5>
+                    <h5 class="font-weight-bold">Nombre1 Nombre2 Apellido1 Apellido2</h5>
                 </div>
             </div>
             <p class=""> <b>Pais:</b> Ecuador <br>

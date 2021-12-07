@@ -1,0 +1,139 @@
+.sidebar-navigation {
+  display: flex;
+  align-items: center;
+  /*min-height: 90vh;*/
+  /*width: 50px;*/
+  /*background-color: #0929c8;*/
+  float: left;
+  z-index: 20; /*aun no se a probado con refernta a las otras posiciones */
+}
+.sidebar-navigation ul {
+  position: fixed;
+  top: 20%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  /*line-height: 1;*/
+  /*background-color: rgba(33, 35, 44, 0.95);*/
+  border-radius: 0px 10px 10px 0px;
+  text-align: center;
+}
+
+/*.sidebar-navigation ul {
+  text-align: center;
+  color: rebeccapurple;
+}*/
+/*parte contenedora */
+.sidebar-navigation ul li {
+  cursor: pointer;
+  /*background-color: rgba(33, 35, 44, 0.95);*/
+  background-color: #006400;/*#21232c*/
+  opacity: 0.85;
+  -webkit-transition: all ease-out 120ms;
+  transition: all ease-out 120ms;
+}
+.sidebar-navigation ul li:first-child {
+  border-radius: 0px 10px 0px 0px;
+}
+.sidebar-navigation ul li:last-child {
+  border-radius: 0px 0px 10px 0px;
+}
+.sidebar-navigation ul li a {
+  width: 50px;
+  height: 50px;
+  /*padding: 10%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/*.sidebar-navigation ul li i {
+  display: block;
+  font-size: 24px;
+  -webkit-transition: all ease 450ms;
+  transition: all ease 450ms;
+}*/
+
+.sidebar-navigation ul li a .tooltip {
+  /*margin: 0;
+  padding: 0;*/
+  height: 50px;
+  /*position: absolute;*/
+  /*background-color: #21232C;*/
+  /*background-color: rgba(33, 35, 44, 0.95);*/
+  background-color: #006400;/*#21232c*/
+  opacity: 0;
+  padding-left: 5px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  /*margin-top: -5px;*/
+  left: 50px;
+
+  visibility: hidden;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  -webkit-transition: all ease-out 120ms;
+  transition: all ease-out 120ms;
+  color: aliceblue;
+  white-space: nowrap;
+}
+/*.sidebar-navigation ul li .tooltip {
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  padding: 8px 15px;
+  border-radius: 3px;
+  margin-top: -26px;
+  left: 90px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}*/
+
+/*cuadraso pequeño de el tooltip*/
+/*.sidebar-navigation ul li .tooltip:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -4px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: inherit;
+}*/
+
+.sidebar-navigation ul li:hover {
+  /*background-color: rgba(33, 35, 44, 0.95);*/
+  /*background-color: #21232C;*/
+  opacity: 0.95;
+}
+
+.sidebar-navigation ul li:first-child:hover {
+  border-radius: 0px;
+}
+.sidebar-navigation ul li:last-child:hover {
+  border-radius: 0px;
+}
+
+.sidebar-navigation ul li a:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*.sidebar-navigation ul li.active {
+  background-color: #21232C;
+}*/
+
+.sidebar-navigation ul li.active i {
+  color: #98d7ec;
+}
+/*# sourceMappingURL=estilo2.css.map */

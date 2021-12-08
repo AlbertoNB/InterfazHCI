@@ -40,8 +40,8 @@
   border-radius: 0px 0px 10px 0px;
 }
 .sidebar-navigation ul li a {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   /*padding: 10%;*/
   display: flex;
   justify-content: center;
@@ -59,20 +59,20 @@
 .sidebar-navigation ul li a .tooltip {
   /*margin: 0;
   padding: 0;*/
-  height: 50px;
+  height: 40px;
   /*position: absolute;*/
   /*background-color: #21232C;*/
   /*background-color: rgba(33, 35, 44, 0.95);*/
   background-color: #006400;/*#21232c*/
   opacity: 0;
   padding-left: 5px;
-  padding-right: 20px;
+  padding-right: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0px 10px 10px 0px;
   /*margin-top: -5px;*/
-  left: 50px;
+  left: 40px;
 
   visibility: hidden;
   font-size: 15px;
@@ -114,7 +114,7 @@
 .sidebar-navigation ul li:hover {
   /*background-color: rgba(33, 35, 44, 0.95);*/
   /*background-color: #21232C;*/
-  opacity: 0.95;
+  opacity: 0.98;
 }
 
 .sidebar-navigation ul li:first-child:hover {

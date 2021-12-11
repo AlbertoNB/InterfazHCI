@@ -42,7 +42,7 @@
             </a>
         </li>
         <li>
-            <a class="" href="">
+            <a class="" href="investigacion.php">
                 <svg width="20px" height="20px">
                     <use xlink:href="../svg/bootstrap-icons.svg#search" />
                 </svg>
@@ -50,7 +50,7 @@
             </a>
         </li>
         <li>
-            <a class="" href="">
+            <a class="" href="ccui.php">
                 <svg width="20px" height="20px">
                     <use xlink:href="../svg/bootstrap-icons.svg#people-fill" />
                 </svg>

@@ -137,3 +137,10 @@
   color: #98d7ec;
 }
 /*# sourceMappingURL=estilo2.css.map */
+
+.middle-th tr th{
+  vertical-align: middle !important;
+}
+.middle-td tr td{
+  vertical-align: middle !important;
+}

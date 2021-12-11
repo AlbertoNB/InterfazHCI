@@ -9,7 +9,7 @@
         <div class="card mb-3 p-2">
             <form action="">
                 <div class="form-group">
-                <label class="font-weight-bold" for="spa">Seleccione periodo académico</label>
+                    <label class="font-weight-bold" for="spa">Seleccione periodo académico</label>
                     <select class="form-control" id="spa">
                         <option>Mayo 2020 hasta: Octubre del 2020</option>
                         <option>Enero 2020 hasta: Junio del 2020</option>

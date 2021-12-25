@@ -58,7 +58,7 @@
             </a>
         </li>
         <li>
-            <a class="" href="">
+            <a class="" href="reactivos.php">
                 <svg width="20px" height="20px">
                     <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-ruled" />
                 </svg>
@@ -66,7 +66,7 @@
             </a>
         </li>
         <li>
-            <a class="" href="">
+            <a class="" href="titulacion.php">
                 <svg width="20px" height="20px">
                     <use xlink:href="../svg/bootstrap-icons.svg#card-heading" />
                 </svg>

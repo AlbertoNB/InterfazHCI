@@ -1,19 +1,19 @@
-<div class="collapse show" id="informe-de-actividades" data-parent="#regreso-gp">
-    <!--show por defecto permine la visualisacion inicial de este contenido-->
+<!-- agregar la class "show" para que inicie con esta interfaz-->
+<div class="collapse" id="informe-de-actividades" data-parent="#regreso-gp">
     <div class="container-md my-3 mode-dark2">
         <div class="row mb-3">
             <div class="col">
-                <!--col-8-->
-                <h4 class="">Aporte de Investigación</h4>
+                <div class="card bg-warning table-primary p-2">
+                    <h4 class="m-0">Aporte de Investigación</h4>
+                </div>
             </div>
             <div class="col-auto">
-                <!--deberia mover los botones a la derecha!-->
-                <button class="btn-sm btn-warning" title="Opciones de impresión">
+                <button class="btn-sm btn-primary" title="Opciones de impresión">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#printer-fill" />
                     </svg>
                 </button>
-                <button class="btn-sm btn-warning" data-toggle="modal" data-target="#lista-procesos" title="Búsqueda de procesos ">
+                <button class="btn-sm btn-primary" data-toggle="modal" data-target="#lista-procesos" title="Búsqueda de procesos ">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#search" />
                     </svg>
@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-6">
                         <form class="">
-                            <label class="my-1">Usuario</label>
+                            <label class="my-1">Tipo</label>
                             <input type="text" class="form-control w-100" required>
                             <label class="my-1">Inicia</label>
                             <input type="date" class="form-control w-100" required>
@@ -54,7 +54,6 @@
                     <label class="my-1">Proceso</label>
                     <textarea class="form-control"></textarea>
                 </form>
-
             </div>
         </div>
 
@@ -63,7 +62,7 @@
                 <svg width="22px" height="22px">
                     <use xlink:href="../svg/bootstrap-icons.svg#slack" />
                 </svg>
-                Objetivos
+                Objetivos específicos
             </h5>
             <div class="bg-dark">
                 <h6 class="my-0 p-1 text-center text-white-50"> Objetivos específicos </h6>
@@ -79,7 +78,7 @@
                 <svg width="22px" height="22px">
                     <use xlink:href="../svg/bootstrap-icons.svg#list-check" />
                 </svg>
-                Actividades
+                Actividades encomendadas
             </h5>
             <div class="bg-dark">
                 <div class="row pt-1 text-center text-white-50">

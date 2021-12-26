@@ -55,12 +55,12 @@
   -webkit-transition: all ease 450ms;
   transition: all ease 450ms;
 }*/
-
-.sidebar-navigation ul li a .tooltip {
+/* se camboio el nombre de la clase "tooltip" a "tab-message"*/
+.sidebar-navigation ul li a .tab-message {
   /*margin: 0;
   padding: 0;*/
   height: 40px;
-  /*position: absolute;*/
+  position: absolute;
   /*background-color: #21232C;*/
   /*background-color: rgba(33, 35, 44, 0.95);*/
   background-color: #006400;/*#21232c*/
@@ -83,7 +83,7 @@
   color: aliceblue;
   white-space: nowrap;
 }
-/*.sidebar-navigation ul li .tooltip {
+/*.sidebar-navigation ul li .tab-message {
   display: inline-block;
   position: absolute;
   background-color: red;
@@ -98,7 +98,7 @@
 }*/
 
 /*cuadraso pequeño de el tooltip*/
-/*.sidebar-navigation ul li .tooltip:before {
+/*.sidebar-navigation ul li .tab-message:before {
   content: "";
   display: block;
   position: absolute;
@@ -124,7 +124,7 @@
   border-radius: 0px;
 }
 
-.sidebar-navigation ul li a:hover .tooltip {
+.sidebar-navigation ul li a:hover .tab-message {
   visibility: visible;
   opacity: 1;
 }

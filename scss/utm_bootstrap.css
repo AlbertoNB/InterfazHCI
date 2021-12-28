@@ -11016,7 +11016,8 @@ body.dark .mode-dark2 span {
   color: #ced4da;
 }
 
-body.dark .mode-dark3 {
+body.dark .mode-dark3, body.dark
+table {
   background-color: #2929299f !important;
 }
 
@@ -11043,7 +11044,8 @@ body.dark .mode-dark5 span {
 }
 
 body.dark .mode-dark3, body.dark
-footer {
+footer, body.dark
+table {
   color: #ced4da;
 }
 
@@ -11054,7 +11056,12 @@ footer p,
 body.dark
 footer strong,
 body.dark
-footer span {
+footer span, body.dark
+table p,
+body.dark
+table strong,
+body.dark
+table span {
   color: #adb5bd;
 }
 
@@ -11184,13 +11191,18 @@ body.dark .dropdown-menu {
   background-color: #494949;
 }
 
-body.dark .dropdown-item:hover,
-body.dark .dropdown-item :focus {
+/*antes era (&:hover, :focus {.....)*/
+body.dark .dropdown-item:hover, body.dark .dropdown-item:focus {
   background-color: #2929299f;
 }
 
 body.dark .dropdown-item:active {
   background-color: #1e1e1e9f;
+}
+
+body.dark .table-hover tbody tr:hover {
+  color: #ced4da;
+  background-color: #4949499f;
 }
 
 /*////////////////////////////////

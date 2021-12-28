@@ -9,7 +9,6 @@
     <!--../css/bootstrap.min.css-->
     <!--<link rel="stylesheet" href="../css2/cambios.1.css">-->
     <link rel="stylesheet" href="../css2/detalles.css">
-    <link rel="stylesheet" href="../respaldo/estilo2.css">
     <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
     <title>index</title>
 </head>

@@ -1,0 +1,74 @@
+.sidebar-navigation {
+  display: flex;
+  align-items: center;
+  float: left;
+  z-index: 20; /*aun no se a probado con refernta a las otras posiciones */
+  ul {
+    position: fixed;
+    top: 20%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Lato", sans-serif;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    li {
+      cursor: pointer;
+      background-color: #006400;
+      opacity: 0.85;
+      -webkit-transition: all ease-out 120ms;
+      transition: all ease-out 120ms;
+      a {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        .tab-message {
+          height: 40px;
+          position: absolute;
+          background-color: #006400;
+          opacity: 0;
+          padding-left: 5px;
+          padding-right: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 0px 10px 10px 0px;
+          left: 40px;
+          visibility: hidden;
+          font-size: 15px;
+          font-weight: bold;
+          color: aliceblue;
+          letter-spacing: 0.5px;
+          -webkit-transition: all ease-out 120ms;
+          transition: all ease-out 120ms;
+          white-space: nowrap;
+        }
+      }
+      a:hover .tab-message {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+    li:first-child {
+      border-radius: 0px 10px 0px 0px;
+    }
+    li:last-child {
+      border-radius: 0px 0px 10px 0px;
+    }
+    li:hover {
+      opacity: 0.98;
+    }
+    li:first-child:hover {
+      border-radius: 0px;
+    }
+    li:last-child:hover {
+      border-radius: 0px;
+    }
+    li.active i {
+      color: #98d7ec;
+    }
+  }
+}

@@ -218,3 +218,11 @@ body {
     filter: grayscale(100%);
   }
 }
+
+/*-----------alineación vertical para el contenido de las etiquetas <th> y <td> -------------*/
+.middle-th tr th{
+  vertical-align: middle !important;
+}
+.middle-td tr td{
+  vertical-align: middle !important;
+}

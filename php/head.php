@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css2/detalles.css">
     <!--<link rel="stylesheet" href="../respaldo/estilo2.css">-->
     <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
+    <link rel="stylesheet" href="../respaldo/boton-dinamico.css">
     <title>index</title>
 </head>
 

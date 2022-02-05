@@ -1,0 +1,36 @@
+.flashing-button {
+  position: relative;
+}
+
+.flashing-button::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 15%;
+  border: 6px solid #f1bd00;/*f8ca25*/
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s 22.5; /*ring= fotogramas, 1.5s = duracion de cada animacion, 22.5 veces que se repetirá la animación (colocar "infinite" si no quiere pare nunca)*/
+}
+
+.flashing-button:hover::after,
+.flashing-button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+  }
+  100% {
+    width: 125px;
+    height: 125px;
+    opacity: 0;
+  }
+}

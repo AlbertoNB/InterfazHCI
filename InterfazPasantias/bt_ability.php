@@ -47,9 +47,9 @@
         </div>
     </div>
     <div class="text-left">
-        <button class="btn btn-sm btn-warning m-2" type="button" data-toggle="collapse" data-target="#ability" aria-expanded="false" title="Adaptabilidad de la interfaz">
+        <button class="btn btn-sm btn-warning flashing-button m-2" type="button" data-toggle="collapse" data-target="#ability" aria-expanded="false" title="Adaptabilidad de la interfaz">
             <svg class="bi" width="30px" height="30px" fill="currentColor">
-                <use xlink:href="../svg/bootstrap-icons.svg#info-square" />
+                <use xlink:href="../svg/bootstrap-icons.svg#accesibilidad-2" />
             </svg>
         </button>
     </div>

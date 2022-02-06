@@ -12,6 +12,7 @@
     <!--<link rel="stylesheet" href="../respaldo/estilo2.css">-->
     <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
     <link rel="stylesheet" href="../respaldo/boton-dinamico.css">
+    <link rel="stylesheet" href="../respaldo/navbar-utm.css">
     <title>index</title>
 </head>
 
@@ -20,9 +21,9 @@
     <?php include('bt_ability.php') ?>
   
     <head>
-        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
-            <a class="navbar-brand" href="index.php" title="Inicio">
-                <svg class="bi" width="45px" height="45px" fill="currentColor">
+        <nav class="navbar navbar-expand-md navbar-utm bg-primary shadow-sm fixed-top">
+            <a class="navbar-brand card p-0" href="index.php" title="Inicio">
+                <svg class="bi" width="53px" height="53px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#spca" />
                 </svg>
             </a>
@@ -76,17 +77,17 @@
                         </span>
                     </button>
                 </a>
-                <a class="text-primary text-decoration-none me-2" href="chat.php" title="Chateando">
+                <a class="text-light text-decoration-none me-2" href="chat.php" title="Chateando">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#chat" />
                     </svg>
                 </a>
-                <a class="text-primary  text-decoration-none me-2" href="" title="Notificaciones">
+                <a class="text-light text-decoration-none me-2" href="" title="Notificaciones">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#bell" />
                     </svg>
                 </a>
-                <a class="text-primary text-decoration-none dropdown-toggle" href="#" title="Área Personal" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="text-light text-decoration-none dropdown-toggle" href="#" title="Área Personal" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <svg class="bi" width="40px" height="40px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                     </svg>

@@ -1,0 +1,175 @@
+.navbar-utm .navbar-brand {
+  color: rgb(248, 202, 37);
+}
+
+.navbar-utm .navbar-brand:hover,
+.navbar-utm .navbar-brand:focus {
+  color: rgb(248, 202, 37);
+}
+
+.navbar-utm .navbar-nav .nav-link {
+  color: rgba(248, 202, 37, 0.8);
+}
+
+.navbar-utm .navbar-nav .nav-link:hover {
+  border-width: 3px 3px 0px 0px;
+  border-style: solid;
+  border-color: rgb(248, 202, 37);
+  border-radius: 10px;
+  color: rgb(248, 202, 37);
+}
+
+.navbar-utm .navbar-nav .nav-link:focus {
+  border-width: 2px 2px 0px 0px;
+}
+
+.navbar-utm .navbar-nav .nav-link.disabled {
+  color: rgba(248, 202, 37, 0.5);
+}
+
+.navbar-utm .navbar-nav .show > .nav-link,
+.navbar-utm .navbar-nav .active > .nav-link,
+.navbar-utm .navbar-nav .nav-link.show,
+.navbar-utm .navbar-nav .nav-link.active {
+  color: rgb(248, 202, 37);
+}
+
+.navbar-utm .navbar-toggler {
+  color: rgba(248, 202, 37, 0.7);
+  border-color: rgba(248, 202, 37, 0.3);
+}
+
+.navbar-utm .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-utm .navbar-text {
+  color: rgba(248, 202, 37, 0.8);
+}
+
+.navbar-utm .navbar-text a {
+  color: rgb(248, 202, 37);
+}
+
+.navbar-utm .navbar-text a:hover,
+.navbar-utm .navbar-text a:focus {
+  color: rgb(248, 202, 37);
+}
+
+/*
+#80C490
+  #A3C122
+  rgb(163, 193, 34)
+*/
+
+/*===========================================*/
+.btn-color1 {
+  color: #006400;
+  background-color: #80c490;
+  border-color: #80c490;
+}
+
+.btn-color1:hover {
+  color: #006400;
+  background-color: #5cc274;
+  border-color: #4bb163;
+}
+
+.btn-color1:focus,
+.btn-color1.focus {
+  color: #006400;
+  background-color: #5cc274;
+  border-color: #4bb163;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+}
+
+.btn-color1.disabled,
+.btn-color1:disabled {
+  color: #006400;
+  background-color: #80c490;
+  border-color: #80c490;
+}
+
+.btn-color1:not(:disabled):not(.disabled):active,
+.btn-color1:not(:disabled):not(.disabled).active,
+.show > .btn-color1.dropdown-toggle {
+  color: #006400;
+  background-color: #4bb163;
+  border-color: #429756;
+}
+
+.btn-color1:not(:disabled):not(.disabled):active:focus,
+.btn-color1:not(:disabled):not(.disabled).active:focus,
+.show > .btn-color1.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+}
+
+/*===========================================*/
+.btn-color2 {
+  color: #006400;
+  background-color: #A3C125;
+  border-color: #A3C125;
+}
+
+.btn-color2:hover {
+  color: #006400;
+  background-color: #96b908;
+  border-color: #8daf07;
+}
+
+.btn-color2:focus,
+.btn-color2.focus {
+  color: #006400;
+  background-color: #96b908;
+  border-color: #8daf07;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+}
+
+.btn-color2.disabled,
+.btn-color2:disabled {
+  color: #006400;
+  background-color: #A3C125;
+  border-color: #A3C125;
+}
+
+.btn-color2:not(:disabled):not(.disabled):active,
+.btn-color2:not(:disabled):not(.disabled).active,
+.show > .btn-color2.dropdown-toggle {
+  color: #006400;
+  background-color: #8daf07;
+  border-color: #7d9b09;
+}
+
+.btn-color2:not(:disabled):not(.disabled):active:focus,
+.btn-color2:not(:disabled):not(.disabled).active:focus,
+.show > .btn-color2.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+}
+
+/*==========================================*/
+
+.bg-color1 {
+  background-color: #5cc274 !important;
+}
+
+a.bg-color1:hover, a.bg-color1:focus,
+button.bg-color1:hover,
+button.bg-color1:focus {
+  background-color: #4bb163 !important;
+}
+
+/*==========================================*/
+
+.bg-color2 {
+  background-color: #A3C125 !important;
+}
+
+a.bg-color2:hover, a.bg-color2:focus,
+button.bg-color2:hover,
+button.bg-color2:focus {
+  background-color: #768d1a !important;
+}

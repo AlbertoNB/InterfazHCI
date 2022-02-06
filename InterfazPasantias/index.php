@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../scss/utm_bootstrap.css">
     <link rel="stylesheet" href="../css2/detalles.css">
+    <link rel="stylesheet" href="../respaldo/navbar-utm.css">
+    <link rel="stylesheet" href="../respaldo/boton-dinamico.css">
     <title>index</title>
 </head>
 
@@ -15,15 +17,15 @@
     <?php include('bt_ability.php') ?>
 
     <head>
-        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm fixed-top">
+        <nav class="navbar navbar-expand-md navbar-utm bg-primary shadow-sm fixed-top">
            <!-- <button type="button" class="btn btn-primary sidebarCollapse btn-sm">
                 <svg width="20px" height="20px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#list" />
                 </svg>
             </button>-->
-            <a class="navbar-brand mr-0" href="index.php">
+            <a class="navbar-brand card mode-dark3 p-0 mr-0" href="index.php">
                 <div class="col-auto d-flex align-items-center pr-1">
-                    <svg width="50px" height="50px" fill="currentColor">
+                    <svg width="53px" height="53px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#sppv" />
                     </svg>
                     <div class="collapse navbar-collapse">
@@ -51,10 +53,10 @@
 
             <div class="navbar-collapse collapse" id="navbarPracticas">
                 <div class="navbar-nav my-1">
-                    <button class="btn btn-primary m-1" style="width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
+                    <button class="btn-sm btn-color1 font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
                         Pasantias!
                     </button>
-                    <button class="btn btn-warning text-dark m-1" style="width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
+                    <button class="btn-sm btn-color2 font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
                         Vinculación!
                     </button>
                     <div id="pasantiaVinculacionNav">
@@ -63,25 +65,25 @@
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
                                 </svg>
-                                Inicio
+                                <b>Inicio</b> 
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#inscripcion" aria-expanded="true" title="Inscribirse en vinculación ">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
                                 </svg>
-                                Inscripciones
+                                <b>Inscripciones</b>
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor" aria-expanded="false" title="Gestor de proyectos">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                                 </svg>
-                                Gestor
+                                <b>Gestor</b>
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia" aria-expanded="false" title="Guías de informes (Vinculación)">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
                                 </svg>
-                                Guías
+                                <b>Guías</b>
                             </a>
                         </div>
                         <div class="collapse navbar-nav" id="nav-pasantia" data-parent="#pasantiaVinculacionNav">
@@ -89,27 +91,27 @@
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
                                 </svg>
-                                Inicio
+                                <b>Inicio</b>
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="modal" data-target="#target-solicitar-p" title="Solicitar pasantía">
                                 <!--data-toggle="collapse" data-target="#solicitar-p" aria-expanded="true"-->
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
                                 </svg>
-                                Solicitar
+                                <b>Solicitar</b>
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor-p" aria-expanded="true" title="Gestor de pasantía">
                                 <!--aria-expanded="false"-->
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                                 </svg>
-                                Gestor
+                                <b>Gestor</b>
                             </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia-p" aria-expanded="false" title="Guías de informes (Pasantia)">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
                                 </svg>
-                                Guías
+                                <b>Guías</b>
                             </a>
                         </div>
                     </div>
@@ -131,12 +133,12 @@
                         </span>
                     </button>
                 </a>
-                <a class="text-primary  text-decoration-none me-2" href="" title="Notificaciones">
+                <a class="text-light text-decoration-none me-2" href="" title="Notificaciones">
                     <svg class="bi" width="20px" height="20px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#bell" />
                     </svg>
                 </a>
-                <a class="text-primary text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Área personal">
+                <a class="text-light text-decoration-none dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Área personal">
                     <svg class="bi" width="40px" height="40px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                     </svg>

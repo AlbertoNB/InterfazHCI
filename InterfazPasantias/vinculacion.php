@@ -1,7 +1,7 @@
 <div class="collapse" id="nav-vinculacion" data-parent="#pasantiaVinculacionCont">
     <div class="m-2">
-        <div class="p-2 mb-2 bg-warning shadow-sm mode-dark5">
-            <h4 class="font-weight-bold text-center">Sistema de proyectos de vinculación
+        <div class="p-2 mb-2 bg-color2 shadow-sm mode-dark5">
+            <h4 class="font-weight-bold text-primary text-center">Sistema de proyectos de vinculación
             </h4>
             <select class="form-control" id="exampleFormControlSelect1">
                 <option>Seleccione la carrera</option>

@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/*---------------------Botón intermitente (.flashing-button)-----------------*/
+.flashing-button {
+  position: relative;
+}
+
+.flashing-button::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 15%;
+  border: 6px solid #f1bd00;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: ring 1.5s 22.5;
+          animation: ring 1.5s 22.5;
+  /*ring= fotogramas, 1.5s = duracion de cada animacion, 22.5 veces que se repetirá la animación (colocar "infinite" si no quiere pare nunca)*/
+}
+
+@-webkit-keyframes ring {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+  }
+  100% {
+    width: 125px;
+    height: 125px;
+    opacity: 0;
+  }
+}
+
+@keyframes ring {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+  }
+  100% {
+    width: 125px;
+    height: 125px;
+    opacity: 0;
+  }
+}
+
+.flashing-button:hover::after, .flashing-button:focus::after {
+  -webkit-animation: none;
+          animation: none;
+  display: none;
+}
+
+/*------------Barra de navegación mas llamativa (.navbar-utm)-------------*/
+.navbar-utm .navbar-brand {
+  color: #f8ca25;
+}
+
+.navbar-utm .navbar-brand:hover, .navbar-utm .navbar-brand:focus {
+  color: #f8ca25;
+}
+
+.navbar-utm .navbar-nav .show > .nav-link,
+.navbar-utm .navbar-nav .active > .nav-link {
+  color: #f8ca25;
+}
+
+.navbar-utm .navbar-nav .nav-link {
+  color: rgba(248, 202, 37, 0.8);
+}
+
+.navbar-utm .navbar-nav .nav-link:hover {
+  border-width: 3px 3px 0px 0px;
+  border-style: solid;
+  border-color: #f8ca25;
+  border-radius: 10px;
+  color: #f8ca25;
+}
+
+.navbar-utm .navbar-nav .nav-link:focus {
+  border-width: 2px 2px 0px 0px;
+}
+
+.navbar-utm .navbar-nav .nav-link.disabled {
+  color: rgba(248, 202, 37, 0.5);
+}
+
+.navbar-utm .navbar-nav .nav-link.show, .navbar-utm .navbar-nav .nav-link.active {
+  color: #f8ca25;
+}
+
+.navbar-utm .navbar-toggler {
+  color: rgba(248, 202, 37, 0.7);
+  border-color: rgba(248, 202, 37, 0.3);
+}
+
+.navbar-utm .navbar-text {
+  color: rgba(248, 202, 37, 0.8);
+}
+
+.navbar-utm .navbar-text a {
+  color: #f8ca25;
+}
+
+.navbar-utm .navbar-text a:hover, .navbar-utm .navbar-text a:focus {
+  color: #f8ca25;
+}
+
+/*Colores nuevos*/
+/*--------------Color de botón MedioAguamarina/menta(.btn-mint)-----------------*/
+.btn-mint {
+  color: #006400;
+  background-color: #80c490;
+  border-color: #80c490;
+}
+
+.btn-mint:hover {
+  color: #006400;
+  background-color: #5cc274;
+  border-color: #4bb163;
+}
+
+.btn-mint:focus, .btn-mint.focus {
+  color: #006400;
+  background-color: #5cc274;
+  border-color: #4bb163;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+}
+
+.btn-mint.disabled, .btn-mint:disabled {
+  color: #006400;
+  background-color: #80c490;
+  border-color: #80c490;
+}
+
+.btn-mint:not(:disabled):not(.disabled):active, .btn-mint:not(:disabled):not(.disabled).active {
+  color: #006400;
+  background-color: #4bb163;
+  border-color: #429756;
+}
+
+.btn-mint:not(:disabled):not(.disabled):active:focus, .btn-mint:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+}
+
+.show > .btn-mint.dropdown-toggle {
+  color: #006400;
+  background-color: #4bb163;
+  border-color: #429756;
+}
+
+.show > .btn-mint.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 151, 86, 0.5);
+}
+
+/*-------------Color de botón YellowGreen/pistacho(.btn-pistachio)------------------- */
+.btn-pistachio {
+  color: #006400;
+  background-color: #a3c125;
+  border-color: #a3c125;
+}
+
+.btn-pistachio:hover {
+  color: #006400;
+  background-color: #96b908;
+  border-color: #8daf07;
+}
+
+.btn-pistachio:focus, .btn-pistachio.focus {
+  color: #006400;
+  background-color: #96b908;
+  border-color: #8daf07;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+}
+
+.btn-pistachio.disabled, .btn-pistachio:disabled {
+  color: #006400;
+  background-color: #a3c125;
+  border-color: #a3c125;
+}
+
+.btn-pistachio:not(:disabled):not(.disabled):active, .btn-pistachio:not(:disabled):not(.disabled).active {
+  color: #006400;
+  background-color: #8daf07;
+  border-color: #7d9b09;
+}
+
+.btn-pistachio:not(:disabled):not(.disabled):active:focus, .btn-pistachio:not(:disabled):not(.disabled).active:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+}
+
+.show > .btn-pistachio.dropdown-toggle {
+  color: #006400;
+  background-color: #8daf07;
+  border-color: #7d9b09;
+}
+
+.show > .btn-pistachio.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(163, 193, 37, 0.5);
+}
+
+/*--------------Color de espaciado MedioAguamarina/menta(.bg-min)-----------------*/
+.bg-mint {
+  background-color: #5cc274 !important;
+}
+
+a.bg-mint:hover, a.bg-mint:focus,
+button.bg-mint:hover,
+button.bg-mint:focus {
+  background-color: #4bb163 !important;
+}
+
+/*--------------Color de espaciado YellowGreen/pistacho(.bg-pistachio)------------------- */
+.bg-pistachio {
+  background-color: #a3c125 !important;
+}
+
+a.bg-pistachio:hover, a.bg-pistachio:focus,
+button.bg-pistachio:hover,
+button.bg-pistachio:focus {
+  background-color: #768d1a !important;
+}
+/*# sourceMappingURL=flashing-button_navbar-utm.css.map */

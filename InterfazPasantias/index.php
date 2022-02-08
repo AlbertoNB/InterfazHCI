@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../scss/utm_bootstrap.css">
     <link rel="stylesheet" href="../css2/detalles.css">
-    <link rel="stylesheet" href="../respaldo/navbar-utm.css">
-    <link rel="stylesheet" href="../respaldo/boton-dinamico.css">
+
     <title>index</title>
 </head>
 
@@ -53,10 +52,10 @@
 
             <div class="navbar-collapse collapse" id="navbarPracticas">
                 <div class="navbar-nav my-1">
-                    <button class="btn-sm btn-color1 font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
+                    <button class="btn-sm btn-mint font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
                         Pasantias!
                     </button>
-                    <button class="btn-sm btn-color2 font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
+                    <button class="btn-sm btn-pistachio font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
                         Vinculación!
                     </button>
                     <div id="pasantiaVinculacionNav">

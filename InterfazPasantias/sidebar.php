@@ -63,12 +63,12 @@
         <div id="pasantiaVinculacionSid">
             <div class="collapse" id="nav-vinculacion" data-parent="#pasantiaVinculacionSid">
                 <!--show-->
-                <button class="btn-sm btn-color2 btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video" aria-expanded="true">
+                <button class="btn-sm btn-pistachio btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video" aria-expanded="true">
                     <b>Videos</b>
                 </button>
             </div>
             <div class="collapse" id="nav-pasantia" data-parent="#pasantiaVinculacionSid">
-                <button class="btn-sm btn-color1 btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video-p" aria-expanded="false">
+                <button class="btn-sm btn-mint btn-block mb-3" data-toggle="collapse" data-target="#ayuda-video-p" aria-expanded="false">
                     <b>Videos</b>
                 </button>
             </div>

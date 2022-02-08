@@ -1,6 +1,6 @@
 <div class="collapse" id="nav-pasantia" data-parent="#pasantiaVinculacionCont">
     <div class="m-2">
-        <div class="p-2 mb-2 bg-color1 shadow-sm mode-dark5">
+        <div class="p-2 mb-2 bg-mint shadow-sm mode-dark5">
             <h4 class="font-weight-bold text-primary text-center">Sistema de prácticas pre profesionales y pasantías
             </h4>
             <select class="form-control" id="exampleFormControlSelect1">

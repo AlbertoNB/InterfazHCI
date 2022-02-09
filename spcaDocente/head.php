@@ -20,24 +20,84 @@
     <?php include('sidebar_nav.php') ?>
 
     <head>
-        <nav class="navbar navbar-expand-md navbar-utm bg-primary shadow-sm fixed-top">
+        <nav class="navbar navbar-expand navbar-utm bg-primary shadow-sm fixed-top">
             <a class="navbar-brand card p-0" href="index.php" title="Inicio">
                 <svg width="53px" height="53px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#spca" />
                 </svg>
             </a>
-            <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.php">
-                        <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
+            <div class="navbar-collapse">
+                <div class="dropdown">
+                    <button class="btn-sm btn-pistachio btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                        <svg width="25px" height="25px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#list" />
                         </svg>
-                        <b>Inicio</b>
-                    </a>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <!-- style="min-width: 600px;"-->
+
+                        <a class="dropdown-item" href="index.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
+                            </svg>
+                            <b>Inicio</b>
+                        </a>
+                        <a class="dropdown-item" href="programas_analiticos.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
+                            </svg>
+                            <b>Programas analíticos</b>
+                        </a>
+                        <a class="dropdown-item" href="syllabus.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
+                            </svg>
+                            <b>Syllabus</b>
+                        </a>
+                        <a class="dropdown-item" href="plan_de_clase.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
+                            </svg>
+                            <b>Plan de clase</b>
+                        </a>
+                        <a class="dropdown-item" href="actividad_docente.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#bookmark-plus-fill" />
+                                <!--activity-->
+                            </svg>
+                            <b>Actividades de docente</b>
+                        </a>
+                        <a class="dropdown-item" href="investigacion.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#search" />
+                            </svg>
+                            <b>Investigación</b>
+                        </a>
+                        <a class="dropdown-item" href="ccui.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#people-fill" />
+                            </svg>
+                            <b>CCIUTM 2021</b>
+                        </a>
+                        <a class="dropdown-item" href="reactivos.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-ruled" />
+                            </svg>
+                            <b>Reactivos</b>
+                        </a>
+                        <a class="dropdown-item" href="titulacion.php">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#card-heading" />
+                            </svg>
+                            <b>Titulación</b>
+                        </a>
+                        <a class="dropdown-item" href="">
+                            <svg width="20px" height="20px">
+                                <use xlink:href="../svg/bootstrap-icons.svg#bezier2" />
+                            </svg>
+                            <b>Reuniones</b>
+                        </a>
+                    </div>
                 </div>
             </div>
 

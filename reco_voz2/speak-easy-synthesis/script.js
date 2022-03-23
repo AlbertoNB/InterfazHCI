@@ -85,3 +85,66 @@ rate.onchange = function() {
 voiceSelect.onchange = function(){
   speak();
 }
+
+
+/*
+
+var synth = window.speechSynthesis;
+
+var inputForm = document.querySelector('form');
+var inputTxt = document.querySelector('.txt');
+var voiceSelect = document.querySelector('.play');
+
+function speak() {
+  if (synth.speaking) {
+    console.error('speechSynthesis.speaking');
+    return;
+  }
+  if (inputTxt.value !== '') {
+    var utterThis = new SpeechSynthesisUtterance(inputTxt.value);
+    utterThis.lang = 'en-MX';
+    utterThis.continuous = true;
+    utterThis.interimResults = false;
+   utterThis.volume = 1;
+   utterThis.pitch = 1;
+   utterThis.rate = 1;
+   synth.speak(utterThis);
+ }
+}
+inputForm.onsubmit = function (event) {
+ event.preventDefault();
+ speak();
+ inputTxt.blur();
+}
+voiceSelect.onchange = function () {
+ speak();
+}
+
+*/
+
+/*
+function speak() {
+    if (synth.speaking) {
+        console.error('speechSynthesis.speaking');
+        return;
+    }
+    if (texto.value !== '') {
+        var utterThis = new SpeechSynthesisUtterance(texto.value);
+        utterThis.lang = 'en-MX';
+        utterThis.continuous = true;
+        utterThis.interimResults = false;
+        utterThis.volume = 1;
+        utterThis.pitch = 1;
+        utterThis.rate = 1;
+        synth.speak(utterThis);
+    }
+}
+inputForm.onsubmit = function (event) {
+    event.preventDefault();
+    speak();
+    texto.blur();
+}
+btnEscuchar.onclick = function () {
+    speak();
+}
+*/

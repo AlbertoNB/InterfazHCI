@@ -60,7 +60,8 @@
 <script src="../js/jquery-3.5.1.slim.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js2/cambios.js"></script>
-<script src="../respaldo/hablar5.js"></script>
+<!--<script src="../respaldo/hablar5.js"></script>
+<script src="../js2/voice_recognition_reading.js"></script>-->
 <script src="../evo-calendar/js/evo-calendar.js"></script> <!--calendario-->
 <script src="../js2/datos_a_guardar.js"></script> <!--calendario-->
 </body>

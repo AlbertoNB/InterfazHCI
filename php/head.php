@@ -18,7 +18,7 @@
 <body class="d-flex flex-column h-100 bg-light text-la-sm">
     <?php include('sidebar.php') ?>
     <?php include('bt_ability.php') ?>
-  
+
     <head>
         <nav class="navbar navbar-expand-md navbar-utm bg-primary shadow-sm fixed-top">
             <a class="navbar-brand card p-0" href="index.php" title="Inicio">
@@ -26,42 +26,13 @@
                     <use xlink:href="../svg/bootstrap-icons.svg#spca" />
                 </svg>
             </a>
-            <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler btn-pistachio text-primary ml-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="25px" height="25px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#list" />
+                </svg>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.php">
-                        <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
-                        </svg>
-                        <b>Inicio</b>
-                    </a>
-                    <!--<span class="sr-only">(current)</span>-->
-                    <a class="nav-link" href="plan.php">
-                        <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
-                        </svg>
-                        <b>Plan de clases</b>
-                    </a>
-                    <a class="nav-link" href="investigacion.php">
-                        <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#search" />
-                        </svg>
-                        <b>Investigación</b>
-                    </a>
-                    <a class="nav-link" href="ccui.php">
-                        <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#people-fill" />
-                        </svg>
-                        <b>CCUI</b>
-                    </a>
-                    <!--tabindex="-1" aria-disabled="true"-->
-                </div>
-            </div>
-
-            <div class="">
+            <!--Estaba segundo en el código sin la clase "order-md-2"-->
+            <div class="order-md-2">
                 <a class="me-2 text-decoration-none">
                     <button class="switch" title="Modo oscuro">
                         <span>
@@ -133,6 +104,37 @@
                     </a>
                 </div>
             </div>
+            <!--Estaba primero en el código sin la clase oreder-md-1-->
+            <div class="collapse navbar-collapse oreder-md-1" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.php">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
+                        </svg>
+                        <b>Inicio</b>
+                    </a>
+                    <!--<span class="sr-only">(current)</span>-->
+                    <a class="nav-link" href="plan.php">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
+                        </svg>
+                        <b>Plan de clases</b>
+                    </a>
+                    <a class="nav-link" href="investigacion.php">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#search" />
+                        </svg>
+                        <b>Investigación</b>
+                    </a>
+                    <a class="nav-link" href="ccui.php">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#people-fill" />
+                        </svg>
+                        <b>CCUI</b>
+                    </a>
+                    <!--tabindex="-1" aria-disabled="true"-->
+                </div>
+            </div>
         </nav>
         <div class="modal fade" id="ventana_rol">
             <div class="modal-dialog modal-dialog-centered">
@@ -154,17 +156,25 @@
                         </p>
                         <h6 class="font-weight-bold">Iniciar como</h6>
                         <div class="form-group mb-0">
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Estudiante</option>
-                                <option>Docente</option>
-                            </select>
+                            <form name="link">
+                                <select name="menu" class="form-control" id="exampleFormControlSelect1">
+                                    <option selected disabled>Elija su rol academico</option>
+                                    <option value="">Estudiante</option>
+                                    <option value="../spcaDocente/index.php">Docente</option>
+                                </select>
+                            </form>
                         </div>
 
 
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn-sm btn-primary">
+                        <!--
+                            onclick="location=document.link.menu.options[document.link.menu.selectedIndex].value;"
+                            es para que el value de la etiqueta <option> funcione como hipervínculo
+                            al presionar el botón "Cambiar" se redirigirá hacia el hipervínculo 
+                        -->
+                        <button onclick="location=document.link.menu.options[document.link.menu.selectedIndex].value;" type="button" class="btn-sm btn-primary">
                             <svg width="15px" height="15px">
                                 <use xlink:href="../svg/bootstrap-icons.svg#signpost-2-fill" />
                             </svg>

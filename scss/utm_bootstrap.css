@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*
 texto responsivo de bootstrap
-$enable-responsive-font-sizes:true;*/
+$enable-responsive-font-sizes:true;
+*/
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11480,7 +11481,7 @@ body.grayscale {
   width: 30px;
   height: 30px;
   border-radius: 15%;
-  border: 6px solid #f1bd00;
+  border: 6px solid #17a2b8;
   position: absolute;
   z-index: -1;
   top: 50%;

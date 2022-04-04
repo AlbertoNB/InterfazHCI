@@ -91,7 +91,7 @@
                             </svg>
                             <b>Titulación</b>
                         </a>
-                        <a class="dropdown-item" href="">
+                        <a class="dropdown-item disabled" href="">
                             <svg width="20px" height="20px">
                                 <use xlink:href="../svg/bootstrap-icons.svg#bezier2" />
                             </svg>
@@ -194,17 +194,25 @@
                         </p>
                         <h6 class="font-weight-bold">Iniciar como</h6>
                         <div class="form-group mb-0">
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Estudiante</option>
-                                <option>Docente</option>
-                            </select>
+                            <form name="link">
+                                <select name="menu" class="form-control" id="exampleFormControlSelect1">
+                                    <option selected disabled>Elija su rol academico</option>
+                                    <option value="../php/index.php">Estudiante</option>
+                                    <option value="">Docente</option>
+                                </select>
+                            </form>
                         </div>
 
 
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn-sm btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn-sm btn-primary">
+                        <!--
+                            onclick="location=document.link.menu.options[document.link.menu.selectedIndex].value;"
+                            es para que el value de la etiqueta <option> funcione como hipervínculo
+                            al presionar el botón "Cambiar" se redirigirá hacia el hipervínculo 
+                        -->
+                        <button onclick="location=document.link.menu.options[document.link.menu.selectedIndex].value;" type="button" class="btn-sm btn-primary">
                             <svg width="15px" height="15px">
                                 <use xlink:href="../svg/bootstrap-icons.svg#signpost-2-fill" />
                             </svg>

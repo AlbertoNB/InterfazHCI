@@ -17,7 +17,7 @@
 
     <head>
         <nav class="navbar navbar-expand-md navbar-utm bg-primary shadow-sm fixed-top">
-           <!-- <button type="button" class="btn btn-primary sidebarCollapse btn-sm">
+            <!-- <button type="button" class="btn btn-primary sidebarCollapse btn-sm">
                 <svg width="20px" height="20px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#list" />
                 </svg>
@@ -44,80 +44,13 @@
                     </div>
                 </div>
             </a>
-            <button class="navbar-toggler bg-warning px-1" type="button" data-toggle="collapse" data-target="#navbarPracticas" aria-controls="navbarPracticas" aria-expanded="false" aria-label="Toggle navigation">
-                <svg width="20px" height="20px" fill="currentColor">
+            <button class="navbar-toggler btn-sm bg-warning text-primary px-1" type="button" data-toggle="collapse" data-target="#navbarPracticas" aria-controls="navbarPracticas" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="25px" height="25px">
                     <use xlink:href="../svg/bootstrap-icons.svg#list" />
                 </svg>
             </button>
-
-            <div class="navbar-collapse collapse" id="navbarPracticas">
-                <div class="navbar-nav my-1">
-                    <button class="btn-sm btn-mint font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
-                        Pasantias!
-                    </button>
-                    <button class="btn-sm btn-pistachio font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
-                        Vinculación!
-                    </button>
-                    <div id="pasantiaVinculacionNav">
-                        <div class="collapse navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav"><!--show -->
-                            <a class="nav-link btn text-left" href="index.php">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
-                                </svg>
-                                <b>Inicio</b> 
-                            </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#inscripcion" aria-expanded="true" title="Inscribirse en vinculación ">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
-                                </svg>
-                                <b>Inscripciones</b>
-                            </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor" aria-expanded="false" title="Gestor de proyectos">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
-                                </svg>
-                                <b>Gestor</b>
-                            </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia" aria-expanded="false" title="Guías de informes (Vinculación)">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
-                                </svg>
-                                <b>Guías</b>
-                            </a>
-                        </div>
-                        <div class="collapse navbar-nav" id="nav-pasantia" data-parent="#pasantiaVinculacionNav">
-                            <a class="nav-link btn text-left" href="index.php">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
-                                </svg>
-                                <b>Inicio</b>
-                            </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="modal" data-target="#target-solicitar-p" title="Solicitar pasantía">
-                                <!--data-toggle="collapse" data-target="#solicitar-p" aria-expanded="true"-->
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
-                                </svg>
-                                <b>Solicitar</b>
-                            </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor-p" aria-expanded="true" title="Gestor de pasantía">
-                                <!--aria-expanded="false"-->
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
-                                </svg>
-                                <b>Gestor</b>
-                            </a>
-                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia-p" aria-expanded="false" title="Guías de informes (Pasantia)">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
-                                </svg>
-                                <b>Guías</b>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="">
+            <!--Estaba segundo en el código sin la clase "order-md-2"-->
+            <div class="order-md-2">
                 <a class="me-2 text-decoration-none">
                     <button class="switch" title="Modo oscuro">
                         <span>
@@ -178,6 +111,74 @@
                         </svg>
                         Cerrar sesión
                     </a>
+                </div>
+            </div>
+            <!--Estaba primero en el código sin la clase oreder-md-1-->
+            <div class="navbar-collapse collapse oreder-md-1" id="navbarPracticas">
+                <div class="navbar-nav my-1">
+                    <button class="btn-sm btn-mint font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
+                        Pasantias!
+                    </button>
+                    <button class="btn-sm btn-pistachio font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
+                        Vinculación!
+                    </button>
+                    <div id="pasantiaVinculacionNav">
+                        <div class="collapse navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav">
+                            <!--show -->
+                            <a class="nav-link btn text-left" href="index.php">
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
+                                </svg>
+                                <b>Inicio</b>
+                            </a>
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#inscripcion" aria-expanded="true" title="Inscribirse en vinculación ">
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
+                                </svg>
+                                <b>Inscripciones</b>
+                            </a>
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor" aria-expanded="false" title="Gestor de proyectos">
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
+                                </svg>
+                                <b>Gestor</b>
+                            </a>
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia" aria-expanded="false" title="Guías de informes (Vinculación)">
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
+                                </svg>
+                                <b>Guías</b>
+                            </a>
+                        </div>
+                        <div class="collapse navbar-nav" id="nav-pasantia" data-parent="#pasantiaVinculacionNav">
+                            <a class="nav-link btn text-left" href="index.php">
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
+                                </svg>
+                                <b>Inicio</b>
+                            </a>
+                            <a class="nav-link btn text-left" href="" data-toggle="modal" data-target="#target-solicitar-p" title="Solicitar pasantía">
+                                <!--data-toggle="collapse" data-target="#solicitar-p" aria-expanded="true"-->
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
+                                </svg>
+                                <b>Solicitar</b>
+                            </a>
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#gestor-p" aria-expanded="true" title="Gestor de pasantía">
+                                <!--aria-expanded="false"-->
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
+                                </svg>
+                                <b>Gestor</b>
+                            </a>
+                            <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#guia-p" aria-expanded="false" title="Guías de informes (Pasantia)">
+                                <svg width="15px" height="15px">
+                                    <use xlink:href="../svg/bootstrap-icons.svg#list-ol" />
+                                </svg>
+                                <b>Guías</b>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>

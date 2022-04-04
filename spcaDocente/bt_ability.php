@@ -1,14 +1,15 @@
 <div class="fixed-bottom" style="width: 12rem;">
     <div class="collapse mx-2" id="ability">
         <div class="card card-body p-2">
-            <button type="button d-inline" class="bt-grayscale btn btn-secondary btn-sm mb-1">
+            <!--<button type="button d-inline"-->
+            <button type="button" class="bt-grayscale btn btn-secondary btn-sm mb-1">
                 <span class="badge badge-light">Blanco</span>
                 <span class="badge badge-dark">Negro</span>
             </button>
-            <button type="button d-inline" class="bt-dyslexic-font dyslexic-font btn btn-secondary btn-sm mb-1">
+            <button type="button" class="bt-dyslexic-font dyslexic-font btn btn-secondary btn-sm mb-1">
                 Dislexia
             </button>
-            <button type="button d-inline" class="bt-big-cursor btn btn-secondary btn-sm mb-1">
+            <button type="button" class="bt-big-cursor btn btn-secondary btn-sm mb-1">
                 <svg class="px-0" width="12.5px" height="12.5px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#cursor-fill" />
                 </svg>
@@ -17,7 +18,7 @@
                 </svg>
                 Puntero
             </button>
-            <button type="button d-inline" class="aumentar btn btn-secondary btn-sm mb-1">
+            <button type="button" class="aumentar btn btn-secondary btn-sm mb-1">
                 <svg class="px-0" width="25px" height="25px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#fonts" />
                 </svg>
@@ -46,7 +47,7 @@
             </button>
         </div>
     </div>
-    <button class="btn btn-sm btn-warning flashing-button m-2" type="button" data-toggle="collapse" data-target="#ability" aria-expanded="false" title="Adaptabilidad de la interfaz">
+    <button class="btn btn-sm btn-info flashing-button m-2" type="button" data-toggle="collapse" data-target="#ability" aria-expanded="false" title="Adaptabilidad de la interfaz">
         <svg class="bi" width="30px" height="30px" fill="currentColor">
             <use xlink:href="../svg/bootstrap-icons.svg#accesibilidad-2" />
         </svg>

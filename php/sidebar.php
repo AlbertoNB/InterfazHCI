@@ -16,7 +16,6 @@
                 <b>Direccion de correo:</b> anaula8277@utm.edu.ec
             </p>
         </div>
-
         <div class="">
             <div class="row mx-0">
                 <div class="col bg-dark p-0">
@@ -30,7 +29,7 @@
                     </a>
                 </div>
             </div>
-            <textarea class="form-control mb-3"></textarea>
+            <textarea class="form-control mb-3" rows="3"></textarea>
 
             <div class="row mx-0">
                 <div class="col bg-dark p-0">
@@ -44,10 +43,6 @@
                     </a>
                 </div>
             </div>
-
-
-
-
             <ul class="list-group mb-3 ">
                 <li class="list-group-item"> </li>
                 <li class="list-group-item"> </li>

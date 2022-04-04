@@ -18,9 +18,32 @@
         </div>
 
         <div class="">
-            <h5 class="my-0 text-white-50 bg-dark"> Mis notas </h5>
-            <textarea class="form-control mb-3"></textarea>
-            <h5 class="my-0 text-white-50 bg-dark"> Notificaciones del SPCA </h5>
+        <div class="row mx-0">
+                <div class="col bg-dark p-0">
+                    <h5 class="my-0 text-white-50"> Mis notas </h5>
+                </div>
+                <div class="col-auto bg-dark d-flex align-items-center p-0">
+                    <a class="btn-light btn d-flex align-items-center justify-content-center p-0" href="area_p.php" role="button" style="width: 20px; height: 20px;">
+                        <svg class="" width="15px" height="15px" fill="currentColor">
+                            <use xlink:href="../svg/bootstrap-icons.svg#arrows-angle-expand" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <textarea class="form-control mb-3" rows="3"></textarea>
+
+            <div class="row mx-0">
+                <div class="col bg-dark p-0">
+                    <h5 class="my-0 text-white-50">Notificaciones del SPCA</h5>
+                </div>
+                <div class="col-auto bg-dark d-flex align-items-center p-0">
+                    <a class="btn-light btn d-flex align-items-center justify-content-center p-0" href="area_p.php" role="button" style="width: 20px; height: 20px;">
+                        <svg class="" width="15px" height="15px" fill="currentColor">
+                            <use xlink:href="../svg/bootstrap-icons.svg#arrows-angle-expand" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
             <ul class="list-group mb-3 ">
                 <li class="list-group-item"> </li>
                 <li class="list-group-item"> </li>

@@ -52,7 +52,7 @@
             <div class="col-md-6">
                 <form class="">
                     <label class="my-1">Proceso</label>
-                    <textarea class="form-control"></textarea>
+                    <textarea class="form-control" rows="4"></textarea>
                 </form>
             </div>
         </div>

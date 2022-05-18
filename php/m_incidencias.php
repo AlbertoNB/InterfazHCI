@@ -9,12 +9,12 @@
                 Incidencias
             </h5>
         </div>
-        <div class="col-auto">
-            <a class="navbar-brand mx-0 text-primary" role="button" data-toggle="modal" data-target="#targetIncid" title="Agregar incidencia ">
-                <svg class="bi" width="35px" height="35px" fill="currentColor">
+        <div class="col-auto bg-dark pl-1 pr-0">
+            <button type="button" class="btn-sm btn-primary" data-toggle="modal" data-target="#targetIncid" title="Agregar incidencia">
+                <svg width="31px" height="31px" fill="currentColor">
                     <use xlink:href="../svg/bootstrap-icons.svg#plus-circle-fill" />
                 </svg>
-            </a>
+            </button>
         </div>
     </div>
     <ul class="list-group  ">
@@ -23,10 +23,10 @@
                 <div class="col pr-1">
                     <h5 class="mb-1 font-weight-bold text-small">Incumplimiento del syllabus</h5>
                     <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
-                    <small> <b>Fecha:</b>  20-06-01</small>
+                    <small> <b>Fecha:</b> 20-06-01</small>
                 </div>
                 <div class="col-auto px-1">
-                <svg class="text-primary" width="30px" height="30px" fill="currentColor">
+                    <svg class="text-primary rounded-lg mode-dark1" width="30px" height="30px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#eye-fill" />
                     </svg>
                 </div>
@@ -37,10 +37,10 @@
                 <div class="col pr-1">
                     <h5 class="mb-1 text-small font-weight-bold">Incumplimiento del syllabus</h5>
                     <p class="mb-1"><b>Incidencia:</b> Adipisicing elit. Ducimus rerum sed necessitatibus accusamus!</p>
-                    <small> <b>Fecha:</b>  20-06-01</small>
+                    <small> <b>Fecha:</b> 20-06-01</small>
                 </div>
                 <div class="col-auto px-1">
-                <svg class="text-danger" width="30px" height="30px" fill="currentColor">
+                    <svg class="text-danger rounded-lg mode-dark1" width="30px" height="30px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#eye-slash-fill" />
                     </svg>
                 </div>
@@ -51,12 +51,12 @@
 </div>
 <!-- ventana Tarjeta Incidencia -->
 <div class="modal fade" id="targetIncid">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title" id="exampleModalLabel">Incidencia</h6>
+            <div class="modal-header bg-primary">
+                <h6 class="modal-title text-white" id="exampleModalLabel">Incidencia</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="text-white" aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">

@@ -35,9 +35,168 @@
                 </div>
             </div>
         </div>
-        <p class="blockquote-footer la-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere aspernatur alias, impedit facilis,
-            est neque porro voluptas eligendi esse, perferendis nobis minus iure reprehenderit ipsa necessitatibus eos
-            quam debitis.</p>
+
+        <h3 class="text-small">Iconos UTM</h3>
+        <p>Se cambia el formato de imágenes ráster (.png, .jpg, etc.) de algunos logotipos a 
+            formato vectorial (.svg) ya que son mejores en muchos aspectos como peso, resolución, 
+            adaptabilidad, entre otras. Para la creación de imágenes con formato .svg se obtiene 
+            ayuda del software CorelDraw.</p>
+        <div class="row m-2">
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#accesibilidad-2" />
+                </svg>
+                accesibilidad-2
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#accesibilidad" />
+                </svg>
+                accesibilidad
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#spca" />
+                </svg>spca
+            </div>
+
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#spca2" />
+                </svg>spca2
+            </div>
+
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#evirtual" />
+                </svg>evirtual
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#online" />
+                </svg>online
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#sacm" />
+                </svg>sacm
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#salud" />
+                </svg>salud
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#siga" />
+                </svg>siga
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#nivelacion" />
+                </svg>nivelacion
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#correo-utm" />
+                </svg>correo-utm
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#dspace" />
+                </svg>dspace
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#opac" />
+                </svg>opac
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#ing-aplicada" />
+                </svg>ing-aplicada
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#cc-educacion" />
+                </svg>cc-educacion
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#cc-informatica" />
+                </svg>cc-informatica
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#cc-salud" />
+                </svg>cc-salud
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#sppv" />
+                </svg>sppv
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-pdf" />
+                </svg>file-earmark-pdf
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#plantillas-r" />
+                </svg>plantillas-r
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#portal-web" />
+                </svg>portal-web
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#scgi" />
+                </svg>scgi
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#sga" />
+                </svg>sga
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#sgt" />
+                </svg>sgt
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#sipi" />
+                </svg>sipi
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#sld" />
+                </svg>sld
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#ssb" />
+                </svg>ssb
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#ssgil" />
+                </svg>ssgil
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#text-less" />
+                </svg>text-less
+            </div>
+            <div class="col-auto card m-1">
+                <svg width="40px" height="40px">
+                    <use xlink:href="../svg/bootstrap-icons.svg#text-plus" />
+                </svg>text-plus
+            </div>
+        </div>
     </div>
 </main>
 <?php include('footer.php') ?>

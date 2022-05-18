@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
-    <!--../css/bootstrap.min.css-->
-    <!--<link rel="stylesheet" href="../css2/cambios.1.css">-->
+    <!--css del framework utm_bootstrap-->
+    <link rel="stylesheet" href="../css/utm_bootstrap.css">
     <link rel="stylesheet" href="../css2/detalles.css">
-    <!--<link rel="stylesheet" href="../respaldo/estilo2.css">-->
+    <!--css de evo-calendar-->
     <link rel="stylesheet" href="../evo-calendar/css/evo-calendar.css">
 
-    <title>index</title>
+    <link rel="icon" href="../img/Logo_utm.png">
+    <title>SPCA</title>
 </head>
 
 <body class="d-flex flex-column h-100 bg-light text-la-sm">
@@ -26,7 +26,7 @@
                     <use xlink:href="../svg/bootstrap-icons.svg#spca" />
                 </svg>
             </a>
-            <button class="navbar-toggler btn-pistachio text-primary ml-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler btn-sm btn-pistachio text-primary ml-3 px-1" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <svg width="25px" height="25px">
                     <use xlink:href="../svg/bootstrap-icons.svg#list" />
                 </svg>
@@ -139,12 +139,12 @@
         <div class="modal fade" id="ventana_rol">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header pb-1">
-                        <h6 class="font-weight-bold ">
+                    <div class="modal-header bg-primary pb-1">
+                        <h6 class="font-weight-bold text-white">
                             Cambiar de ROL
                         </h6>
                         <button type="button" class="close pt-2" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span class="text-white" aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">

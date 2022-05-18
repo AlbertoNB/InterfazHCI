@@ -174,12 +174,12 @@
 </div>
 <!-- VentanaDetalle -->
 <div class="modal fade" id="exampleModal">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title" id="exampleModalLabel">Detalles de asistencia</h6>
+            <div class="modal-header bg-primary">
+                <h6 class="modal-title text-white" id="exampleModalLabel">Detalles de asistencia</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="text-white" aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -207,10 +207,10 @@
 <div class="modal fade" id="v_imprimir">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title">Generar reporte</h6>
+            <div class="modal-header bg-primary">
+                <h6 class="modal-title text-white">Generar reporte</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="text-white" aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -232,7 +232,7 @@
                 <div class="text-center mt-2">
                     <button type="button" class="btn-sm btn-success">
                         <svg width="15px" height="15px">
-                            <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post-fill" />
+                            <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-pdf" />
                         </svg>
                         Generar PDF
                     </button>

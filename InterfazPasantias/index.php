@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
+    <!--css del framework utm_bootstrap-->
+    <link rel="stylesheet" href="../css/utm_bootstrap.css">
     <link rel="stylesheet" href="../css2/detalles.css">
 
-    <title>index</title>
+    <link rel="icon" href="../img/Logo_utm.png">
+    <title>Pasantía/Vinculación</title>
 </head>
 
 <body class="d-flex flex-column h-100 bg-light">
@@ -22,7 +24,7 @@
                     <use xlink:href="../svg/bootstrap-icons.svg#list" />
                 </svg>
             </button>-->
-            <a class="navbar-brand card mode-dark3 p-0 mr-0" href="index.php">
+            <a class="navbar-brand card mode-dark3 p-0 mr-1" href="index.php">
                 <div class="col-auto d-flex align-items-center pr-1">
                     <svg width="53px" height="53px" fill="currentColor">
                         <use xlink:href="../svg/bootstrap-icons.svg#sppv" />
@@ -89,7 +91,7 @@
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#briefcase" />
                         </svg>
-                        Pasantias!
+                        Pasantías!
                     </a>
                     <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#nav-vinculacion">
                         <!--aria-expanded="true"-->
@@ -105,7 +107,7 @@
                         Manual de usuario
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="../InterfazPasantias/login.html">
                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-right" />
                         </svg>
@@ -114,10 +116,16 @@
                 </div>
             </div>
             <!--Estaba primero en el código sin la clase oreder-md-1-->
-            <div class="navbar-collapse collapse oreder-md-1" id="navbarPracticas">
+            <div class="collapse navbar-collapse oreder-md-1" id="navbarPracticas">
                 <div class="navbar-nav my-1">
+                    <a class="btn btn-outline-warning m-1" href="index.php">
+                        <svg width="15px" height="15px">
+                            <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
+                        </svg>
+                        <b>Inicio</b>
+                    </a>
                     <button class="btn-sm btn-mint font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-pasantia" aria-expanded="false" title="Módulo de pasantías">
-                        Pasantias!
+                        Pasantías!
                     </button>
                     <button class="btn-sm btn-pistachio font-weight-bold m-1" style=" width: 110px" href="" data-toggle="collapse" data-target="#nav-vinculacion" aria-expanded="true" title="Módulo de vinculación">
                         Vinculación!
@@ -125,12 +133,6 @@
                     <div id="pasantiaVinculacionNav">
                         <div class="collapse navbar-nav" id="nav-vinculacion" data-parent="#pasantiaVinculacionNav">
                             <!--show -->
-                            <a class="nav-link btn text-left" href="index.php">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
-                                </svg>
-                                <b>Inicio</b>
-                            </a>
                             <a class="nav-link btn text-left" href="" data-toggle="collapse" data-target="#inscripcion" aria-expanded="true" title="Inscribirse en vinculación ">
                                 <svg width="15px" height="15px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#pencil-square" />
@@ -151,12 +153,6 @@
                             </a>
                         </div>
                         <div class="collapse navbar-nav" id="nav-pasantia" data-parent="#pasantiaVinculacionNav">
-                            <a class="nav-link btn text-left" href="index.php">
-                                <svg width="15px" height="15px">
-                                    <use xlink:href="../svg/bootstrap-icons.svg#house-fill" />
-                                </svg>
-                                <b>Inicio</b>
-                            </a>
                             <a class="nav-link btn text-left" href="" data-toggle="modal" data-target="#target-solicitar-p" title="Solicitar pasantía">
                                 <!--data-toggle="collapse" data-target="#solicitar-p" aria-expanded="true"-->
                                 <svg width="15px" height="15px">
@@ -185,8 +181,8 @@
         <div class="modal fade" id="ventana_rol">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header pb-1">
-                        <h6 class="font-weight-bold ">
+                    <div class="modal-header bg-primary pb-1">
+                        <h6 class="font-weight-bold text-white">
                             Cambiar de ROL
                         </h6>
                         <button type="button" class="close pt-2" data-dismiss="modal" aria-label="Close">
@@ -286,9 +282,9 @@
             </div>
         </div>
     </footer>
+    <!--js de utm_bootstrap -->
     <script src="../js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js2/cambios.js"></script>
+    <script src="../js/utm_bootstrap.bundle.js"></script>
 </body>
 
 </html>

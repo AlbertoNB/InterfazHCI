@@ -26,6 +26,7 @@ svg/*.cdr
 css/*
 !css/bootstrap.css
 !css/bootstrap.min.css
+!css/utm_bootstrap.css
 #Carpeta evo-calendar
 evo-calendar/css/*.css
 !evo-calendar/css/evo-calendar.css

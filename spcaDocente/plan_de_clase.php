@@ -47,12 +47,12 @@
                                         </div>
                                     </form>
                                 </div>
-                                <div class="col-auto d-flex align-items-end pl-1">
-                                    <a class="navbar-brand mx-0 text-danger" role="button">
+                                <div class="col-auto d-flex align-items-end mb-1 pl-1">
+                                    <button class="btn-sm btn-secondary text-danger" role="button">
                                         <svg width="20px" height="20px">
                                             <use xlink:href="../svg/bootstrap-icons.svg#dash-circle-fill" />
                                         </svg>
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -84,12 +84,12 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-auto d-flex align-items-end pl-1">
-                            <a class="navbar-brand mx-0" role="button">
-                                <svg width="20px" height="20px">
+                        <div class="col-auto d-flex align-items-end mb-1 pl-1">
+                            <button class="btn-sm btn-info" role="button">
+                                <svg width="18px" height="18px">
                                     <use xlink:href="../svg/bootstrap-icons.svg#search" />
                                 </svg>
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -98,38 +98,38 @@
             <div class="col-lg-6 mt-2">
                 <div class=" border rounded-sm bg-white p-2">
                     <label class="font-weight-bold">Opciones generales</label> <br>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-plus"/>
                         </svg>
                     </button>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#download"/>
                         </svg>
                     </button>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#chat-left-dots"/>
                         </svg>
                     </button>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#printer"/>
                         </svg>
                     </button>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#clipboard"/>
                         </svg>
                     </button>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#bell"/>
                         </svg>
                     </button>
-                    <button type="button" class="btn bg-info mt-1">
-                        <svg width="20px" height="20px">
+                    <button type="button" class="btn-sm bg-info mt-1">
+                        <svg width="27px" height="27px">
                             <use xlink:href="../svg/bootstrap-icons.svg#flag"/>
                         </svg>
                     </button>

@@ -4,10 +4,10 @@
             <h5 class="text-white text-small m-0">Gestor de prácticas</h5>
         </div>
         <div class="col-auto my-1">
-            <button type="button" class="btn btn-warning btn-sm">
+            <button type="button" class="btn-sm btn-warning btn-sm">
                 Finalizar pasantias
             </button>
-            <button type="button" class="btn btn-warning btn-sm">
+            <button type="button" class="btn-sm btn-warning btn-sm">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-pdf" />
                 </svg>
@@ -52,7 +52,7 @@
                     <p class=""><b>Institución: </b>GAD municipal del cantón Portoviejo</p>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-warning btn-sm">
+                    <button type="button" class="btn-sm btn-warning btn-sm">
                         <svg width="15px" height="15px">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-pdf" />
                         </svg>
@@ -75,37 +75,37 @@
             <span class="badge badge-pill badge-primary">Terminada</span>
         </div>
         <div class="col-auto">
-            <button type="button" class="btn btn-warning btn-sm mb-1">
+            <button type="button" class="btn-warning btn-sm mb-1">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#printer" />
                 </svg> Imprimir oficio
             </button> <br>
-            <button type="button" class="btn btn-secondary btn-sm mb-1">
+            <button type="button" class="btn-secondary btn-sm mb-1">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#book" />
                 </svg> ------------
             </button><br>
-            <button type="button" class="btn btn-warning btn-sm mb-1">
+            <button type="button" class="btn-warning btn-sm mb-1">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#folder-plus" />
                 </svg> Informes diarios
             </button><br>
-            <button type="button" class="btn btn-warning btn-sm mb-1">
+            <button type="button" class="btn-warning btn-sm mb-1">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#check2-square" />
                 </svg> Subir documentos
             </button><br>
-            <button type="button" class="btn btn-secondary btn-sm mb-1">
+            <button type="button" class="btn-secondary btn-sm mb-1">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-pdf" />
                 </svg>------------
             </button><br>
-            <button type="button" class="btn btn-secondary btn-sm mb-1">
+            <button type="button" class="btn-secondary btn-sm mb-1">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#journal-text" />
                 </svg> ------------
             </button><br>
-            <button type="button" class="btn btn-secondary btn-sm">
+            <button type="button" class="btn-secondary btn-sm">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#patch-exclamation" />
                 </svg> ------------

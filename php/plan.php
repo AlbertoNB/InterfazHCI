@@ -27,7 +27,7 @@
 
         </div>
         <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action disabled"> <!--disabled evita que se active-->
+            <a href="#" class="list-group-item list-group-item-action"> 
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Administración de centros de informacion</h5>
                     <small>Paralelo: A</small>
@@ -35,7 +35,7 @@
                 <p class="mb-1">Docente: Zambrano Zambrano Dannyll Michelle</p>
                 <small>Créditos: 3 </small><small> RPT: --</small>
             </a>
-            <a href="#" class="list-group-item list-group-item-action disabled">
+            <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Aplicaciones Informá ticas</h5>
                     <small>Paralelo: A</small>
@@ -51,7 +51,7 @@
                 <p class="mb-1">Docente: Zambrano Zambrano Dannyll Michelle</p>
                 <small>Créditos: 3 </small><small> RPT: --</small>
             </a>
-            <a href="#" class="list-group-item list-group-item-action disabled">
+            <a href="#" class="list-group-item list-group-item-action disabled"> <!--disabled evita que se active-->
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Sistemas de información gerencial</h5>
                     <small>Paralelo: C</small>

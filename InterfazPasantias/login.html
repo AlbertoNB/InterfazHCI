@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
-    <link rel="stylesheet" href="../svg/bootstrap-icons.svg">
-    <title>Login</title>
+    <!--css del framework utm_bootstrap-->
+    <link rel="stylesheet" href="../css/utm_bootstrap.css">
+
+    <link rel="icon" href="../img/Logo_utm.png">
+    <title>Pasantía y Vinculación</title>
 </head>
+
 <body class="">
     <div class="container mx-auto row align-items-center justify-content-center vh-100">
         <div class="card my-2 border-primary bg-light border-2">
@@ -42,10 +43,11 @@
                 <hr>
                 <div class="row">
                     <div class="col-md-6">
-                        <h6 class="font-weight-bold text-center mb-3 bg-primary text-warning rounded-top py-1">Guia para pasantías y vinculación</h6>
+                        <h6 class="font-weight-bold text-center mb-2 bg-primary text-warning rounded-top py-1">Guia para
+                            pasantías y vinculación</h6>
                         <div>
-                            <button class="btn btn-block mb-1 btn-warning dropdown-toggle" type="button"
-                                id="sppv1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-block mb-1 btn-warning dropdown-toggle" type="button" id="sppv1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Información
                             </button>
                             <div class="dropdown-menu" aria-labelledby="sppv1">
@@ -90,7 +92,8 @@
                         </button>
                     </div>
                     <div class="col-md-6">
-                        <h6 class="font-weight-bold text-center bg-primary text-warning py-1 rounded-top">Ingrese con sus credenciales del SGA</h6>
+                        <h6 class="font-weight-bold text-center bg-primary text-warning py-1 rounded-top">Ingrese con
+                            sus credenciales del SGA</h6>
                         <form class="needs-validation">
                             <div class="mb-3">
                                 <label class="form-label font-weight-bold">Usuario</label>
@@ -129,23 +132,15 @@
                                 </label>
                             </div>
                             <!--Botones-->
-                            <div class="card-group ">
-                                <div class="card">
-                                    <button class="btn-sm btn-warning btn-block" type="submit">
-                                        <svg class="bi" width="20px" height="20px" fill="currentColor">
-                                            <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
-                                        </svg>
-                                        Pasantía
-                                    </button>
-                                </div>
-                                <div class="card">
-                                    <button class="btn-sm btn-primary btn-block" type="submit">
-                                        <svg class="bi" width="20px" height="20px" fill="currentColor">
-                                            <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
-                                        </svg>
-                                        Vinculación
-                                    </button>
-                                </div>
+
+                            <div class="text-center mb-2">
+                                <a class="btn btn-sm btn-success font-weight-bold"
+                                    href="../InterfazPasantias/index.php">
+                                    <svg width="20px" height="20px">
+                                        <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
+                                    </svg>
+                                    Ingresar
+                                </a>
                             </div>
                             <div class="text-center">
                                 <a href="#" class="text-decoration-none text-success">
@@ -158,9 +153,9 @@
             </div>
         </div>
     </div>
+    <!--js de utm_bootstrap -->
     <script src="../js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js2/cambios.js"></script>
+    <script src="../js/utm_bootstrap.bundle.js"></script>
 </body>
 
 </html>

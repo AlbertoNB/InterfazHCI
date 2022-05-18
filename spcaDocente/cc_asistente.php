@@ -15,13 +15,13 @@
             </div>
         </div>
         <div class="list-group">
-            <a class="list-group-item list-group-item-action disabled">
+            <a class="list-group-item list-group-item-action">
                 <div class="row d-flex align-items-center">
                     <div class="col-auto">
                         <p class="my-0">1</p>
                     </div>
                     <div class="col-auto px-0">
-                        <svg class="text-success" width="50px" height="50px" fill="currentColor">
+                        <svg class="text-primary rounded-lg mode-dark1" width="50px" height="50px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#cc-informatica" />
                         </svg>
                     </div>
@@ -30,13 +30,13 @@
                     </div>
                 </div>
             </a>
-            <a class="list-group-item list-group-item-action disabled">
+            <a class="list-group-item list-group-item-action">
                 <div class="row d-flex align-items-center">
                     <div class="col-auto">
                         <p class="my-0">2</p>
                     </div>
                     <div class="col-auto px-0">
-                        <svg class="text-success" width="50px" height="50px" fill="currentColor">
+                        <svg class="text-primary rounded-lg mode-dark1" width="50px" height="50px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#cc-educacion" />
                         </svg>
                     </div>
@@ -51,7 +51,7 @@
                         <p class="my-0">3</p>
                     </div>
                     <div class="col-auto px-0">
-                        <svg class="text-success" width="50px" height="50px" fill="currentColor">
+                        <svg class="text-primary rounded-lg mode-dark1" width="50px" height="50px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#cc-salud" />
                         </svg>
                     </div>
@@ -60,13 +60,13 @@
                     </div>
                 </div>
             </a>
-            <a class="list-group-item list-group-item-action disabled">
+            <a class="list-group-item list-group-item-action disabled"><!--disabled evita que se active-->
                 <div class="row d-flex align-items-center">
                     <div class="col-auto">
                         <p class="my-0">4</p>
                     </div>
                     <div class="col-auto px-0">
-                        <svg class="text-success" width="50px" height="50px" fill="currentColor">
+                        <svg class="text-primary rounded-lg mode-dark1" width="50px" height="50px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#ing-aplicada" />
                         </svg>
                     </div>
@@ -83,10 +83,10 @@
 <div class="modal fade" id="congreso">
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable ">
         <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title font-weight-bold">Congreso</h6>
+            <div class="modal-header bg-primary">
+                <h6 class="modal-title text-white font-weight-bold">Congreso</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="text-white" aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
@@ -109,7 +109,7 @@
                         <p class="my-0"> - Conferencias magistrales</p>
                     </div>
                     <div class="col-auto pl-0">
-                        <svg class="text-success" width="200px" height="200px" fill="currentColor">
+                        <svg class="text-primary" width="200px" height="200px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#cc-salud" />
                         </svg>
                     </div>
@@ -130,14 +130,14 @@
 <div class="modal fade" id="preinscripcion">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title font-weight-bold">
+            <div class="modal-header bg-primary">
+                <h6 class="modal-title text-white font-weight-bold">
                     <svg width="20px" height="20px">
                         <use xlink:href="../svg/bootstrap-icons.svg#person-plus-fill" />
                     </svg>
                     Preinscripción</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="text-white" aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">

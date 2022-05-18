@@ -77,12 +77,12 @@
     <div class="modal fade" id="ventanaforomas">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
             <div class="modal-content">
-                <div class="modal-header py-2 ">
-                    <h6 class="modal-title">
+                <div class="modal-header bg-primary py-2 ">
+                    <h6 class="modal-title text-white">
                         Crear nuevo tema de foro
                     </h6>
                     <button type="button" class="close " data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span class="text-white" aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body pb-2">

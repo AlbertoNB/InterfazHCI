@@ -2,7 +2,7 @@
 
 <main class="space_body content-right">
     <div class="container-md my-3">
-        <div class="d-flex align-items-center p-3 mb-3 alert alert-secondary rounded shadow-sm mode-dark5" >
+        <div class="d-flex align-items-center p-3 mb-3 alert alert-secondary rounded shadow-sm mode-dark5">
             <h4 class="mb-0 text-primary">Desarrollo de temario de tesis</h4>
         </div>
         <div class="row mb-3">
@@ -20,30 +20,27 @@
             </div>
         </div>
         <div id="elemento">
-            <div class="btn-group btn-group-toggle mb-3" data-toggle="buttons">
-                <label class="btn btn-secondary active" data-toggle="collapse" data-target="#clases" aria-expanded="true" role="button">
-                    <input type="radio" name="options">
+            <div class="btn-group mb-3" role="group">
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#clases" aria-expanded="true" role="button" title="Asistencia a las clases">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-easel" />
                     </svg>
                     Clases
-                </label>
+                </button>
 
-                <label class="btn btn-secondary" data-toggle="collapse" data-target="#evaluacion" aria-expanded="false" role="button" title="Evaluar al docente">
-                    <input type="radio" name="options">
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#evaluacion" aria-expanded="false" role="button" title="Evaluar al docente">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#card-checklist" />
                     </svg>
                     Evaluación
-                </label>
+                </button>
 
-                <label class="btn btn-secondary" data-toggle="collapse" data-target="#incidencias" aria-expanded="false" role="button" title="Inconvenientes en clases ">
-                <input type="radio" name="options">
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#incidencias" aria-expanded="false" role="button" title="Inconvenientes en clases ">
                     <svg width="15px" height="15px">
                         <use xlink:href="../svg/bootstrap-icons.svg#exclamation-triangle-fill" />
                     </svg>
                     Incidencias
-                </label>
+                </button>
             </div>
             <?php include('m_clases.php') ?>
             <?php include('m_evaluacion.php') ?>

@@ -22,23 +22,18 @@
         </div>
         <div id="calendar"></div>
 
+        <!--Ventana Calendario-->
         <div class="modal fade" id="evento_calendario">
-            <div class="modal-dialog modal-dialog-scrollable ">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
                 <div class="modal-content">
-                    <div class="modal-header py-1">
-                        <h5 class="modal-title font-weight-bold">Nuevo evento</h5>
+                    <div class="modal-header bg-primary py-1">
+                        <h5 class="modal-title text-white font-weight-bold">Nuevo evento</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span class="text-white" aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
                         <form class="">
-                            <!--form-inline-->
-                            <!-- <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
-                            
-                            
-                            <button type="submit" class="btn btn-primary my-1">Submit</button>-->
-
                             <div class="mx-1">
                                 <div class="form-group row mb-1">
                                     <label class="col-3">Titulo del evento</label>

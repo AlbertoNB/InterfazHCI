@@ -3,13 +3,13 @@
     <div class="container-md my-3">
         <div class="row bg-secondary mb-3 mx-0 mode-dark5">
             <div class="col-auto p-2">
-                <svg width="50px" height="50px">
+                <svg class="text-light" width="50px" height="50px">
                     <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                 </svg>
             </div>
 
             <div class="col">
-                <h4 class="mt-2">
+                <h4 class="mt-2 text-light">
                     Aberto Alejandro Naula Bone
                 </h4>
             </div>
@@ -193,10 +193,10 @@
         <div class="modal fade" id="cambio-contras">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h6 class="modal-title font-weight-bold">Cambio de contraseña</h6>
+                    <div class="modal-header bg-primary">
+                        <h6 class="modal-title text-white font-weight-bold">Cambio de contraseña</h6>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span class="text-white" aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">

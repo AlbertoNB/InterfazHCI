@@ -28,24 +28,24 @@
                     <h5 class="mb-1 font-weight-bold text-small">Incumplimiento del syllabusdiseño de un sistema
                         informático para las juntas cantonales de protección de derechos - JCPD</h5>
                     <p class="mb-1"><b>Codigo:</b> FCI-CISI-PROG003-PROY010-2020</p>
-                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
+                    <button type="button" class="btn-primary btn-sm" data-toggle="modal"
                         data-target="#target-convenio">Convenios</button>
-                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                    <button type="button" class="btn-info btn-sm" data-toggle="modal"
                         data-target="#target-detalles">Más detalles</button>
                 </div>
                 <div class="col-auto px-1">
-                    <button type="button" class="mb-1 btn btn-warning btn-sm" title="">
+                    <button type="button" class="mb-1 btn-warning btn-sm" title="">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                         </svg>
                     </button> <br>
-                    <button type="button" class=" mb-1 btn btn-warning btn-sm" data-toggle="modal"
+                    <button type="button" class="mb-1 btn-warning btn-sm" data-toggle="modal"
                         data-target="#target-atencion" title="Atención brindada">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#info-circle" />
                         </svg>
                     </button> <br>
-                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
+                    <button type="button" class="btn-primary btn-sm" data-toggle="modal"
                     data-target="#target-inscripcion" title="Inscribirse">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#check" />
@@ -59,21 +59,21 @@
                 <div class="col pr-1">
                     <h5 class="mb-1 font-weight-bold text-small">Encuesta de empleo portoviejo</h5>
                     <p class="mb-1"><b>Codigo:</b> FCI-CISI-PROG003-PROY001-2021</p>
-                    <button type="button" class="btn btn-primary btn-sm">Convenios</button>
-                    <button type="button" class="btn btn-info btn-sm">Más detalles</button>
+                    <button type="button" class="btn-primary btn-sm">Convenios</button>
+                    <button type="button" class="btn-info btn-sm">Más detalles</button>
                 </div>
                 <div class="col-auto px-1">
-                    <button type="button" class="mb-1 btn btn-warning btn-sm">
+                    <button type="button" class="mb-1 btn-warning btn-sm">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                         </svg>
                     </button> <br>
-                    <button type="button" class=" mb-1 btn btn-warning btn-sm">
+                    <button type="button" class=" mb-1 btn-warning btn-sm">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#info-circle" />
                         </svg>
                     </button> <br>
-                    <button type="button" class="btn btn-primary btn-sm">
+                    <button type="button" class="btn-primary btn-sm">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#check" />
                         </svg>
@@ -86,21 +86,21 @@
                 <div class="col pr-1">
                     <h5 class="mb-1 font-weight-bold text-small">---------------------------------------</h5>
                     <p class="mb-1"><b>Codigo:</b> FCI-CISI-----------------------</p>
-                    <button type="button" class="btn btn-primary btn-sm">Convenios</button>
-                    <button type="button" class="btn btn-info btn-sm">Más detalles</button>
+                    <button type="button" class="btn-primary btn-sm">Convenios</button>
+                    <button type="button" class="btn-info btn-sm">Más detalles</button>
                 </div>
                 <div class="col-auto px-1">
-                    <button type="button" class="mb-1 btn btn-warning btn-sm">
+                    <button type="button" class="mb-1 btn-warning btn-sm">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                         </svg>
                     </button> <br>
-                    <button type="button" class=" mb-1 btn btn-warning btn-sm">
+                    <button type="button" class=" mb-1 btn-warning btn-sm">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#info-circle" />
                         </svg>
                     </button> <br>
-                    <button type="button" class="btn btn-primary btn-sm">
+                    <button type="button" class="btn-primary btn-sm">
                         <svg class="" width="20px" height="20px" fill="currentColor">
                             <use xlink:href="../svg/bootstrap-icons.svg#check" />
                         </svg>
@@ -139,7 +139,7 @@
                         <p class="mb-1">2020-07-06-<br>2020-12-31</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-warning btn-sm">
+                        <button type="button" class=" pt-0 pb-1 btn-warning btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>
@@ -154,7 +154,7 @@
                         <p class="mb-1">2020-07-06-<br>2020-12-31</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-warning btn-sm">
+                        <button type="button" class="pt-0 pb-1 btn-warning btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>

@@ -12,24 +12,24 @@ $(document).ready(function () {
     calendarEvents: [
       {
         id: 'event1', // Event's ID (required)
-        name: "Dato nuevo", // Event name (required)
-        date: "October/29/2021", // Event date (required)
-        description: "hola mundo este es un mensaje en el calendario",
+        name: "Sustentación", // Event name (required)
+        date: "May/19/2022", // Event date (required)
+        description: "Sustentación de tesis XD",
         type: "holiday", // Event type (required)
         everyYear: true // Same event every year (optional)
       },
       {
         id: 'event2', // Event's ID (required)
         name: "Cumple años", // Event name (required)
-        date: "October/29/2021", // Event date (required)
+        date: "May/18/2022", // Event date (required)
         description: "Hoy alguien cumple años en algun lugar del planeta",
         type: "birthday", // Event type (required)
         everyYear: true // Same event every year (optional)
       },
       {
         name: "Receso vacacional",
-        badge: "11/13 - 11/15", // Event badge (optional)
-        date: ["November/13/2021", "November/15/2021"], // Date range
+        badge: "5/20 - 5/22", // Event badge (optional)
+        date: ["May/20/2022", "May/22/2022"], // Date range
         description: "Licencia de vacaciones por 3 días.", // Event description (optional)
         type: "event",
         /*color: "#63d867"*/ // Event custom color (optional)

@@ -13,7 +13,7 @@
             </div>
             <p class=""> <b>Pais:</b> Ecuador <br>
                 <b>Ciudad:</b> Prtoviejo <br>
-                <b>Direccion de correo:</b> *****1234@utm.edu.ec
+                <b>Direccion de correo:</b> docente@utm.edu.ec
             </p>
         </div>
 

@@ -202,15 +202,15 @@
     <div class="modal fade" id="lista-procesos-dp">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title">
+                <div class="modal-header bg-primary">
+                    <h6 class="modal-title text-white">
                         <svg width="18px" height="18px">
                             <use xlink:href="../svg/bootstrap-icons.svg#folder2-open" />
                         </svg>
                         Lista de procesos
                     </h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span class="text-white" aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">

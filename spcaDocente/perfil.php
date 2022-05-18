@@ -3,14 +3,14 @@
     <div class="container-md my-3">
         <div class="row bg-secondary mb-3 mx-0 mode-dark5">
             <div class="col-auto p-2">
-                <svg width="50px" height="50px">
+                <svg class="text-light" width="50px" height="50px">
                     <use xlink:href="../svg/bootstrap-icons.svg#person-circle" />
                 </svg>
             </div>
 
             <div class="col">
-                <h4 class="mt-2">
-                    Aberto Alejandro Naula Bone
+                <h4 class="mt-2 text-light">
+                    Docente ...... ...... .......
                 </h4>
             </div>
             <div class="col-auto d-flex align-items-center">
@@ -98,27 +98,27 @@
                                     <div class="form-group row mb-1">
                                         <label class="col-3">Nombre(s)</label>
                                         <div class="col-auto">
-                                            <input type="text" class="form-control" placeholder="Alberto Alejandro"
+                                            <input type="text" class="form-control" placeholder="Docente ....."
                                                 readonly>
                                         </div>
                                     </div>
                                     <div class="form-group row mb-1">
                                         <label class="col-3">Apellido(s)</label>
                                         <div class="col-auto">
-                                            <input type="text" class="form-control" placeholder="Naula Bone" readonly>
+                                            <input type="text" class="form-control" placeholder="...... ......" readonly>
                                         </div>
                                     </div>
                                     <div class="form-group row mb-1">
                                         <label class="col-3">Correo</label>
                                         <div class="col-auto">
-                                            <input type="text" class="form-control" placeholder="anaula8277@utm.edu.ec"
+                                            <input type="text" class="form-control" placeholder="docente@utm.edu.ec"
                                                 readonly>
                                         </div>
                                     </div>
                                     <div class="form-group row mb-1">
                                         <label class="col-3">Numero ID</label>
                                         <div class="col-auto">
-                                            <input type="text" class="form-control" placeholder="1316488277" readonly>
+                                            <input type="text" class="form-control" placeholder="0123456789" readonly>
                                         </div>
                                     </div>
                                     <div class="form-group row mb-1">
@@ -193,10 +193,10 @@
         <div class="modal fade" id="cambio-contras">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h6 class="modal-title font-weight-bold">Cambio de contraseña</h6>
+                    <div class="modal-header bg-primary">
+                        <h6 class="modal-title text-white font-weight-bold">Cambio de contraseña</h6>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span class="text-white" aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">

@@ -4,7 +4,7 @@
             <h5 class="text-white text-small m-0">Gestor de proyecto</h5>
         </div>
         <div class="col-auto">
-            <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#target-certificado">
+            <button type="button" class="btn-warning btn-sm" data-toggle="modal" data-target="#target-certificado">
                 <svg width="15px" height="15px">
                     <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-pdf" />
                 </svg>
@@ -18,16 +18,16 @@
                     <h5 class="mb-1 font-weight-bold text-small">Tecnología cívica y eficiencia energética CIS</h5>
                     <p class="mb-1"><b>Codigo:</b> FCI-CISI-PROG003-PROY004-2019</p>
                     <p class="mb-1"><b>Fase:</b> Evaluación, informe final y anexos</p>
-                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
+                    <button type="button" class="btn-primary btn-sm" data-toggle="modal"
                         data-target="#target-convenio-gestor">Convenios
                     </button>
-                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
+                    <button type="button" class="btn-info btn-sm" data-toggle="modal"
                         data-target="#target-etapa">Etapas
                     </button>
                 </div>
                 <div class="col-auto px-1">
                     <div class="dropdown dropleft">
-                        <button type="button" class="btn btn-sm btn-success dropdown-toggle" id="menuDatos"
+                        <button type="button" class="btn-sm btn-success dropdown-toggle" id="menuDatos"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Datos
                         </button>
@@ -143,7 +143,7 @@
                         <p class="mb-1">2019-01-01-<br>2019-12-20</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-warning btn-sm">
+                        <button type="button" class="pt-0 pb-1 btn-warning btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>
@@ -158,7 +158,7 @@
                         <p class="mb-1">2019-01-01-<br>2019-12-20</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-warning btn-sm">
+                        <button type="button" class="pt-0 pb-1 btn-warning btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>
@@ -173,7 +173,7 @@
                         <p class="mb-1">2019-01-01-<br>2019-12-20</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-warning btn-sm">
+                        <button type="button" class="pt-0 pb-1 btn-warning btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>
@@ -188,7 +188,7 @@
                         <p class="mb-1">2019-01-01-<br>2019-12-20</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-warning btn-sm">
+                        <button type="button" class="pt-0 pb-1 btn-warning btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>
@@ -203,7 +203,7 @@
                         <p class="mb-1">-----------<br>----------</p>
                     </div>
                     <div class="col-auto px-0">
-                        <button type="button" class=" btn pt-0 pb-1 btn-secondary btn-sm">
+                        <button type="button" class="pt-0 pb-1 btn-secondary btn-sm">
                             <svg class="" width="20px" height="20px" fill="currentColor">
                                 <use xlink:href="../svg/bootstrap-icons.svg#file-earmark-post" />
                             </svg>

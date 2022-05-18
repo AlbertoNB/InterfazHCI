@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../scss/utm_bootstrap.css">
-    <link rel="stylesheet" href="../svg/bootstrap-icons.svg">
-    <title>Login gg</title>
+    <!--css del framework utm_bootstrap-->
+    <link rel="stylesheet" href="../css/utm_bootstrap.css">
+
+    <link rel="icon" href="../img/Logo_utm.png">
+    <title>SPCA</title>
 </head>
 
 <body class=" ">
@@ -35,22 +36,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <form class="needs-validation">
+                        <form>
                             <div class="mb-3">
-                                <label class="form-label font-weight-bold">Usuario</label>
+                                <label class="font-weight-bold">Usuario</label>
                                 <div class="form-inline position-relative">
-                                    <svg class="bi an-icon-input" width="20px" height="20px" fill="currentColor">
+                                    <svg class="an-icon-input" width="20px" height="20px">
                                         <use xlink:href="../svg/bootstrap-icons.svg#person" />
                                     </svg>
-                                    <input type="text" class="form-control w-100" placeholder="usuario@gmail.com"
+                                    <input type="text" class="form-control w-100" placeholder="usuario@utm.edu.ec"
                                         required>
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label font-weight-bold">Contraseña</label>
+                                <label class="font-weight-bold">Contraseña</label>
                                 <div class="form-inline position-relative">
                                     <!--se puede omitir position-relative si se aumenta el left en an-icon-input(css)-->
-                                    <svg class="bi an-icon-input" width="20px" height="20px" fill="currentColor">
+                                    <svg class="an-icon-input" width="20px" height="20px">
                                         <use xlink:href="../svg/bootstrap-icons.svg#lock-fill" />
                                     </svg>
                                     <!--se puede omitir position-relative si se aumenta el left en an-icon-input-r(css)-->
@@ -59,8 +60,8 @@
                                             <use xlink:href="../svg/bootstrap-icons.svg#eye" />
                                         </svg>
                                     </button>
-                                    <input type="password" class="form-control w-100" id="formGroupExampleInput2"
-                                        placeholder="************" required>
+                                    <input type="password" class="form-control w-100" placeholder="************"
+                                        required>
                                 </div>
                             </div>
 
@@ -75,15 +76,15 @@
                             <!--Botones-->
                             <div class="card-group ">
                                 <div class="card">
-                                    <button class="btn-sm btn-primary btn-block" type="submit">
+                                    <a class="btn btn-sm btn-primary btn-block" href="../php/index.php">
                                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                                             <use xlink:href="../svg/bootstrap-icons.svg#box-arrow-in-right" />
                                         </svg>
                                         Ingresar
-                                    </button>
+                                    </a>
                                 </div>
                                 <div class="card">
-                                    <button class="btn-sm btn-secondary btn-block" type="submit">
+                                    <a class="btn btn-sm btn-secondary btn-block disabled" href="#">
                                         <!-- imagen vista como logo
                                         <span class="an-icon an-icon-image"
                                             style="background-image: url(../img/logo1.png);">
@@ -91,8 +92,8 @@
                                         <svg class="bi" width="20px" height="20px" fill="currentColor">
                                             <use xlink:href="../svg/bootstrap-icons.svg#spca2" />
                                         </svg>
-                                        CCIUTM 2020
-                                    </button>
+                                        CCIUTM 2022
+                                    </a>
                                 </div>
                             </div>
                             <!--Botones alternativos 1
@@ -154,8 +155,9 @@
             </div>
         </div>
     </div>
+    <!--js de utm_bootstrap -->
     <script src="../js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js2/cambios.js"></script>
+    <script src="../js/utm_bootstrap.bundle.js"></script>
 </body>
+
 </html>
